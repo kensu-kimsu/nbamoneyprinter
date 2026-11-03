@@ -4,6 +4,7 @@ Only accept explicit homeTeamOdds/awayTeamOdds moneyLine fields. No wagers.
 """
 import datetime as dt
 import json
+import argparse
 import pathlib
 import urllib.request
 from zoneinfo import ZoneInfo
@@ -21,8 +22,25 @@ def american_to_decimal(value):
         return None
     return round(1+value/100 if value>0 else 1+100/abs(value),6)
 
+def next_prediction_date():
+    files=sorted((ROOT/"research/live_predictions").glob("predictions-*.json"),reverse=True)
+    now=dt.datetime.now(dt.timezone.utc)
+    for file in files:
+        payload=json.loads(file.read_text(encoding="utf-8"))
+        future=[]
+        for prediction in payload.get("predictions",[]):
+            try:
+                tip=dt.datetime.fromisoformat(prediction["game_time_utc"].replace("Z","+00:00"))
+                if tip>now:
+                    future.append(tip)
+            except (KeyError,ValueError):
+                pass
+        if future:
+            return min(future).astimezone(ZoneInfo("America/New_York")).date()
+    raise RuntimeError("No upcoming predictions found")
+
 def run(day=None):
-    day=day or dt.datetime.now(ZoneInfo("America/New_York")).date()
+    day=day or next_prediction_date()
     payload=get_json("https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates="+day.strftime("%Y%m%d"))
     events=payload.get("events",[])
     now=dt.datetime.now(dt.timezone.utc)
@@ -67,7 +85,14 @@ def run(day=None):
     path.write_text(json.dumps(result,indent=2),encoding="utf-8")
     print(json.dumps({"report":str(path),"scheduled_future_games":result["scheduled_future_games"],
         "games_with_verified_team_side_odds":result["games_with_verified_team_side_odds"]},indent=2))
+    if not rows:
+        raise RuntimeError("No upcoming games for prediction slate "+str(day))
+    if not result["games_with_verified_team_side_odds"]:
+        raise RuntimeError("No usable bookmaker prices for prediction slate "+str(day))
     return result
 
 if __name__=="__main__":
-    run()
+    parser=argparse.ArgumentParser()
+    parser.add_argument("--date",help="US Eastern NBA date YYYY-MM-DD")
+    args=parser.parse_args()
+    run(dt.date.fromisoformat(args.date) if args.date else None)
