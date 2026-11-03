@@ -1,3 +1,9 @@
+### Unattended 90-day research archive (Nov 4, 2026 – Feb 1, 2027 UTC)
+
+The [daily GitHub Actions archive](.github/workflows/nba-paper-week.yml) is configured to request HaterPicks NBA odds once daily and commit raw snapshots to [research/odds_snapshots](research/odds_snapshots) while the experiment window is active. This preserves snapshots in Git history, subject to GitHub Actions availability, API limits, repository permissions, and service reliability.
+
+**Current automation scope:** odds collection only. It does **not** yet run verified pregame predictions, place paper bets, settle results, retrain models, promote candidates, or guarantee bankroll growth. No real bets will be placed. The permanent prediction event log remains empty until a genuine model pipeline writes records. Do not interpret the flat A$100 chart as trading performance.
+
 ### Permanent prediction research history
 
 [Append-only prediction and settlement records](research/events.jsonl) · [Research log and training rules](research/README.md)
