@@ -1,4 +1,4 @@
-name: Seven-day NBA odds snapshots
+name: NBA research daily odds archive (90 days)
 
 on:
   workflow_dispatch:
@@ -6,7 +6,11 @@ on:
     - cron: '15 15 * * *'
 
 permissions:
-  contents: read
+  contents: write
+
+concurrency:
+  group: nba-research-archive
+  cancel-in-progress: false
 
 jobs:
   capture:
@@ -14,36 +18,40 @@ jobs:
     timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Capture NBA odds snapshot
+      - name: Capture NBA odds snapshot within experiment window
         env:
           HATERPICKS_API_KEY: ${{ secrets.HATERPICKS_API_KEY }}
         run: |
           python - <<'PY'
-          import datetime, json, pathlib, os
-          today = datetime.datetime.now(datetime.timezone.utc).date()
-          if os.getenv("GITHUB_EVENT_NAME") == "schedule" and not (
-              datetime.date(2026, 11, 4) <= today <= datetime.date(2026, 11, 11)
-          ):
-              print("Outside seven-day trial window; no API request.")
-              raise SystemExit(0)
+          import datetime, json, pathlib
           from integrations.haterpicks import get_nba_odds, summarize
+          today = datetime.datetime.now(datetime.timezone.utc).date()
+          if not datetime.date(2026, 11, 4) <= today < datetime.date(2027, 2, 2):
+              print("Outside 90-day research window; no API request.")
+              raise SystemExit(0)
           payload = get_nba_odds()
-          out = pathlib.Path("snapshots")
-          out.mkdir(exist_ok=True)
           now = datetime.datetime.now(datetime.timezone.utc)
-          stamp = now.strftime("%Y%m%dT%H%M%SZ")
-          (out / f"nba-odds-{stamp}.json").write_text(json.dumps({
+          directory = pathlib.Path("research/odds_snapshots")
+          directory.mkdir(parents=True, exist_ok=True)
+          filename = directory / ("nba-odds-" + now.strftime("%Y%m%dT%H%M%SZ") + ".json")
+          filename.write_text(json.dumps({
               "captured_at_utc": now.isoformat(),
               "source": "HaterPicks",
               "payload": payload
           }, indent=2), encoding="utf-8")
           print(json.dumps(summarize(payload), indent=2))
           PY
-      - uses: actions/upload-artifact@v4
-        with:
-          name: nba-odds-${{ github.run_id }}
-          path: snapshots/*.json
-          retention-days: 14
+      - name: Persist snapshot in Git history
+        run: |
+          git add research/odds_snapshots/
+          if ! git diff --cached --quiet; then
+            git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Archive daily NBA odds snapshot'
+            git push
+          else
+            echo "No new snapshot"
+          fi
