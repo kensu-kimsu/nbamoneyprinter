@@ -71,7 +71,16 @@ def main():
         "field_types": {k: type(v).__name__ for k, v in sample.items()},
         "prices_bookmaker_keys": sorted(sample.get("prices", {})) if isinstance(sample.get("prices"), dict) else [],
     }))
-    headers, stats = nba_stats()
+    try:
+        headers, stats = nba_stats()
+    except (TimeoutError, OSError, ValueError) as exc:
+        print("STATS_UNAVAILABLE", json.dumps({
+            "season": "2026-27",
+            "error_type": type(exc).__name__,
+            "message": str(exc)[:180],
+            "required_action": "Use a verified alternative current-season team-statistics source; do not fabricate model features.",
+        }))
+        raise SystemExit(2)
     if len(stats) < 25:
         raise RuntimeError(f"Insufficient current-season NBA team stats: {len(stats)}")
     print("STATS", json.dumps({
