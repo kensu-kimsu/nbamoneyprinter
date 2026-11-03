@@ -1,0 +1,28 @@
+name: Generate NBA AI predictions (ESPN baseline)
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 15 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: nba-ai-predictions
+  cancel-in-progress: false
+jobs:
+  predict:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install baseline model dependencies
+        run: python -m pip install --disable-pip-version-check numpy==1.26.4 scikit-learn==1.3.2
+      - name: Train on prior NBA games and predict upcoming games
+        run: python -m research.espn_baseline
+      - name: Commit timestamped predictions
+        run: |
+          git add research/live_predictions/
+          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Archive pregame AI NBA predictions'
+          git push
