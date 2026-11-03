@@ -1,0 +1,98 @@
+{
+  "audited_at_utc": "2026-11-03T21:03:39.800889+00:00",
+  "scheduled_future_games": 14,
+  "predicted_future_games": 14,
+  "missing_predictions": [],
+  "predictions_not_on_future_slate": [],
+  "matched_h2h_games": [],
+  "missing_or_stale_h2h_odds": [
+    {
+      "game_id": "401909922",
+      "home": "Detroit Pistons",
+      "away": "Philadelphia 76ers",
+      "tipoff_utc": "2026-11-05T00:00:00+00:00"
+    },
+    {
+      "game_id": "401909923",
+      "home": "Washington Wizards",
+      "away": "Atlanta Hawks",
+      "tipoff_utc": "2026-11-05T00:00:00+00:00"
+    },
+    {
+      "game_id": "401909924",
+      "home": "Boston Celtics",
+      "away": "Milwaukee Bucks",
+      "tipoff_utc": "2026-11-05T00:30:00+00:00"
+    },
+    {
+      "game_id": "401909925",
+      "home": "Brooklyn Nets",
+      "away": "Charlotte Hornets",
+      "tipoff_utc": "2026-11-05T00:30:00+00:00"
+    },
+    {
+      "game_id": "401909926",
+      "home": "New York Knicks",
+      "away": "Chicago Bulls",
+      "tipoff_utc": "2026-11-05T00:30:00+00:00"
+    },
+    {
+      "game_id": "401909927",
+      "home": "Memphis Grizzlies",
+      "away": "Indiana Pacers",
+      "tipoff_utc": "2026-11-05T01:00:00+00:00"
+    },
+    {
+      "game_id": "401909928",
+      "home": "New Orleans Pelicans",
+      "away": "Utah Jazz",
+      "tipoff_utc": "2026-11-05T01:00:00+00:00"
+    },
+    {
+      "game_id": "401909929",
+      "home": "Oklahoma City Thunder",
+      "away": "Cleveland Cavaliers",
+      "tipoff_utc": "2026-11-05T01:00:00+00:00"
+    },
+    {
+      "game_id": "401909930",
+      "home": "Houston Rockets",
+      "away": "Minnesota Timberwolves",
+      "tipoff_utc": "2026-11-05T01:30:00+00:00"
+    },
+    {
+      "game_id": "401909931",
+      "home": "Denver Nuggets",
+      "away": "Toronto Raptors",
+      "tipoff_utc": "2026-11-05T02:00:00+00:00"
+    },
+    {
+      "game_id": "401909932",
+      "home": "Phoenix Suns",
+      "away": "Portland Trail Blazers",
+      "tipoff_utc": "2026-11-05T02:00:00+00:00"
+    },
+    {
+      "game_id": "401909933",
+      "home": "San Antonio Spurs",
+      "away": "Dallas Mavericks",
+      "tipoff_utc": "2026-11-05T02:30:00+00:00"
+    },
+    {
+      "game_id": "401909934",
+      "home": "Sacramento Kings",
+      "away": "Los Angeles Lakers",
+      "tipoff_utc": "2026-11-05T03:00:00+00:00"
+    },
+    {
+      "game_id": "401909935",
+      "home": "LA Clippers",
+      "away": "Miami Heat",
+      "tipoff_utc": "2026-11-05T03:30:00+00:00"
+    }
+  ],
+  "complete_prediction_coverage": true,
+  "complete_odds_coverage": false,
+  "note": "H2H over/under side mapping is unverified; matched market does not authorize a bet.",
+  "prediction_file": "predictions-20261103T205207Z.json"
+}
