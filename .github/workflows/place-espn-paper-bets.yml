@@ -1,0 +1,28 @@
+name: Place ESPN NBA virtual paper bets
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: nba-paper-ledger
+  cancel-in-progress: false
+jobs:
+  paper:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: master
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Record eligible virtual bets only
+        run: python -m paper_betting.place_espn_bets
+      - name: Commit virtual ledger
+        run: |
+          git add paper_betting/ledger.csv
+          if ! git diff --cached --quiet; then
+            git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Record verified ESPN NBA virtual paper bets'
+            git pull --rebase origin master
+            git push origin master
+          fi
