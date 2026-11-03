@@ -1,0 +1,21 @@
+name: Diagnose live NBA prediction prerequisites
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install prediction dependencies
+        run: python -m pip install --disable-pip-version-check numpy==1.26.4 xgboost==2.0.0
+      - name: Inspect model, saved odds schema and 2026-27 NBA stats
+        run: python -m research.diagnose_live
