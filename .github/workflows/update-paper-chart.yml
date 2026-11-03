@@ -1,0 +1,31 @@
+name: Update paper betting chart
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - paper_betting/ledger.csv
+      - paper_betting/plot_bankroll.py
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  chart:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m paper_betting.plot_bankroll
+      - name: Commit chart only when updated
+        run: |
+          git add paper_betting/bankroll.svg
+          if ! git diff --cached --quiet; then
+            git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Update paper bankroll chart'
+            git push
+          fi
