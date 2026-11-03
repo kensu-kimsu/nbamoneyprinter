@@ -1,0 +1,37 @@
+name: Test OddsPortal NBA scraping
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 14 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: oddsportal-nba-test
+  cancel-in-progress: false
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: master
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install OddsHarvester and browser
+        run: |
+          python -m pip install --disable-pip-version-check 'oddsharvester==0.16.0'
+          python -m playwright install --with-deps chromium
+      - name: Scrape NBA moneyline odds and verify ESPN schedule matches
+        run: python -m research.oddsportal_probe
+      - name: Archive scraped odds and reconciliation report
+        if: always()
+        run: |
+          if [ -d research/oddsportal_snapshots ]; then
+            git add research/oddsportal_snapshots/
+            if ! git diff --cached --quiet; then
+              git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Archive OddsPortal NBA scraper test'
+              git push
+            fi
+          fi
