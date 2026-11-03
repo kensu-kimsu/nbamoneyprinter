@@ -40,7 +40,7 @@ def run(day):
     OUT.mkdir(parents=True,exist_ok=True)
     filename=OUT/("oddsportal-"+day.strftime("%Y%m%d")+".json")
     command=["oddsharvester","upcoming","-s","basketball","-l","nba",
-             "-d",day.strftime("%Y%m%d"),"-m","moneyline","--headless",
+             "-d",day.strftime("%Y%m%d"),"-m","home_away","--headless",
              "--concurrency","1","--request-delay","2","--timezone","America/New_York",
              "-f","json","-o",str(filename)]
     result=subprocess.run(command,cwd=ROOT,text=True,capture_output=True,timeout=540)
