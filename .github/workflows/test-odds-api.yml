@@ -1,0 +1,41 @@
+name: Test Odds-API.io connection
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/test-odds-api.yml
+
+permissions:
+  contents: read
+
+jobs:
+  test-connection:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Check Odds-API.io sports and leagues
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+        run: |
+          python - <<'PY'
+          import os
+          import sys
+          from integrations.odds_api_io import get_sports, get_leagues, OddsApiError
+          if not os.getenv("ODDS_API_KEY"):
+              sys.exit("FAIL: ODDS_API_KEY secret is not available")
+          for label, func in (("sports", get_sports), ("basketball leagues", get_leagues)):
+              try:
+                  data = func()
+              except OddsApiError as exc:
+                  sys.exit(f"FAIL ({label}): {exc}")
+              print(f"PASS: {label} endpoint returned {type(data).__name__}")
+              if label == "basketball leagues":
+                  # Show only a small, safe summary, never raw request URLs or credentials.
+                  print("NBA league response received; inspect provider documentation for league IDs.")
+          print("PASS: API connection test completed (no odds requests or bets placed)")
+          PY
