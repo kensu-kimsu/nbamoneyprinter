@@ -28,10 +28,10 @@ jobs:
           HATERPICKS_API_KEY: ${{ secrets.HATERPICKS_API_KEY }}
         run: |
           python - <<'PY'
-          import datetime, json, pathlib
+          import datetime, json, pathlib, os
           from integrations.haterpicks import get_nba_odds, summarize
           today = datetime.datetime.now(datetime.timezone.utc).date()
-          if not datetime.date(2026, 11, 4) <= today < datetime.date(2027, 2, 2):
+          if os.getenv("GITHUB_EVENT_NAME") == "schedule" and not datetime.date(2026, 11, 4) <= today < datetime.date(2027, 2, 2):
               print("Outside 90-day research window; no API request.")
               raise SystemExit(0)
           payload = get_nba_odds()
@@ -48,6 +48,10 @@ jobs:
           PY
       - name: Persist snapshot in Git history
         run: |
+          if [ ! -d research/odds_snapshots ] || ! find research/odds_snapshots -maxdepth 1 -type f -name "nba-odds-*.json" | grep -q .; then
+            echo "::error::No odds snapshot was created; cannot claim a successful capture."
+            exit 1
+          fi
           git add research/odds_snapshots/
           if ! git diff --cached --quiet; then
             git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Archive daily NBA odds snapshot'
