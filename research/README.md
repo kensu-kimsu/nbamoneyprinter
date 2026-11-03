@@ -17,3 +17,11 @@ The file `events.jsonl` is an **append-only event log**. Each line is a JSON eve
 - Use walk-forward validation and a held-out recent period. Track calibration, log loss, ROI, closing-line value, drawdown and transaction assumptions.
 - The one-week trial is too short to establish profitability. Do not auto-retrain or promote models based on seven days of results.
 - The betting ledger and this event log are currently separate; **automatic predictions, settlement, syncing and retraining are not yet implemented**.
+
+## XGBoost prediction generator
+
+`python -m research.predict --input pregame_features.json --save`
+
+Input must be a JSON list of games. Each game requires `game_id`, `game_time_utc`, `home_team`, `away_team`, `bookmaker`, `odds_source`, `home_decimal_odds`, `away_decimal_odds`, `feature_source`, and a numeric `features` array in **the exact feature order used to train the stored moneyline model**. Predictions are recorded for both teams. `--save` appends to the permanent event log; omit it to inspect output without recording.
+
+**Not yet connected to the daily workflow:** Current HaterPicks snapshots contain odds, not the required model feature vectors. The old `main.py` references the 2025–26 season and must not be used as if it were a verified 2026–27 feature pipeline. The new generator does not fabricate missing features, assume HaterPicks response fields, or make simulated bets. Before running unattended, implement and test a 2026–27 pregame stats/feature builder, odds mapping, model calibration, and end-to-end results settlement.
