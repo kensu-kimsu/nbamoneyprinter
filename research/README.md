@@ -25,3 +25,9 @@ The file `events.jsonl` is an **append-only event log**. Each line is a JSON eve
 Input must be a JSON list of games. Each game requires `game_id`, `game_time_utc`, `home_team`, `away_team`, `bookmaker`, `odds_source`, `home_decimal_odds`, `away_decimal_odds`, `feature_source`, and a numeric `features` array in **the exact feature order used to train the stored moneyline model**. Predictions are recorded for both teams. `--save` appends to the permanent event log; omit it to inspect output without recording.
 
 **Not yet connected to the daily workflow:** Current HaterPicks snapshots contain odds, not the required model feature vectors. The old `main.py` references the 2025–26 season and must not be used as if it were a verified 2026–27 feature pipeline. The new generator does not fabricate missing features, assume HaterPicks response fields, or make simulated bets. Before running unattended, implement and test a 2026–27 pregame stats/feature builder, odds mapping, model calibration, and end-to-end results settlement.
+
+## Live integration diagnostic
+
+Run [Diagnose live NBA prediction prerequisites](../.github/workflows/diagnose-nba-prediction.yml) using GitHub Actions > Run workflow. It checks the committed HaterPicks snapshot schema, stored moneyline XGBoost model input shape, and 2026-27 NBA team stats availability. The diagnostic prints structural metadata only, not raw bookmaker prices or secrets. If the NBA endpoint is blocked from GitHub-hosted runners, it fails visibly; a different reliable source is then required.
+
+**Important:** A successful diagnostic is not a successful prediction. Actual pregame features must be built in the original training order, verified against the model, then combined with the correct upcoming game and odds. Do not record predictions retroactively.
