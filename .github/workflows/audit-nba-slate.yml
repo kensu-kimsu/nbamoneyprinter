@@ -1,0 +1,30 @@
+name: Audit NBA slate and bookmaker odds
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 15 * * *'
+permissions:
+  contents: write
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: master
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Verify official slate against AI predictions and fresh HaterPicks odds
+        run: python -m research.audit_schedule
+      - name: Save audit report even when coverage incomplete
+        if: always()
+        run: |
+          if [ -d research/schedule_audits ]; then
+            git add research/schedule_audits/
+            if ! git diff --cached --quiet; then
+              git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Archive NBA schedule and odds coverage audit'
+              git push
+            fi
+          fi
