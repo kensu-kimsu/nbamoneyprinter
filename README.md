@@ -1,3 +1,15 @@
+## NBA Money Printer — seven-day paper betting (A$100 virtual bankroll)
+
+![Paper betting bankroll progress](paper_betting/bankroll.svg)
+
+**Status:** Odds snapshots are configured; prediction-to-odds matching and automated paper-bet settlement are not yet implemented. The graph starts at A$100 and changes only when genuine settled bets are added to [the ledger](paper_betting/ledger.csv). **No betting performance is claimed yet.**
+
+- [Paper betting ledger and chart instructions](paper_betting/README.md)
+- [Daily odds snapshot workflow](.github/workflows/nba-paper-week.yml)
+- [Chart refresh workflow](.github/workflows/update-paper-chart.yml)
+
+---
+
 # NBA Sports Betting Using Machine Learning
 <img src="https://github.com/kyleskom/NBA-Machine-Learning-Sports-Betting/blob/master/Screenshots/output.png" width="1010" height="292" />
 
