@@ -1,0 +1,1284 @@
+{
+  "captured_at_utc": "2026-11-03T13:38:47.288420+00:00",
+  "source": "HaterPicks",
+  "payload": {
+    "version": "v1",
+    "feed": "odds",
+    "generated_at": "2026-11-03T13:38:47.187Z",
+    "count": 32,
+    "filtered": "game-lines-only",
+    "sport": "NBA",
+    "data": [
+      {
+        "id": "NBA-56528e24208e4abb4975d8b5d97d6add-NBA_H2H-0",
+        "sport": "NBA",
+        "market": "NBA_H2H",
+        "player_or_team": "New York Knicks",
+        "away_team": "San Antonio Spurs",
+        "matchup": "San Antonio Spurs @ New York Knicks",
+        "line": 0,
+        "game_start_iso": "2026-12-25T17:00:00Z",
+        "game_key": "56528e24208e4abb4975d8b5d97d6add",
+        "prices": {
+          "betrivers": {
+            "over": 1.9,
+            "under": 1.9,
+            "over_link": "https://pa.betrivers.com/?page=sportsbook#event/1028726109?coupon=single%7C4293736093%7C%7Cappend%7Chaterpicks",
+            "under_link": "https://pa.betrivers.com/?page=sportsbook#event/1028726109?coupon=single%7C4293736094%7C%7Cappend%7Chaterpicks",
+            "scraped_at": "2026-11-03T13:24:18.810342+00:00"
+          }
+        }
+      },
+      {
+        "id": "NBA-daa67234dbecbce22ac3abf99d8e1aa8-NBA_H2H-0",
+        "sport": "NBA",
+        "market": "NBA_H2H",
+        "player_or_team": "Boston Celtics",
+        "away_team": "Miami Heat",
+        "matchup": "Miami Heat @ Boston Celtics",
+        "line": 0,
+        "game_start_iso": "2026-12-25T19:30:00Z",
+        "game_key": "daa67234dbecbce22ac3abf99d8e1aa8",
+        "prices": {
+          "betrivers": {
+            "over": 1.52,
+            "under": 2.5,
+            "over_link": "https://pa.betrivers.com/?page=sportsbook#event/1028726110?coupon=single%7C4293736216%7C%7Cappend%7Chaterpicks",
+            "under_link": "https://pa.betrivers.com/?page=sportsbook#event/1028726110?coupon=single%7C4293736217%7C%7Cappend%7Chaterpicks",
+            "scraped_at": "2026-11-03T13:24:18.810342+00:00"
+          }
+        }
+      },
+      {
+        "id": "NBA-f6686aa244f98c61c45c8e85852bec90-NBA_H2H-0",
+        "sport": "NBA",
+        "market": "NBA_H2H",
+        "player_or_team": "Los Angeles Lakers",
+        "away_team": "Philadelphia 76ers",
+        "matchup": "Philadelphia 76ers @ Los Angeles Lakers",
+        "line": 0,
+        "game_start_iso": "2026-12-25T22:00:00Z",
+        "game_key": "f6686aa244f98c61c45c8e85852bec90",
+        "prices": {
+          "betrivers": {
+            "over": 1.86,
+            "under": 1.95,
+            "over_link": "https://pa.betrivers.com/?page=sportsbook#event/1028726113?coupon=single%7C4293770746%7C%7Cappend%7Chaterpicks",
+            "under_link": "https://pa.betrivers.com/?page=sportsbook#event/1028726113?coupon=single%7C4293770747%7C%7Cappend%7Chaterpicks",
+            "scraped_at": "2026-11-03T13:24:18.810342+00:00"
+          }
+        }
+      },
+      {
+        "id": "NBA-9ce4a5eae87f292aad45dc17c7e9cf45-NBA_H2H-0",
+        "sport": "NBA",
+        "market": "NBA_H2H",
+        "player_or_team": "Golden State Warriors",
+        "away_team": "Denver Nuggets",
+        "matchup": "Denver Nuggets @ Golden State Warriors",
+        "line": 0,
+        "game_start_iso": "2026-12-26T03:30:00Z",
+        "game_key": "9ce4a5eae87f292aad45dc17c7e9cf45",
+        "prices": {
+          "betrivers": {
+            "over": 2.04,
+            "under": 1.78,
+            "over_link": "https://pa.betrivers.com/?page=sportsbook#event/1028726111?coupon=single%7C4293727440%7C%7Cappend%7Chaterpicks",
+            "under_link": "https://pa.betrivers.com/?page=sportsbook#event/1028726111?coupon=single%7C4293727441%7C%7Cappend%7Chaterpicks",
+            "scraped_at": "2026-11-03T13:24:18.810342+00:00"
+          }
+        }
+      },
+      {
+        "id": "NBA-56528e24208e4abb4975d8b5d97d6add-NBA_SPREAD--1",
+        "sport": "NBA",
+        "market": "NBA_SPREAD",
+        "player_or_team": "New York Knicks",
+        "away_team": "San Antonio Spurs",
+        "matchup": "San Antonio Spurs @ New York Knicks",
+        "line": -1,
+        "game_start_iso": "2026-12-25T17:00:00Z",
+        "game_key": "56528e24208e4abb4975d8b5d97d6add",
+        "prices": {
+          "betrivers": {
+            "over": 1.94,
+            "under": 1.86,
+            "over_link": "https://pa.betrivers.com/?page=sportsbook#event/1028726109",
+            "under_link": "https://pa.betrivers.com/?page=sportsbook#event/1028726109",
+            "scraped_at": "2026-11-03T13:24:18.810342+00:00"
+          }
+        }
+      },
+      {
+        "id": "NBA-56528e24208e4abb4975d8b5d97d6add-NBA_TOTAL-230",
+        "sport": "NBA",
+        "market": "NBA_TOTAL",
+        "player_or_team": "New York Knicks",
+        "away_team": "San Antonio Spurs",
+        "matchup": "San Antonio Spurs @ New York Knicks",
+        "line": 230,
+        "game_start_iso": "2026-12-25T17:00:00Z",
+        "game_key": "56528e24208e4abb4975d8b5d97d6add",
+        "prices": {
+          "betrivers": {
+            "over": 1.92,
+            "under": 1.9,
+            "over_link": "https://pa.betrivers.com/?page=sportsbook#event/1028726109?coupon=single%7C4293736101%7C%7Cappend%7Chaterpicks",
+            "under_link": "https://pa.betrivers.com/?page=sportsbook#event/1028726109?coupon=single%7C4293736102%7C%7Cappend%7Chaterpicks",
+            "scraped_at": "2026-11-03T13:24:18.810342+00:00"
+          }
+        }
+      },
+      {
+        "id": "NBA-daa67234dbecbce22ac3abf99d8e1aa8-NBA_SPREAD--5.5",
+        "sport": "NBA",
+        "market": "NBA_SPREAD",
+        "player_or_team": "Boston Celtics",
+        "away_team": "Miami Heat",
+        "matchup": "Miami Heat @ Boston Celtics",
+        "line": -5.5,
+        "game_start_iso": "2026-12-25T19:30:00Z",
+        "game_key": "daa67234dbecbce22ac3abf99d8e1aa8",
+        "prices": {
+          "betrivers": {
+            "over": 1.93,
+            "under": 1.87,
+            "over_link": "https://pa.betrivers.com/?page=sportsbook#event/1028726110",
+            "under_link": "https://pa.betrivers.com/?page=sportsbook#event/1028726110",
+            "scraped_at": "2026-11-03T13:24:18.810342+00:00"
+          }
+        }
+      },
+      {
+        "id": "NBA-daa67234dbecbce22ac3abf99d8e1aa8-NBA_TOTAL-230.5",
+        "sport": "NBA",
+        "market": "NBA_TOTAL",
+        "player_or_team": "Boston Celtics",
+        "away_team": "Miami Heat",
+        "matchup": "Miami Heat @ Boston Celtics",
+        "line": 230.5,
+        "game_start_iso": "2026-12-25T19:30:00Z",
+        "game_key": "daa67234dbecbce22ac3abf99d8e1aa8",
+        "prices": {
+          "betrivers": {
+            "over": 1.9,
+            "under": 1.92,
+            "over_link": "https://pa.betrivers.com/?page=sportsbook#event/1028726110?coupon=single%7C4293746222%7C%7Cappend%7Chaterpicks",
+            "under_link": "https://pa.betrivers.com/?page=sportsbook#event/1028726110?coupon=single%7C4293746223%7C%7Cappend%7Chaterpicks",
+            "scraped_at": "2026-11-03T13:24:18.810342+00:00"
+          }
+        }
+      },
+      {
+        "id": "NBA-f6686aa244f98c61c45c8e85852bec90-NBA_SPREAD--1",
+        "sport": "NBA",
+        "market": "NBA_SPREAD",
+        "player_or_team": "Los Angeles Lakers",
+        "away_team": "Philadelphia 76ers",
+        "matchup": "Philadelphia 76ers @ Los Angeles Lakers",
+        "line": -1,
+        "game_start_iso": "2026-12-25T22:00:00Z",
+        "game_key": "f6686aa244f98c61c45c8e85852bec90",
+        "prices": {
+          "betrivers": {
+            "over": 1.9,
+            "under": 1.9,
+            "over_link": "https://pa.betrivers.com/?page=sportsbook#event/1028726113",
+            "under_link": "https://pa.betrivers.com/?page=sportsbook#event/1028726113",
+            "scraped_at": "2026-11-03T13:24:18.810342+00:00"
+          }
+        }
+      },
+      {
+        "id": "NBA-f6686aa244f98c61c45c8e85852bec90-NBA_TOTAL-234",
+        "sport": "NBA",
+        "market": "NBA_TOTAL",
+        "player_or_team": "Los Angeles Lakers",
+        "away_team": "Philadelphia 76ers",
+        "matchup": "Philadelphia 76ers @ Los Angeles Lakers",
+        "line": 234,
+        "game_start_iso": "2026-12-25T22:00:00Z",
+        "game_key": "f6686aa244f98c61c45c8e85852bec90",
+        "prices": {
+          "betrivers": {
+            "over": 1.9,
+            "under": 1.92,
+            "over_link": "https://pa.betrivers.com/?page=sportsbook#event/1028726113?coupon=single%7C4293748460%7C%7Cappend%7Chaterpicks",
+            "under_link": "https://pa.betrivers.com/?page=sportsbook#event/1028726113?coupon=single%7C4293748461%7C%7Cappend%7Chaterpicks",
+            "scraped_at": "2026-11-03T13:24:18.810342+00:00"
+          }
+        }
+      },
+      {
+        "id": "NBA-9ce4a5eae87f292aad45dc17c7e9cf45-NBA_SPREAD-2",
+        "sport": "NBA",
+        "market": "NBA_SPREAD",
+        "player_or_team": "Golden State Warriors",
+        "away_team": "Denver Nuggets",
+        "matchup": "Denver Nuggets @ Golden State Warriors",
+        "line": 2,
+        "game_start_iso": "2026-12-26T03:30:00Z",
+        "game_key": "9ce4a5eae87f292aad45dc17c7e9cf45",
+        "prices": {
+          "betrivers": {
+            "over": 1.89,
+            "under": 1.91,
+            "over_link": "https://pa.betrivers.com/?page=sportsbook#event/1028726111",
+            "under_link": "https://pa.betrivers.com/?page=sportsbook#event/1028726111",
+            "scraped_at": "2026-11-03T13:24:18.810342+00:00"
+          }
+        }
+      },
+      {
+        "id": "NBA-9ce4a5eae87f292aad45dc17c7e9cf45-NBA_TOTAL-234.5",
+        "sport": "NBA",
+        "market": "NBA_TOTAL",
+        "player_or_team": "Golden State Warriors",
+        "away_team": "Denver Nuggets",
+        "matchup": "Denver Nuggets @ Golden State Warriors",
+        "line": 234.5,
+        "game_start_iso": "2026-12-26T03:30:00Z",
+        "game_key": "9ce4a5eae87f292aad45dc17c7e9cf45",
+        "prices": {
+          "betrivers": {
+            "over": 1.9,
+            "under": 1.92,
+            "over_link": "https://pa.betrivers.com/?page=sportsbook#event/1028726111?coupon=single%7C4293732955%7C%7Cappend%7Chaterpicks",
+            "under_link": "https://pa.betrivers.com/?page=sportsbook#event/1028726111?coupon=single%7C4293732956%7C%7Cappend%7Chaterpicks",
+            "scraped_at": "2026-11-03T13:24:18.810342+00:00"
+          }
+        }
+      },
+      {
+        "id": "NBA-81a671990d88f33548fcbd63a955d5ee-NBA_H2H-0",
+        "sport": "NBA",
+        "market": "NBA_H2H",
+        "player_or_team": "Detroit Pistons",
+        "away_team": "Philadelphia 76ers",
+        "matchup": "Philadelphia 76ers @ Detroit Pistons",
+        "line": 0,
+        "game_start_iso": "2026-11-05T00:00:00Z",
+        "game_key": "81a671990d88f33548fcbd63a955d5ee",
+        "prices": {
+          "fanduel": {
+            "over": 1.833,
+            "under": 2.02,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.621646033&selectionId=237474",
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.621646033&selectionId=40274538",
+            "scraped_at": "2026-11-03T13:31:41.473502+00:00"
+          },
+          "draftkings": {
+            "over": 1.8,
+            "under": 2.06,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "betmgm": {
+            "over": 1.8,
+            "under": 2.05,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "caesars": {
+            "over": 1.8,
+            "under": 2.05,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "bet365_us": {
+            "over": 1.806,
+            "under": 2.04,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "fanatics": {
+            "over": 1.8,
+            "under": 2.05,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "betrivers": {
+            "over": 1.75,
+            "under": 2.08,
+            "over_link": "https://pa.betrivers.com/?page=sportsbook#event/1028754083?coupon=single%7C4401457453%7C%7Cappend%7Chaterpicks",
+            "under_link": "https://pa.betrivers.com/?page=sportsbook#event/1028754083?coupon=single%7C4401457454%7C%7Cappend%7Chaterpicks",
+            "scraped_at": "2026-11-03T13:24:18.810342+00:00"
+          },
+          "parx": {
+            "over": 1.758,
+            "under": 2.08,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "ballybet": {
+            "over": 1.758,
+            "under": 2.08,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "kalshi": {
+            "over": 1.896,
+            "under": 1.861,
+            "scraped_at": "2026-11-03T13:35:20.185652+00:00"
+          },
+          "polymarket": {
+            "over": 1.896,
+            "under": 1.896,
+            "scraped_at": "2026-11-03T13:37:10.060164+00:00"
+          }
+        }
+      },
+      {
+        "id": "NBA-81a671990d88f33548fcbd63a955d5ee-NBA_SPREAD--1.5",
+        "sport": "NBA",
+        "market": "NBA_SPREAD",
+        "player_or_team": "Detroit Pistons",
+        "away_team": "Philadelphia 76ers",
+        "matchup": "Philadelphia 76ers @ Detroit Pistons",
+        "line": -1.5,
+        "game_start_iso": "2026-11-05T00:00:00Z",
+        "game_key": "81a671990d88f33548fcbd63a955d5ee",
+        "prices": {
+          "fanduel": {
+            "over": 1.877,
+            "under": 1.943,
+            "scraped_at": "2026-11-03T13:31:41.473502+00:00"
+          },
+          "draftkings": {
+            "over": 1.87,
+            "under": 1.952,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "betmgm": {
+            "over": 1.87,
+            "under": 1.952,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "caesars": {
+            "over": 1.87,
+            "under": 1.952,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "bet365_us": {
+            "over": 1.877,
+            "under": 1.943,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "betrivers": {
+            "over": 1.85,
+            "under": 1.95,
+            "over_link": "https://pa.betrivers.com/?page=sportsbook#event/1028754083",
+            "under_link": "https://pa.betrivers.com/?page=sportsbook#event/1028754083",
+            "scraped_at": "2026-11-03T13:24:18.810342+00:00"
+          },
+          "parx": {
+            "over": 1.855,
+            "under": 1.952,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "ballybet": {
+            "over": 1.855,
+            "under": 1.952,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          }
+        }
+      },
+      {
+        "id": "NBA-a1cfc908f41f739441024ee5a734583f-NBA_H2H-0",
+        "sport": "NBA",
+        "market": "NBA_H2H",
+        "player_or_team": "San Antonio Spurs",
+        "away_team": "Dallas Mavericks",
+        "matchup": "Dallas Mavericks @ San Antonio Spurs",
+        "line": 0,
+        "game_start_iso": "2026-11-05T02:30:00Z",
+        "game_key": "a1cfc908f41f739441024ee5a734583f",
+        "prices": {
+          "fanduel": {
+            "over": 1.154,
+            "under": 5.8,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.621646009&selectionId=237471",
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.621646009&selectionId=237472",
+            "scraped_at": "2026-11-03T13:31:41.473502+00:00"
+          },
+          "draftkings": {
+            "over": 1.154,
+            "under": 5.74,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "betmgm": {
+            "over": 1.154,
+            "under": 5.75,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "caesars": {
+            "over": 1.154,
+            "under": 5.6,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "bet365_us": {
+            "over": 1.143,
+            "under": 6,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "fanatics": {
+            "over": 1.143,
+            "under": 6,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "betrivers": {
+            "over": 1.14,
+            "under": 5.75,
+            "over_link": "https://pa.betrivers.com/?page=sportsbook#event/1028754169?coupon=single%7C4401464060%7C%7Cappend%7Chaterpicks",
+            "under_link": "https://pa.betrivers.com/?page=sportsbook#event/1028754169?coupon=single%7C4401464061%7C%7Cappend%7Chaterpicks",
+            "scraped_at": "2026-11-03T13:24:18.810342+00:00"
+          },
+          "parx": {
+            "over": 1.14,
+            "under": 5.75,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "ballybet": {
+            "over": 1.14,
+            "under": 5.75,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "thescore": {
+            "over": 1.133,
+            "under": 5.75,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "kalshi": {
+            "over": 1.164,
+            "under": 5.559,
+            "scraped_at": "2026-11-03T13:35:20.185652+00:00"
+          },
+          "polymarket": {
+            "over": 1.164,
+            "under": 5.561,
+            "scraped_at": "2026-11-03T13:37:10.060164+00:00"
+          }
+        }
+      },
+      {
+        "id": "NBA-a1cfc908f41f739441024ee5a734583f-NBA_SPREAD--12.5",
+        "sport": "NBA",
+        "market": "NBA_SPREAD",
+        "player_or_team": "San Antonio Spurs",
+        "away_team": "Dallas Mavericks",
+        "matchup": "Dallas Mavericks @ San Antonio Spurs",
+        "line": -12.5,
+        "game_start_iso": "2026-11-05T02:30:00Z",
+        "game_key": "a1cfc908f41f739441024ee5a734583f",
+        "prices": {
+          "fanduel": {
+            "over": 1.893,
+            "under": 1.926,
+            "scraped_at": "2026-11-03T13:31:41.473502+00:00"
+          },
+          "draftkings": {
+            "over": 1.909,
+            "under": 1.909,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "betmgm": {
+            "over": 1.909,
+            "under": 1.909,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "caesars": {
+            "over": 1.909,
+            "under": 1.909,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "bet365_us": {
+            "over": 1.901,
+            "under": 1.917,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "fanatics": {
+            "over": 1.909,
+            "under": 1.909,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          }
+        }
+      },
+      {
+        "id": "NBA-a1cfc908f41f739441024ee5a734583f-NBA_TOTAL-229.5",
+        "sport": "NBA",
+        "market": "NBA_TOTAL",
+        "player_or_team": "San Antonio Spurs",
+        "away_team": "Dallas Mavericks",
+        "matchup": "Dallas Mavericks @ San Antonio Spurs",
+        "line": 229.5,
+        "game_start_iso": "2026-11-05T02:30:00Z",
+        "game_key": "a1cfc908f41f739441024ee5a734583f",
+        "prices": {
+          "fanduel": {
+            "over": 1.943,
+            "under": 1.877,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622125537&selectionId=7017823",
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622125537&selectionId=7017824",
+            "scraped_at": "2026-11-03T13:31:41.473502+00:00"
+          },
+          "draftkings": {
+            "over": 1.909,
+            "under": 1.909,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "betmgm": {
+            "over": 1.909,
+            "under": 1.909,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "caesars": {
+            "over": 1.909,
+            "under": 1.909,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "bet365_us": {
+            "over": 1.935,
+            "under": 1.885,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "fanatics": {
+            "over": 1.909,
+            "under": 1.909,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "betrivers": {
+            "over": 1.91,
+            "under": 1.91,
+            "over_link": "https://pa.betrivers.com/?page=sportsbook#event/1028754169?coupon=single%7C4401426784%7C%7Cappend%7Chaterpicks",
+            "under_link": "https://pa.betrivers.com/?page=sportsbook#event/1028754169?coupon=single%7C4401426785%7C%7Cappend%7Chaterpicks",
+            "scraped_at": "2026-11-03T13:24:18.810342+00:00"
+          },
+          "parx": {
+            "over": 1.909,
+            "under": 1.909,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "ballybet": {
+            "over": 1.909,
+            "under": 1.909,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          }
+        }
+      },
+      {
+        "id": "NBA-c3c237a2a5a0d299ddcb9df20d341474-NBA_H2H-0",
+        "sport": "NBA",
+        "market": "NBA_H2H",
+        "player_or_team": "Brooklyn Nets",
+        "away_team": "Charlotte Hornets",
+        "matchup": "Charlotte Hornets @ Brooklyn Nets",
+        "line": 0,
+        "game_start_iso": "2026-11-05T00:30:00Z",
+        "game_key": "c3c237a2a5a0d299ddcb9df20d341474",
+        "prices": {
+          "fanduel": {
+            "over": 2.18,
+            "under": 1.725,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.621646021&selectionId=6500320",
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.621646021&selectionId=8622709",
+            "scraped_at": "2026-11-03T13:31:41.473502+00:00"
+          },
+          "draftkings": {
+            "over": 2.15,
+            "under": 1.735,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "betmgm": {
+            "over": 2.15,
+            "under": 1.714,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "caesars": {
+            "over": 2.15,
+            "under": 1.741,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "bet365_us": {
+            "over": 2.15,
+            "under": 1.741,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "betrivers": {
+            "over": 2.15,
+            "under": 1.7,
+            "over_link": "https://pa.betrivers.com/?page=sportsbook#event/1028754186?coupon=single%7C4401443490%7C%7Cappend%7Chaterpicks",
+            "under_link": "https://pa.betrivers.com/?page=sportsbook#event/1028754186?coupon=single%7C4401443491%7C%7Cappend%7Chaterpicks",
+            "scraped_at": "2026-11-03T13:24:18.810342+00:00"
+          },
+          "parx": {
+            "over": 2.16,
+            "under": 1.709,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "ballybet": {
+            "over": 2.16,
+            "under": 1.709,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "kalshi": {
+            "over": 2.187,
+            "under": 1.675,
+            "scraped_at": "2026-11-03T13:35:20.185652+00:00"
+          },
+          "polymarket": {
+            "over": 2.14,
+            "under": 1.675,
+            "scraped_at": "2026-11-03T13:37:10.060164+00:00"
+          }
+        }
+      },
+      {
+        "id": "NBA-c3c237a2a5a0d299ddcb9df20d341474-NBA_SPREAD-2.5",
+        "sport": "NBA",
+        "market": "NBA_SPREAD",
+        "player_or_team": "Brooklyn Nets",
+        "away_team": "Charlotte Hornets",
+        "matchup": "Charlotte Hornets @ Brooklyn Nets",
+        "line": 2.5,
+        "game_start_iso": "2026-11-05T00:30:00Z",
+        "game_key": "c3c237a2a5a0d299ddcb9df20d341474",
+        "prices": {
+          "fanduel": {
+            "over": 1.909,
+            "under": 1.909,
+            "scraped_at": "2026-11-03T13:31:41.473502+00:00"
+          },
+          "draftkings": {
+            "over": 1.909,
+            "under": 1.909,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "betmgm": {
+            "over": 1.909,
+            "under": 1.909,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "caesars": {
+            "over": 1.909,
+            "under": 1.909,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "bet365_us": {
+            "over": 1.909,
+            "under": 1.909,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "betrivers": {
+            "over": 1.88,
+            "under": 1.92,
+            "over_link": "https://pa.betrivers.com/?page=sportsbook#event/1028754186",
+            "under_link": "https://pa.betrivers.com/?page=sportsbook#event/1028754186",
+            "scraped_at": "2026-11-03T13:24:18.810342+00:00"
+          },
+          "parx": {
+            "over": 1.885,
+            "under": 1.926,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "ballybet": {
+            "over": 1.885,
+            "under": 1.926,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          }
+        }
+      },
+      {
+        "id": "NBA-c3c237a2a5a0d299ddcb9df20d341474-NBA_TOTAL-214.5",
+        "sport": "NBA",
+        "market": "NBA_TOTAL",
+        "player_or_team": "Brooklyn Nets",
+        "away_team": "Charlotte Hornets",
+        "matchup": "Charlotte Hornets @ Brooklyn Nets",
+        "line": 214.5,
+        "game_start_iso": "2026-11-05T00:30:00Z",
+        "game_key": "c3c237a2a5a0d299ddcb9df20d341474",
+        "prices": {
+          "fanduel": {
+            "over": 1.943,
+            "under": 1.877,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622127453&selectionId=7017823",
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622127453&selectionId=7017824",
+            "scraped_at": "2026-11-03T13:31:41.473502+00:00"
+          },
+          "draftkings": {
+            "over": 1.909,
+            "under": 1.909,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "betmgm": {
+            "over": 1.909,
+            "under": 1.909,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "caesars": {
+            "over": 1.909,
+            "under": 1.909,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "bet365_us": {
+            "over": 1.935,
+            "under": 1.885,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "betrivers": {
+            "over": 1.9,
+            "under": 1.92,
+            "over_link": "https://pa.betrivers.com/?page=sportsbook#event/1028754186?coupon=single%7C4401432380%7C%7Cappend%7Chaterpicks",
+            "under_link": "https://pa.betrivers.com/?page=sportsbook#event/1028754186?coupon=single%7C4401432381%7C%7Cappend%7Chaterpicks",
+            "scraped_at": "2026-11-03T13:24:18.810342+00:00"
+          },
+          "parx": {
+            "over": 1.893,
+            "under": 1.917,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "ballybet": {
+            "over": 1.893,
+            "under": 1.917,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          }
+        }
+      },
+      {
+        "id": "NBA-a1cfc908f41f739441024ee5a734583f-NBA_SPREAD--11.5",
+        "sport": "NBA",
+        "market": "NBA_SPREAD",
+        "player_or_team": "San Antonio Spurs",
+        "away_team": "Dallas Mavericks",
+        "matchup": "Dallas Mavericks @ San Antonio Spurs",
+        "line": -11.5,
+        "game_start_iso": "2026-11-05T02:30:00Z",
+        "game_key": "a1cfc908f41f739441024ee5a734583f",
+        "prices": {
+          "betrivers": {
+            "over": 1.78,
+            "under": 2.04,
+            "over_link": "https://pa.betrivers.com/?page=sportsbook#event/1028754169",
+            "under_link": "https://pa.betrivers.com/?page=sportsbook#event/1028754169",
+            "scraped_at": "2026-11-03T13:24:18.810342+00:00"
+          },
+          "parx": {
+            "over": 1.787,
+            "under": 2.05,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "ballybet": {
+            "over": 1.787,
+            "under": 2.05,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          }
+        }
+      },
+      {
+        "id": "NBA-3a3532deba1e327a9910bea296537156-NBA_H2H-0",
+        "sport": "NBA",
+        "market": "NBA_H2H",
+        "player_or_team": "Houston Rockets",
+        "away_team": "Minnesota Timberwolves",
+        "matchup": "Minnesota Timberwolves @ Houston Rockets",
+        "line": 0,
+        "game_start_iso": "2026-11-05T01:30:00Z",
+        "game_key": "3a3532deba1e327a9910bea296537156",
+        "prices": {
+          "fanduel": {
+            "over": 1.282,
+            "under": 3.85,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.621646042&selectionId=237488",
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.621646042&selectionId=237478",
+            "scraped_at": "2026-11-03T13:31:41.473502+00:00"
+          },
+          "draftkings": {
+            "over": 1.29,
+            "under": 3.76,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "betmgm": {
+            "over": 1.286,
+            "under": 3.75,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "caesars": {
+            "over": 1.286,
+            "under": 3.75,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "bet365_us": {
+            "over": 1.263,
+            "under": 4,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "betrivers": {
+            "over": 1.27,
+            "under": 3.8,
+            "over_link": "https://pa.betrivers.com/?page=sportsbook#event/1028754176?coupon=single%7C4401478821%7C%7Cappend%7Chaterpicks",
+            "under_link": "https://pa.betrivers.com/?page=sportsbook#event/1028754176?coupon=single%7C4401478822%7C%7Cappend%7Chaterpicks",
+            "scraped_at": "2026-11-03T13:24:18.810342+00:00"
+          },
+          "parx": {
+            "over": 1.278,
+            "under": 3.8,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "ballybet": {
+            "over": 1.278,
+            "under": 3.8,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "thescore": {
+            "over": 1.278,
+            "under": 3.8,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "kalshi": {
+            "over": 1.31,
+            "under": 3.8,
+            "scraped_at": "2026-11-03T13:35:20.185652+00:00"
+          },
+          "polymarket": {
+            "over": 1.311,
+            "under": 3.658,
+            "scraped_at": "2026-11-03T13:37:10.060164+00:00"
+          }
+        }
+      },
+      {
+        "id": "NBA-3a3532deba1e327a9910bea296537156-NBA_SPREAD--9.5",
+        "sport": "NBA",
+        "market": "NBA_SPREAD",
+        "player_or_team": "Houston Rockets",
+        "away_team": "Minnesota Timberwolves",
+        "matchup": "Minnesota Timberwolves @ Houston Rockets",
+        "line": -9.5,
+        "game_start_iso": "2026-11-05T01:30:00Z",
+        "game_key": "3a3532deba1e327a9910bea296537156",
+        "prices": {
+          "fanduel": {
+            "over": 1.943,
+            "under": 1.877,
+            "scraped_at": "2026-11-03T13:31:41.473502+00:00"
+          },
+          "draftkings": {
+            "over": 1.952,
+            "under": 1.87,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "betmgm": {
+            "over": 1.952,
+            "under": 1.87,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "caesars": {
+            "over": 1.952,
+            "under": 1.87,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "bet365_us": {
+            "over": 1.952,
+            "under": 1.87,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "betrivers": {
+            "over": 1.92,
+            "under": 1.88,
+            "over_link": "https://pa.betrivers.com/?page=sportsbook#event/1028754176",
+            "under_link": "https://pa.betrivers.com/?page=sportsbook#event/1028754176",
+            "scraped_at": "2026-11-03T13:24:18.810342+00:00"
+          },
+          "parx": {
+            "over": 1.926,
+            "under": 1.885,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "ballybet": {
+            "over": 1.926,
+            "under": 1.885,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "thescore": {
+            "over": 1.952,
+            "under": 1.87,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          }
+        }
+      },
+      {
+        "id": "NBA-3a3532deba1e327a9910bea296537156-NBA_TOTAL-224.5",
+        "sport": "NBA",
+        "market": "NBA_TOTAL",
+        "player_or_team": "Houston Rockets",
+        "away_team": "Minnesota Timberwolves",
+        "matchup": "Minnesota Timberwolves @ Houston Rockets",
+        "line": 224.5,
+        "game_start_iso": "2026-11-05T01:30:00Z",
+        "game_key": "3a3532deba1e327a9910bea296537156",
+        "prices": {
+          "fanduel": {
+            "over": 1.943,
+            "under": 1.877,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622130009&selectionId=7017823",
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622130009&selectionId=7017824",
+            "scraped_at": "2026-11-03T13:31:41.473502+00:00"
+          },
+          "bet365_us": {
+            "over": 1.952,
+            "under": 1.87,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "betrivers": {
+            "over": 1.92,
+            "under": 1.9,
+            "over_link": "https://pa.betrivers.com/?page=sportsbook#event/1028754176?coupon=single%7C4401478823%7C%7Cappend%7Chaterpicks",
+            "under_link": "https://pa.betrivers.com/?page=sportsbook#event/1028754176?coupon=single%7C4401478824%7C%7Cappend%7Chaterpicks",
+            "scraped_at": "2026-11-03T13:24:18.810342+00:00"
+          },
+          "parx": {
+            "over": 1.917,
+            "under": 1.893,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "ballybet": {
+            "over": 1.917,
+            "under": 1.893,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          }
+        }
+      },
+      {
+        "id": "NBA-81a671990d88f33548fcbd63a955d5ee-NBA_SPREAD--2",
+        "sport": "NBA",
+        "market": "NBA_SPREAD",
+        "player_or_team": "Detroit Pistons",
+        "away_team": "Philadelphia 76ers",
+        "matchup": "Philadelphia 76ers @ Detroit Pistons",
+        "line": -2,
+        "game_start_iso": "2026-11-05T00:00:00Z",
+        "game_key": "81a671990d88f33548fcbd63a955d5ee",
+        "prices": {
+          "fanatics": {
+            "over": 1.909,
+            "under": 1.909,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          }
+        }
+      },
+      {
+        "id": "NBA-3a3532deba1e327a9910bea296537156-NBA_TOTAL-223.5",
+        "sport": "NBA",
+        "market": "NBA_TOTAL",
+        "player_or_team": "Houston Rockets",
+        "away_team": "Minnesota Timberwolves",
+        "matchup": "Minnesota Timberwolves @ Houston Rockets",
+        "line": 223.5,
+        "game_start_iso": "2026-11-05T01:30:00Z",
+        "game_key": "3a3532deba1e327a9910bea296537156",
+        "prices": {
+          "betmgm": {
+            "over": 1.909,
+            "under": 1.909,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "caesars": {
+            "over": 1.87,
+            "under": 1.952,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "thescore": {
+            "over": 1.87,
+            "under": 1.952,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          }
+        }
+      },
+      {
+        "id": "NBA-de16625f05b67323c426d76ef5d722b1-NBA_H2H-0",
+        "sport": "NBA",
+        "market": "NBA_H2H",
+        "player_or_team": "Oklahoma City Thunder",
+        "away_team": "Cleveland Cavaliers",
+        "matchup": "Cleveland Cavaliers @ Oklahoma City Thunder",
+        "line": 0,
+        "game_start_iso": "2026-11-05T01:00:00Z",
+        "game_key": "de16625f05b67323c426d76ef5d722b1",
+        "prices": {
+          "fanduel": {
+            "over": 1.694,
+            "under": 2.22,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.621646012&selectionId=3319741",
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.621646012&selectionId=60424",
+            "scraped_at": "2026-11-03T13:31:41.473502+00:00"
+          },
+          "draftkings": {
+            "over": 1.725,
+            "under": 2.17,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "betmgm": {
+            "over": 1.69,
+            "under": 2.2,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "caesars": {
+            "over": 1.69,
+            "under": 2.22,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "bet365_us": {
+            "over": 1.694,
+            "under": 2.22,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "betrivers": {
+            "over": 1.68,
+            "under": 2.2,
+            "over_link": "https://pa.betrivers.com/?page=sportsbook#event/1028754164?coupon=single%7C4401705104%7C%7Cappend%7Chaterpicks",
+            "under_link": "https://pa.betrivers.com/?page=sportsbook#event/1028754164?coupon=single%7C4401705105%7C%7Cappend%7Chaterpicks",
+            "scraped_at": "2026-11-03T13:24:18.810342+00:00"
+          },
+          "parx": {
+            "over": 1.676,
+            "under": 2.2,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "ballybet": {
+            "over": 1.676,
+            "under": 2.2,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "thescore": {
+            "over": 1.741,
+            "under": 2.15,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "kalshi": {
+            "over": 1.732,
+            "under": 2.236,
+            "scraped_at": "2026-11-03T13:35:20.185652+00:00"
+          },
+          "polymarket": {
+            "over": 1.733,
+            "under": 2.14,
+            "scraped_at": "2026-11-03T13:37:10.060164+00:00"
+          }
+        }
+      },
+      {
+        "id": "NBA-de16625f05b67323c426d76ef5d722b1-NBA_SPREAD--2.5",
+        "sport": "NBA",
+        "market": "NBA_SPREAD",
+        "player_or_team": "Oklahoma City Thunder",
+        "away_team": "Cleveland Cavaliers",
+        "matchup": "Cleveland Cavaliers @ Oklahoma City Thunder",
+        "line": -2.5,
+        "game_start_iso": "2026-11-05T01:00:00Z",
+        "game_key": "de16625f05b67323c426d76ef5d722b1",
+        "prices": {
+          "fanduel": {
+            "over": 1.893,
+            "under": 1.926,
+            "scraped_at": "2026-11-03T13:31:41.473502+00:00"
+          },
+          "draftkings": {
+            "over": 1.87,
+            "under": 1.952,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "betmgm": {
+            "over": 1.87,
+            "under": 1.952,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "caesars": {
+            "over": 1.87,
+            "under": 1.952,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "bet365_us": {
+            "over": 1.885,
+            "under": 1.935,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "betrivers": {
+            "over": 1.87,
+            "under": 1.93,
+            "over_link": "https://pa.betrivers.com/?page=sportsbook#event/1028754164",
+            "under_link": "https://pa.betrivers.com/?page=sportsbook#event/1028754164",
+            "scraped_at": "2026-11-03T13:24:18.810342+00:00"
+          },
+          "parx": {
+            "over": 1.877,
+            "under": 1.935,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "ballybet": {
+            "over": 1.877,
+            "under": 1.935,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "thescore": {
+            "over": 1.87,
+            "under": 1.952,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          }
+        }
+      },
+      {
+        "id": "NBA-de16625f05b67323c426d76ef5d722b1-NBA_TOTAL-228.5",
+        "sport": "NBA",
+        "market": "NBA_TOTAL",
+        "player_or_team": "Oklahoma City Thunder",
+        "away_team": "Cleveland Cavaliers",
+        "matchup": "Cleveland Cavaliers @ Oklahoma City Thunder",
+        "line": 228.5,
+        "game_start_iso": "2026-11-05T01:00:00Z",
+        "game_key": "de16625f05b67323c426d76ef5d722b1",
+        "prices": {
+          "fanduel": {
+            "over": 1.909,
+            "under": 1.909,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622152675&selectionId=7017823",
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622152675&selectionId=7017824",
+            "scraped_at": "2026-11-03T13:31:41.473502+00:00"
+          },
+          "draftkings": {
+            "over": 1.909,
+            "under": 1.909,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "betmgm": {
+            "over": 1.909,
+            "under": 1.909,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "caesars": {
+            "over": 1.909,
+            "under": 1.909,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "bet365_us": {
+            "over": 1.909,
+            "under": 1.909,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "betrivers": {
+            "over": 1.93,
+            "under": 1.89,
+            "over_link": "https://pa.betrivers.com/?page=sportsbook#event/1028754164?coupon=single%7C4401705106%7C%7Cappend%7Chaterpicks",
+            "under_link": "https://pa.betrivers.com/?page=sportsbook#event/1028754164?coupon=single%7C4401705107%7C%7Cappend%7Chaterpicks",
+            "scraped_at": "2026-11-03T13:24:18.810342+00:00"
+          },
+          "parx": {
+            "over": 1.926,
+            "under": 1.885,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "ballybet": {
+            "over": 1.926,
+            "under": 1.885,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "thescore": {
+            "over": 1.909,
+            "under": 1.909,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          }
+        }
+      },
+      {
+        "id": "NBA-81a671990d88f33548fcbd63a955d5ee-NBA_TOTAL-218.5",
+        "sport": "NBA",
+        "market": "NBA_TOTAL",
+        "player_or_team": "Detroit Pistons",
+        "away_team": "Philadelphia 76ers",
+        "matchup": "Philadelphia 76ers @ Detroit Pistons",
+        "line": 218.5,
+        "game_start_iso": "2026-11-05T00:00:00Z",
+        "game_key": "81a671990d88f33548fcbd63a955d5ee",
+        "prices": {
+          "fanduel": {
+            "over": 1.909,
+            "under": 1.909,
+            "over_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622123451&selectionId=7017823",
+            "under_link": "https://sportsbook.fanduel.com/addToBetslip?marketId=42.622123451&selectionId=7017824",
+            "scraped_at": "2026-11-03T13:31:41.473502+00:00"
+          },
+          "draftkings": {
+            "over": 1.909,
+            "under": 1.909,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "betmgm": {
+            "over": 1.909,
+            "under": 1.909,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "caesars": {
+            "over": 1.909,
+            "under": 1.909,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "bet365_us": {
+            "over": 1.901,
+            "under": 1.917,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "fanatics": {
+            "over": 1.909,
+            "under": 1.909,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "betrivers": {
+            "over": 1.9,
+            "under": 1.92,
+            "over_link": "https://pa.betrivers.com/?page=sportsbook#event/1028754083?coupon=single%7C4401826042%7C%7Cappend%7Chaterpicks",
+            "under_link": "https://pa.betrivers.com/?page=sportsbook#event/1028754083?coupon=single%7C4401826043%7C%7Cappend%7Chaterpicks",
+            "scraped_at": "2026-11-03T13:24:18.810342+00:00"
+          },
+          "parx": {
+            "over": 1.893,
+            "under": 1.917,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          },
+          "ballybet": {
+            "over": 1.893,
+            "under": 1.917,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          }
+        }
+      },
+      {
+        "id": "NBA-3a3532deba1e327a9910bea296537156-NBA_TOTAL-222.5",
+        "sport": "NBA",
+        "market": "NBA_TOTAL",
+        "player_or_team": "Houston Rockets",
+        "away_team": "Minnesota Timberwolves",
+        "matchup": "Minnesota Timberwolves @ Houston Rockets",
+        "line": 222.5,
+        "game_start_iso": "2026-11-05T01:30:00Z",
+        "game_key": "3a3532deba1e327a9910bea296537156",
+        "prices": {
+          "draftkings": {
+            "over": 1.87,
+            "under": 1.952,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          }
+        }
+      },
+      {
+        "id": "NBA-81a671990d88f33548fcbd63a955d5ee-NBA_TOTAL-217.5",
+        "sport": "NBA",
+        "market": "NBA_TOTAL",
+        "player_or_team": "Detroit Pistons",
+        "away_team": "Philadelphia 76ers",
+        "matchup": "Philadelphia 76ers @ Detroit Pistons",
+        "line": 217.5,
+        "game_start_iso": "2026-11-05T00:00:00Z",
+        "game_key": "81a671990d88f33548fcbd63a955d5ee",
+        "prices": {
+          "thescore": {
+            "over": 1.87,
+            "under": 1.952,
+            "scraped_at": "2026-11-03T13:23:22.300462+00:00"
+          }
+        }
+      }
+    ]
+  }
+}
