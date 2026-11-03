@@ -1,1 +1,4 @@
 bet_id,game_id,game_time_utc,home_team,away_team,market,selection,line,bookmaker,decimal_odds,model_probability,stake_aud,placed_at_utc,status,result,profit_aud,bankroll_aud
+espn-401909933-away,401909933,2026-11-05T02:30:00+00:00,San Antonio Spurs,Dallas Mavericks,NBA_H2H,Dallas Mavericks,,DraftKings,5.74,0.384993,1.0,2026-11-03T14:13:31.732685+00:00,open,,,
+espn-401909930-away,401909930,2026-11-05T01:30:00+00:00,Houston Rockets,Minnesota Timberwolves,NBA_H2H,Minnesota Timberwolves,,DraftKings,3.76,0.402452,1.0,2026-11-03T14:13:31.732685+00:00,open,,,
+espn-401909922-home,401909922,2026-11-05T00:00:00+00:00,Detroit Pistons,Philadelphia 76ers,NBA_H2H,Detroit Pistons,,DraftKings,1.840336,0.601944,1.0,2026-11-03T14:13:31.732685+00:00,open,,,
