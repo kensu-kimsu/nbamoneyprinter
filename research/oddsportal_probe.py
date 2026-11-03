@@ -39,7 +39,7 @@ def inspect(rows):
 def run(day):
     OUT.mkdir(parents=True,exist_ok=True)
     filename=OUT/("oddsportal-"+day.strftime("%Y%m%d")+".json")
-    command=["oddsharvester","upcoming","-s","basketball","-l","usa-nba",
+    command=["oddsharvester","upcoming","-s","basketball",
              "-d",day.strftime("%Y%m%d"),"-m","moneyline","--headless",
              "--concurrency","1","--request-delay","2","--timezone","America/New_York",
              "-f","json","-o",str(filename)]
