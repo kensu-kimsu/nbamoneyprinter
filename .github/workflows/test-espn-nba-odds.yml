@@ -1,0 +1,29 @@
+name: Test ESPN NBA bookmaker odds
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '35 14 * * *'
+permissions:
+  contents: write
+jobs:
+  odds:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: master
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Retrieve and audit ESPN NBA moneyline odds
+        run: python -m research.espn_odds_probe
+      - name: Save odds report
+        if: always()
+        run: |
+          if [ -d research/espn_odds_snapshots ]; then
+            git add research/espn_odds_snapshots/
+            if ! git diff --cached --quiet; then
+              git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Archive ESPN NBA bookmaker odds probe'
+              git push
+            fi
+          fi
