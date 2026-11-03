@@ -1,3 +1,9 @@
+### Permanent prediction research history
+
+[Append-only prediction and settlement records](research/events.jsonl) · [Research log and training rules](research/README.md)
+
+All future model predictions should be logged before tipoff, including no-bet decisions, then settled as separate events. **The historical event log is currently empty:** automatic prediction generation, settlement, and model retraining have not been connected yet. Existing odds snapshots are not predictions.
+
 ## NBA Money Printer — seven-day paper betting (A$100 virtual bankroll)
 
 ![Paper betting bankroll progress](paper_betting/bankroll.svg)
