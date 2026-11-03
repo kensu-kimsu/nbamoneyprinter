@@ -22,7 +22,13 @@ jobs:
           HATERPICKS_API_KEY: ${{ secrets.HATERPICKS_API_KEY }}
         run: |
           python - <<'PY'
-          import datetime, json, pathlib
+          import datetime, json, pathlib, os
+          today = datetime.datetime.now(datetime.timezone.utc).date()
+          if os.getenv("GITHUB_EVENT_NAME") == "schedule" and not (
+              datetime.date(2026, 11, 4) <= today <= datetime.date(2026, 11, 11)
+          ):
+              print("Outside seven-day trial window; no API request.")
+              raise SystemExit(0)
           from integrations.haterpicks import get_nba_odds, summarize
           payload = get_nba_odds()
           out = pathlib.Path("snapshots")
