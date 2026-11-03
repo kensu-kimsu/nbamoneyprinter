@@ -82,20 +82,10 @@ def run(now=None):
             errors.append({"date": str(day), "error": type(exc).__name__})
         time.sleep(0.12)
     games = sorted(events.values(), key=lambda g: (g["tipoff_utc"], g["game_id"]))
-    history, x, y, upcoming = {}, [], [], []
-    for game in games:
-        if game["tipoff_utc"] >= now and game["state"] == "pre":
-            upcoming.append((game, features(game, history)))
-        elif game["state"] == "post" and game["tipoff_utc"] < now:
-            # Do not leak results of simultaneous games: group equal tipoff times below.
-            pass
-    history = {}
+    history, x, y = {}, [], []
     for tipoff in sorted({g["tipoff_utc"] for g in games}):
         batch = [g for g in games if g["tipoff_utc"] == tipoff]
         if tipoff >= now:
-            for game in batch:
-                if game["state"] == "pre":
-                    upcoming.append((game, features(game, history)))
             continue
         for game in batch:
             if game["state"] == "post" and game.get("home_score") != game.get("away_score"):
