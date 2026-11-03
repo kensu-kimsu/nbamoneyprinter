@@ -1,0 +1,43 @@
+name: Seven-day NBA odds snapshots
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 15 * * *'
+
+permissions:
+  contents: read
+
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Capture NBA odds snapshot
+        env:
+          HATERPICKS_API_KEY: ${{ secrets.HATERPICKS_API_KEY }}
+        run: |
+          python - <<'PY'
+          import datetime, json, pathlib
+          from integrations.haterpicks import get_nba_odds, summarize
+          payload = get_nba_odds()
+          out = pathlib.Path("snapshots")
+          out.mkdir(exist_ok=True)
+          now = datetime.datetime.now(datetime.timezone.utc)
+          stamp = now.strftime("%Y%m%dT%H%M%SZ")
+          (out / f"nba-odds-{stamp}.json").write_text(json.dumps({
+              "captured_at_utc": now.isoformat(),
+              "source": "HaterPicks",
+              "payload": payload
+          }, indent=2), encoding="utf-8")
+          print(json.dumps(summarize(payload), indent=2))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: nba-odds-${{ github.run_id }}
+          path: snapshots/*.json
+          retention-days: 14
