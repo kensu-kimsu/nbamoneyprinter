@@ -39,13 +39,13 @@ def inspect(rows):
 def run(day):
     OUT.mkdir(parents=True,exist_ok=True)
     filename=OUT/("oddsportal-"+day.strftime("%Y%m%d")+".json")
-    command=["oddsharvester","upcoming","-s","basketball",
+    command=["oddsharvester","upcoming","-s","basketball","-l","nba",
              "-d",day.strftime("%Y%m%d"),"-m","moneyline","--headless",
              "--concurrency","1","--request-delay","2","--timezone","America/New_York",
              "-f","json","-o",str(filename)]
     result=subprocess.run(command,cwd=ROOT,text=True,capture_output=True,timeout=540)
     if result.returncode:
-        raise RuntimeError("OddsHarvester failed (exit "+str(result.returncode)+"): "+result.stderr[-1800:])
+        raise RuntimeError("OddsHarvester failed (exit "+str(result.returncode)+"): "+result.stderr[:5000])
     if not filename.is_file():
         raise RuntimeError("OddsHarvester produced no JSON file")
     rows=read_records(filename)
