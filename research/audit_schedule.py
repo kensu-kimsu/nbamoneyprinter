@@ -86,8 +86,12 @@ def main():
         future_times=sorted(utc(p["game_time_utc"]) for p in predictions if utc(p["game_time_utc"])>now)
         if not future_times:
             raise RuntimeError("No future predictions to audit")
-        start=future_times[0].replace(hour=0,minute=0,second=0,microsecond=0)
-        end=start+dt.timedelta(days=2)
+        from zoneinfo import ZoneInfo
+        eastern=ZoneInfo("America/New_York")
+        first_day=future_times[0].astimezone(eastern).date()
+        local=dt.datetime.combine(first_day,dt.time.min,tzinfo=eastern)
+        start=local.astimezone(dt.timezone.utc)
+        end=(local+dt.timedelta(days=1)).astimezone(dt.timezone.utc)
     days=[(start+dt.timedelta(days=i)).date() for i in range(-1,4)]
     games={}
     for day in days:
