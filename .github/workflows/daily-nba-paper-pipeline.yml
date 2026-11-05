@@ -23,6 +23,15 @@ jobs:
         run: python -m pip install --disable-pip-version-check numpy==1.26.4 scikit-learn==1.4.2
       - name: Generate new NBA predictions
         run: python -m research.espn_baseline
+      - name: Install optional free OddsHarvester scraper
+        continue-on-error: true
+        run: |
+          python -m pip install oddsharvester
+          python -m playwright install --with-deps chromium
+      - name: Scrape free public NBA moneylines
+        continue-on-error: true
+        timeout-minutes: 5
+        run: python -m research.scrape_free_odds
       - name: Merge free bookmaker odds and report full-slate coverage
         id: odds
         continue-on-error: true
