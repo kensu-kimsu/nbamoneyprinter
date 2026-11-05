@@ -69,7 +69,7 @@ jobs:
       - name: Save predictions, odds audit and virtual bets
         if: always()
         run: |
-          git add research/live_predictions/ research/espn_odds_snapshots/ paper_betting/ledger.csv
+          git add research/live_predictions/ research/espn_odds_snapshots/ paper_betting/ledger.csv paper_betting/decision_reports/
           if ! git diff --cached --quiet; then
             git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Run automatic NBA predictions, odds and paper bets'
             git pull --rebase origin master
