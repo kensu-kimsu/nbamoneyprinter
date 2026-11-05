@@ -1,0 +1,44 @@
+{
+  "captured_at_utc": "2026-11-05T09:34:18.238749+00:00",
+  "date_us_eastern": "2026-11-05",
+  "scheduled_future_games": 2,
+  "games_with_verified_team_side_odds": 2,
+  "games": [
+    {
+      "game_id": "401909936",
+      "home": "Phoenix Suns",
+      "away": "Orlando Magic",
+      "tipoff_utc": "2026-11-06T02:00:00+00:00",
+      "books": [
+        {
+          "bookmaker": "DraftKings",
+          "home_decimal": 1.840336,
+          "away_decimal": 2.0,
+          "home_american": -119,
+          "away_american": 100
+        }
+      ]
+    },
+    {
+      "game_id": "401909937",
+      "home": "Golden State Warriors",
+      "away": "Miami Heat",
+      "tipoff_utc": "2026-11-06T03:00:00+00:00",
+      "books": [
+        {
+          "bookmaker": "DraftKings",
+          "home_decimal": 1.355872,
+          "away_decimal": 3.3,
+          "home_american": -281,
+          "away_american": 230
+        }
+      ]
+    }
+  ],
+  "paper_bets_enabled": false,
+  "source": "ESPN + validated external snapshots",
+  "external_prices_added": 0,
+  "external_errors": [],
+  "missing_games": [],
+  "coverage_pct": 100.0
+}
