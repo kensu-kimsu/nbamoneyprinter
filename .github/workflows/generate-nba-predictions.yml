@@ -1,8 +1,6 @@
 name: Generate NBA AI predictions (ESPN baseline)
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 15 * * *'
 permissions:
   contents: write
 concurrency:
