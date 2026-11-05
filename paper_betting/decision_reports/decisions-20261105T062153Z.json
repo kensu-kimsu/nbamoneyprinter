@@ -1,0 +1,121 @@
+{
+  "generated_at_utc": "2026-11-05T06:21:53.212156+00:00",
+  "odds_captured_at_utc": "2026-11-05T06:21:53.159284+00:00",
+  "min_ev_pct": 5,
+  "bankroll_aud": 101.76,
+  "available_exposure_aud": 3.07,
+  "decisions": [
+    {
+      "game_id": "401909936",
+      "game": "Orlando Magic @ Phoenix Suns",
+      "predicted_winner": "Orlando Magic",
+      "model_win_probability": 0.571015,
+      "best_bookmaker": null,
+      "best_decimal_odds": null,
+      "expected_value_pct": null,
+      "reason": "duplicate_game_in_ledger"
+    },
+    {
+      "game_id": "401909937",
+      "game": "Miami Heat @ Golden State Warriors",
+      "predicted_winner": "Golden State Warriors",
+      "model_win_probability": 0.67316,
+      "best_bookmaker": "DraftKings",
+      "best_decimal_odds": 1.483092,
+      "expected_value_pct": -0.164,
+      "reason": "below_5_percent_ev",
+      "best_selection": "Golden State Warriors",
+      "best_selection_probability": 0.67316
+    },
+    {
+      "game_id": "401909287",
+      "game": "Washington Wizards @ Atlanta Hawks",
+      "predicted_winner": "Atlanta Hawks",
+      "model_win_probability": 0.54279,
+      "best_bookmaker": null,
+      "best_decimal_odds": null,
+      "expected_value_pct": null,
+      "reason": "no_odds_game_match"
+    },
+    {
+      "game_id": "401909288",
+      "game": "Boston Celtics @ Charlotte Hornets",
+      "predicted_winner": "Boston Celtics",
+      "model_win_probability": 0.63075,
+      "best_bookmaker": null,
+      "best_decimal_odds": null,
+      "expected_value_pct": null,
+      "reason": "no_odds_game_match"
+    },
+    {
+      "game_id": "401909289",
+      "game": "Philadelphia 76ers @ Cleveland Cavaliers",
+      "predicted_winner": "Philadelphia 76ers",
+      "model_win_probability": 0.603703,
+      "best_bookmaker": null,
+      "best_decimal_odds": null,
+      "expected_value_pct": null,
+      "reason": "no_odds_game_match"
+    },
+    {
+      "game_id": "401909290",
+      "game": "Utah Jazz @ Dallas Mavericks",
+      "predicted_winner": "Dallas Mavericks",
+      "model_win_probability": 0.569417,
+      "best_bookmaker": null,
+      "best_decimal_odds": null,
+      "expected_value_pct": null,
+      "reason": "no_odds_game_match"
+    },
+    {
+      "game_id": "401909291",
+      "game": "Oklahoma City Thunder @ Memphis Grizzlies",
+      "predicted_winner": "Memphis Grizzlies",
+      "model_win_probability": 0.584685,
+      "best_bookmaker": null,
+      "best_decimal_odds": null,
+      "expected_value_pct": null,
+      "reason": "no_odds_game_match"
+    },
+    {
+      "game_id": "401909292",
+      "game": "Toronto Raptors @ Milwaukee Bucks",
+      "predicted_winner": "Toronto Raptors",
+      "model_win_probability": 0.617275,
+      "best_bookmaker": null,
+      "best_decimal_odds": null,
+      "expected_value_pct": null,
+      "reason": "no_odds_game_match"
+    },
+    {
+      "game_id": "401909293",
+      "game": "Minnesota Timberwolves @ New Orleans Pelicans",
+      "predicted_winner": "Minnesota Timberwolves",
+      "model_win_probability": 0.552739,
+      "best_bookmaker": null,
+      "best_decimal_odds": null,
+      "expected_value_pct": null,
+      "reason": "no_odds_game_match"
+    },
+    {
+      "game_id": "401909294",
+      "game": "Portland Trail Blazers @ Los Angeles Lakers",
+      "predicted_winner": "Portland Trail Blazers",
+      "model_win_probability": 0.585455,
+      "best_bookmaker": null,
+      "best_decimal_odds": null,
+      "expected_value_pct": null,
+      "reason": "no_odds_game_match"
+    },
+    {
+      "game_id": "401909295",
+      "game": "San Antonio Spurs @ Sacramento Kings",
+      "predicted_winner": "San Antonio Spurs",
+      "model_win_probability": 0.752443,
+      "best_bookmaker": null,
+      "best_decimal_odds": null,
+      "expected_value_pct": null,
+      "reason": "no_odds_game_match"
+    }
+  ]
+}\n
