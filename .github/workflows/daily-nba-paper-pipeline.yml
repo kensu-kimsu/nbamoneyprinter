@@ -23,10 +23,10 @@ jobs:
         run: python -m pip install --disable-pip-version-check numpy==1.26.4 scikit-learn==1.4.2
       - name: Generate new NBA predictions
         run: python -m research.espn_baseline
-      - name: Fetch bookmaker odds for the predicted NBA slate
+      - name: Merge free bookmaker odds and report full-slate coverage
         id: odds
         continue-on-error: true
-        run: python -m research.espn_odds_probe
+        run: python -m research.merge_free_odds
       - name: Create virtual bets only when fresh odds are available
         if: steps.odds.outcome == 'success'
         run: python -m paper_betting.place_espn_bets
