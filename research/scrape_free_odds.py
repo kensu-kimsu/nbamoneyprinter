@@ -19,7 +19,7 @@ def run():
     DEST.mkdir(parents=True, exist_ok=True)
     raw_path = DEST / "oddsharvester_raw.json"
     cmd = ["oddsharvester", "upcoming", "-s", "basketball",
-           "-d", day.strftime("%Y%m%d"), "-m", "moneyline",
+           "-d", day.strftime("%Y%m%d"), "-m", "home_away",
            "--headless", "-f", "json", "-o", str(raw_path)]
     try:
         result = subprocess.run(cmd, capture_output=True, text=True, timeout=180)
