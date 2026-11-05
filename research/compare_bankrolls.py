@@ -87,7 +87,7 @@ def run():
             "completed_games": sum(r["status"] == "final" for r in predictions),
             "priced_completed_games": len(simulated),
             "completed_games_without_verified_odds": sum(
-                r["status"] == "final" and r["simulation_status"] == "unpriced"
+                r["result_status"] == "final" and r["simulation_status"] == "unpriced"
                 for r in hypothetical),
             "wins": sum(r["simulation_status"] == "won" for r in simulated),
             "losses": sum(r["simulation_status"] == "lost" for r in simulated),
