@@ -21,7 +21,9 @@ jobs:
           python-version: '3.12'
       - name: Compare all pregame predictions to ESPN final scores
         run: python -m research.audit_predictions
-      - name: Compare all AI picks versus filtered virtual betting bankroll\n        run: python -m research.compare_bankrolls\n      - name: Save prediction accuracy and paper-bet performance
+      - name: Compare all AI picks versus filtered virtual betting bankroll
+        run: python -m research.compare_bankrolls
+      - name: Save prediction accuracy and paper-bet performance
         run: |
           git add research/prediction_results/
           if ! git diff --cached --quiet; then
