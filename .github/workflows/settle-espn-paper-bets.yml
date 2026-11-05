@@ -1,0 +1,30 @@
+name: Settle ESPN NBA paper bets
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15,45 * * * *'
+permissions:
+  contents: write
+concurrency:
+  group: nba-paper-ledger
+  cancel-in-progress: false
+jobs:
+  settle:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: master
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify final ESPN scores and settle virtual bets
+        run: python -m paper_betting.settle_espn
+      - name: Save updated paper ledger
+        run: |
+          git add paper_betting/ledger.csv
+          if ! git diff --cached --quiet; then
+            git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Settle NBA virtual bets from final ESPN scores'
+            git pull --rebase origin master
+            git push origin master
+          fi
