@@ -1,0 +1,31 @@
+name: Audit NBA predictions against final scores
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '25 */3 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: nba-prediction-audit
+  cancel-in-progress: false
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: master
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Compare all pregame predictions to ESPN final scores
+        run: python -m research.audit_predictions
+      - name: Save prediction accuracy and paper-bet performance
+        run: |
+          git add research/prediction_results/
+          if ! git diff --cached --quiet; then
+            git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Update NBA prediction accuracy and paper-bet results'
+            git pull --rebase origin master
+            git push origin master
+          fi
