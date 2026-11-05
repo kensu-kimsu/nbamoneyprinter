@@ -32,6 +32,28 @@ jobs:
         continue-on-error: true
         timeout-minutes: 5
         run: python -m research.scrape_free_odds
+      - name: Show scraper output and available raw files
+        if: always()
+        run: |
+          echo 'External odds files:'
+          find research/external_odds -maxdepth 2 -type f -printf '%p %s bytes\\n' 2>/dev/null || true
+          python - <<'PY'
+          import json, pathlib
+          for path in pathlib.Path('research/external_odds').glob('*.json'):
+              try:
+                  value=json.loads(path.read_text())
+                  print(path, 'top-level type:', type(value).__name__)
+                  if isinstance(value,dict):
+                      print('top-level keys:', list(value)[:25])
+                      for key in ('matches','games','events','data'):
+                          obj=value.get(key)
+                          if isinstance(obj,list) and obj:
+                              print(key, 'first item:', str(obj[0])[:2000])
+                  elif isinstance(value,list) and value:
+                      print('first item:', str(value[0])[:2000])
+              except Exception as exc:
+                  print(path, type(exc).__name__, str(exc)[:200])
+          PY
       - name: Merge free bookmaker odds and report full-slate coverage
         id: odds
         continue-on-error: true
@@ -48,6 +70,16 @@ jobs:
             git pull --rebase origin master
             git push origin master
           fi
+      - name: Upload free odds scraper diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: free-nba-odds-diagnostics
+          path: |
+            research/external_odds/
+            research/espn_odds_snapshots/
+          if-no-files-found: ignore
+          retention-days: 7
       - name: Report missing bookmaker odds
         if: steps.odds.outcome == 'failure'
         run: echo 'No verified prices for this slate; virtual bets skipped safely.'
