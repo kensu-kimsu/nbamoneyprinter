@@ -23,10 +23,12 @@ jobs:
         run: python -m research.audit_predictions
       - name: Compare all AI picks versus filtered virtual betting bankroll
         run: python -m research.compare_bankrolls
+      - name: Render both bankroll histories for README
+        run: python -m research.render_bankroll_comparison
       - name: Save prediction accuracy and paper-bet performance
         if: always()
         run: |
-          git add research/prediction_results/
+          git add research/prediction_results/ paper_betting/bankroll_comparison.svg
           if ! git diff --cached --quiet; then
             git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Update NBA prediction accuracy and paper-bet results'
             git pull --rebase origin master
