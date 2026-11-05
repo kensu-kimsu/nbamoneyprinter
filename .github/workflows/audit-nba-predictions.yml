@@ -24,6 +24,7 @@ jobs:
       - name: Compare all AI picks versus filtered virtual betting bankroll
         run: python -m research.compare_bankrolls
       - name: Save prediction accuracy and paper-bet performance
+        if: always()
         run: |
           git add research/prediction_results/
           if ! git diff --cached --quiet; then
