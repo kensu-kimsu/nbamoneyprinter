@@ -1,0 +1,108 @@
+[
+    {
+        "scraped_date": "2026-11-05 21:21:20 UTC",
+        "match_date": "2026-11-06 02:00:00 UTC",
+        "season": null,
+        "match_link": "https://www.oddsportal.com/basketball/h2h/orlando-magic-QZMS36Dn/phoenix-suns-M1Gy2pra/#ppDcHIDs",
+        "home_team": "Phoenix Suns",
+        "away_team": "Orlando Magic",
+        "league_name": "NBA",
+        "home_score": null,
+        "away_score": null,
+        "partial_results": null,
+        "venue": "Mortgage Matchup Center",
+        "venue_town": "Phoenix, AZ",
+        "venue_country": "USA",
+        "match_info": null,
+        "home_away_market": [
+            {
+                "1": "1.87",
+                "2": "1.95",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "1.87",
+                "2": "1.95",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "1.87",
+                "2": "1.96",
+                "bookmaker_name": "DraftKings",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "1.86",
+                "2": "1.95",
+                "bookmaker_name": "Fanatics",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "1.91",
+                "2": "1.94",
+                "bookmaker_name": "Fanduel",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            }
+        ]
+    },
+    {
+        "scraped_date": "2026-11-05 21:21:26 UTC",
+        "match_date": "2026-11-06 03:00:00 UTC",
+        "season": null,
+        "match_link": "https://www.oddsportal.com/basketball/h2h/golden-state-warriors-SxUtXqch/miami-heat-CQ7AXnT5/#IcB5Fdrf",
+        "home_team": "Golden State Warriors",
+        "away_team": "Miami Heat",
+        "league_name": "NBA",
+        "home_score": null,
+        "away_score": null,
+        "partial_results": null,
+        "venue": "Chase Center",
+        "venue_town": "San Francisco, CA",
+        "venue_country": "USA",
+        "match_info": null,
+        "home_away_market": [
+            {
+                "1": "1.57",
+                "2": "2.48",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "1.57",
+                "2": "2.45",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "1.58",
+                "2": "2.44",
+                "bookmaker_name": "DraftKings",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "1.57",
+                "2": "2.45",
+                "bookmaker_name": "Fanatics",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "1.60",
+                "2": "2.42",
+                "bookmaker_name": "Fanduel",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            }
+        ]
+    }
+]
