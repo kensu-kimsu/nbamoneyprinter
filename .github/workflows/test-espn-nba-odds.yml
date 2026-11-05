@@ -1,8 +1,6 @@
 name: Test ESPN NBA bookmaker odds
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '35 14 * * *'
 permissions:
   contents: write
 jobs:
