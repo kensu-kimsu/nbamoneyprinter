@@ -1,0 +1,76 @@
+{
+  "audited_at_utc": "2026-11-06T20:55:47.091844+00:00",
+  "scheduled_future_games": 9,
+  "predicted_future_games": 9,
+  "missing_predictions": [],
+  "predictions_not_on_future_slate": [
+    "401909938",
+    "401909939",
+    "401909940",
+    "401909941",
+    "401909942",
+    "401909943",
+    "401909944"
+  ],
+  "matched_h2h_games": [],
+  "missing_or_stale_h2h_odds": [
+    {
+      "game_id": "401909287",
+      "home": "Atlanta Hawks",
+      "away": "Washington Wizards",
+      "tipoff_utc": "2026-11-07T00:00:00+00:00"
+    },
+    {
+      "game_id": "401909288",
+      "home": "Charlotte Hornets",
+      "away": "Boston Celtics",
+      "tipoff_utc": "2026-11-07T00:00:00+00:00"
+    },
+    {
+      "game_id": "401909289",
+      "home": "Cleveland Cavaliers",
+      "away": "Philadelphia 76ers",
+      "tipoff_utc": "2026-11-07T00:30:00+00:00"
+    },
+    {
+      "game_id": "401909290",
+      "home": "Dallas Mavericks",
+      "away": "Utah Jazz",
+      "tipoff_utc": "2026-11-07T01:00:00+00:00"
+    },
+    {
+      "game_id": "401909291",
+      "home": "Memphis Grizzlies",
+      "away": "Oklahoma City Thunder",
+      "tipoff_utc": "2026-11-07T01:00:00+00:00"
+    },
+    {
+      "game_id": "401909292",
+      "home": "Milwaukee Bucks",
+      "away": "Toronto Raptors",
+      "tipoff_utc": "2026-11-07T01:00:00+00:00"
+    },
+    {
+      "game_id": "401909293",
+      "home": "New Orleans Pelicans",
+      "away": "Minnesota Timberwolves",
+      "tipoff_utc": "2026-11-07T01:00:00+00:00"
+    },
+    {
+      "game_id": "401909294",
+      "home": "Los Angeles Lakers",
+      "away": "Portland Trail Blazers",
+      "tipoff_utc": "2026-11-07T03:00:00+00:00"
+    },
+    {
+      "game_id": "401909295",
+      "home": "Sacramento Kings",
+      "away": "San Antonio Spurs",
+      "tipoff_utc": "2026-11-07T03:00:00+00:00"
+    }
+  ],
+  "complete_prediction_coverage": false,
+  "complete_odds_coverage": false,
+  "note": "H2H over/under side mapping is unverified; matched market does not authorize a bet.",
+  "prediction_file": "predictions-20261106T205156Z.json"
+}
