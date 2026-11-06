@@ -1,3 +1,11 @@
+### Automatic daily phone summary (optional WhatsApp)
+
+The [daily reporting workflow](.github/workflows/daily-nba-whatsapp-report.yml) refreshes the prediction audit, both virtual bankrolls and the README chart **every day at 09:15 Melbourne during daylight saving (08:15 in winter)**. It prints a daily summary in GitHub Actions even without WhatsApp credentials. GitHub scheduled jobs can be delayed; delivery is not guaranteed.
+
+For WhatsApp, use a Twilio WhatsApp-enabled sender and an **approved utility Content Template** containing one variable `{{1}}` for the summary. Opt in with the recipient number first. Configure these **GitHub Actions repository secrets** under Settings → Secrets and variables → Actions: `TWILIO_ACCOUNT_SID`, `TWILIO_AUTH_TOKEN`, `TWILIO_WHATSAPP_FROM` (format `whatsapp:+...`), `WHATSAPP_TO` (format `whatsapp:+61...`), and `TWILIO_CONTENT_SID` (approved template ID). Never put tokens or phone numbers into source code. The workflow skips sending when any secret is missing. WhatsApp delivery may incur Twilio/Meta fees; Twilio accepting a message does not guarantee delivery.
+
+**Example template body:** `Your NBA paper-trading daily summary: {{1}}` (submit for WhatsApp approval). For production, the sender must support business-initiated approved template messages; the Twilio sandbox is for testing and may require recipient enrollment.
+
 ## Live experiment — both virtual bankrolls
 
 ![All AI picks versus filtered positive-EV bankroll, updated after each audit](paper_betting/bankroll_comparison.svg)
