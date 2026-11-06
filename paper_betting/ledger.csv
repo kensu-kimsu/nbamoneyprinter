@@ -2,5 +2,5 @@ bet_id,game_id,game_time_utc,home_team,away_team,market,selection,line,bookmaker
 espn-401909933-away,401909933,2026-11-05T02:30:00+00:00,San Antonio Spurs,Dallas Mavericks,NBA_H2H,Dallas Mavericks,,DraftKings,5.74,0.384993,1.0,2026-11-03T14:13:31.732685+00:00,settled,lost,-1.00,100.76
 espn-401909930-away,401909930,2026-11-05T01:30:00+00:00,Houston Rockets,Minnesota Timberwolves,NBA_H2H,Minnesota Timberwolves,,DraftKings,3.76,0.402452,1.0,2026-11-03T14:13:31.732685+00:00,settled,won,2.76,102.76
 espn-401909922-home,401909922,2026-11-05T00:00:00+00:00,Detroit Pistons,Philadelphia 76ers,NBA_H2H,Detroit Pistons,,DraftKings,1.840336,0.601944,1.0,2026-11-03T14:13:31.732685+00:00,settled,lost,-1.00,101.76
-espn-401909936-away,401909936,2026-11-06T02:00:00+00:00,Phoenix Suns,Orlando Magic,NBA_H2H,Orlando Magic,,DraftKings,2.02,0.571015,1.02,2026-11-05T06:09:33.486687+00:00,open,,,
-espn-401909937-away,401909937,2026-11-06T03:00:00+00:00,Golden State Warriors,Miami Heat,NBA_H2H,Miami Heat,,DraftKings,3.3,0.360293,1.02,2026-11-05T09:34:18.370959+00:00,open,,,
+espn-401909936-away,401909936,2026-11-06T02:00:00+00:00,Phoenix Suns,Orlando Magic,NBA_H2H,Orlando Magic,,DraftKings,2.02,0.571015,1.02,2026-11-05T06:09:33.486687+00:00,settled,lost,-1.02,99.74
+espn-401909937-away,401909937,2026-11-06T03:00:00+00:00,Golden State Warriors,Miami Heat,NBA_H2H,Miami Heat,,DraftKings,3.3,0.360293,1.02,2026-11-05T09:34:18.370959+00:00,settled,lost,-1.02,98.72
