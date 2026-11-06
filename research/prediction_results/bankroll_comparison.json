@@ -1,22 +1,22 @@
 {
   "starting_bankroll_aud": 100.0,
   "filtered_actual": {
-    "settled_bets": 3,
+    "settled_bets": 5,
     "wins": 1,
-    "losses": 2,
-    "profit_aud": 0.76,
-    "bankroll_aud": 100.76,
-    "open_bets": 2
+    "losses": 4,
+    "profit_aud": -1.28,
+    "bankroll_aud": 98.72,
+    "open_bets": 0
   },
   "all_ai_winners_hypothetical": {
     "total_predictions": 25,
-    "completed_games": 14,
-    "priced_completed_games": 14,
+    "completed_games": 16,
+    "priced_completed_games": 16,
     "completed_games_without_verified_odds": 0,
-    "wins": 7,
-    "losses": 7,
-    "profit_aud": -4.39,
-    "bankroll_aud": 95.61
+    "wins": 8,
+    "losses": 8,
+    "profit_aud": -4.84,
+    "bankroll_aud": 95.16
   },
   "comparison_caveat": "The all-picks hypothetical is restricted to games with saved, verified pre-tipoff prices. Unpriced games are excluded, not assigned invented odds or zero-profit bets. Each settled hypothetical bet risks 1% of its simulated bankroll, compounded in scheduled tipoff order. It does not model the actual strategy's 5% concurrent exposure limit or real-time bet availability. This is an illustrative counterfactual, not a directly equivalent execution backtest."
 }
