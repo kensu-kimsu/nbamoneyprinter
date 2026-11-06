@@ -1,0 +1,44 @@
+name: Daily NBA report and optional WhatsApp
+on:
+  workflow_dispatch:
+  schedule:
+    # 09:15 Melbourne during AEDT, 08:15 during AEST.
+    - cron: '15 22 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: nba-prediction-audit
+  cancel-in-progress: false
+jobs:
+  daily-report:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: master
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Refresh final scores and prediction accuracy
+        run: python -m research.audit_predictions
+      - name: Refresh both bankroll comparisons
+        run: python -m research.compare_bankrolls
+      - name: Regenerate README line chart and daily CSV
+        run: python -m research.render_bankroll_comparison
+      - name: Save reports and chart before notification
+        run: |
+          git add research/prediction_results/ paper_betting/bankroll_comparison.svg
+          if ! git diff --cached --quiet; then
+            git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Refresh NBA daily report and chart'
+            git pull --rebase origin master
+            git push origin master
+          fi
+      - name: Print daily report and optionally send WhatsApp
+        env:
+          TWILIO_ACCOUNT_SID: ${{ secrets.TWILIO_ACCOUNT_SID }}
+          TWILIO_AUTH_TOKEN: ${{ secrets.TWILIO_AUTH_TOKEN }}
+          TWILIO_WHATSAPP_FROM: ${{ secrets.TWILIO_WHATSAPP_FROM }}
+          WHATSAPP_TO: ${{ secrets.WHATSAPP_TO }}
+          TWILIO_CONTENT_SID: ${{ secrets.TWILIO_CONTENT_SID }}
+        run: python -m research.daily_whatsapp_report
