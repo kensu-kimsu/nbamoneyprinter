@@ -1,0 +1,30 @@
+name: Backtest 2025-26 NBA walk-forward strategies
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  backtest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install modeling dependencies
+        run: python -m pip install numpy scikit-learn
+      - name: Download historical public NBA moneyline dataset
+        run: |
+          mkdir -p /tmp/nba-history
+          curl --fail --location --retry 3 --max-time 120 \
+            https://raw.githubusercontent.com/aaryanshah607/nba-line-sheet/main/nba_odds_clean.csv \
+            -o /tmp/nba-history/nba_odds_clean.csv
+      - name: Run chronological out-of-sample experiment
+        run: python -m research.walkforward_2025_26 /tmp/nba-history/nba_odds_clean.csv research/backtest_results/2025-26
+      - name: Archive reproducible results
+        uses: actions/upload-artifact@v4
+        with:
+          name: nba-2025-26-exploratory-backtest
+          path: research/backtest_results/2025-26/
+          retention-days: 30
