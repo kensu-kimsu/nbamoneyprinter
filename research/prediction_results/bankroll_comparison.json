@@ -6,10 +6,10 @@
     "losses": 4,
     "profit_aud": -1.28,
     "bankroll_aud": 98.72,
-    "open_bets": 0
+    "open_bets": 5
   },
   "all_ai_winners_hypothetical": {
-    "total_predictions": 25,
+    "total_predictions": 32,
     "completed_games": 16,
     "priced_completed_games": 16,
     "completed_games_without_verified_odds": 0,
