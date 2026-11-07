@@ -1,0 +1,45 @@
+name: Inspect free 2025-26 NBA historical odds dataset
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Download public historical NBA odds and score dataset
+        run: |
+          mkdir -p /tmp/nba-history
+          curl --fail --location --retry 3 --max-time 120 \
+            https://raw.githubusercontent.com/aaryanshah607/nba-line-sheet/main/nba_odds_clean.csv \
+            -o /tmp/nba-history/nba_odds_clean.csv
+      - name: Inspect schema and 2025-26 coverage without fabricating backtest
+        run: |
+          python - <<'PY'
+          import csv, json
+          p='/tmp/nba-history/nba_odds_clean.csv'
+          with open(p,newline='',encoding='utf-8-sig') as f:
+              reader=csv.DictReader(f)
+              print('HEADERS:',json.dumps(reader.fieldnames))
+              rows=list(reader)
+          print('TOTAL ROWS:',len(rows))
+          for row in rows[:3]:
+              print('SAMPLE:',json.dumps(row))
+          for key in reader.fieldnames:
+              if any(word in key.lower() for word in ('season','date','year')):
+                  values=[r.get(key,'') for r in rows]
+                  hits=sum('2025' in v or '2026' in v for v in values)
+                  print('CANDIDATE SEASON COLUMN:',key,'2025/2026 matches:',hits)
+          if not rows: raise RuntimeError('Dataset is empty')
+          PY
+      - name: Upload historical source dataset for audited research
+        uses: actions/upload-artifact@v4
+        with:
+          name: historical-nba-odds-source
+          path: /tmp/nba-history/nba_odds_clean.csv
+          retention-days: 7
