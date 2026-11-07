@@ -4,8 +4,8 @@ espn-401909930-away,401909930,2026-11-05T01:30:00+00:00,Houston Rockets,Minnesot
 espn-401909922-home,401909922,2026-11-05T00:00:00+00:00,Detroit Pistons,Philadelphia 76ers,NBA_H2H,Detroit Pistons,,DraftKings,1.840336,0.601944,1.0,2026-11-03T14:13:31.732685+00:00,settled,lost,-1.00,101.76
 espn-401909936-away,401909936,2026-11-06T02:00:00+00:00,Phoenix Suns,Orlando Magic,NBA_H2H,Orlando Magic,,DraftKings,2.02,0.571015,1.02,2026-11-05T06:09:33.486687+00:00,settled,lost,-1.02,99.74
 espn-401909937-away,401909937,2026-11-06T03:00:00+00:00,Golden State Warriors,Miami Heat,NBA_H2H,Miami Heat,,DraftKings,3.3,0.360293,1.02,2026-11-05T09:34:18.370959+00:00,settled,lost,-1.02,98.72
-espn-401909295-home,401909295,2026-11-07T03:00:00+00:00,Sacramento Kings,San Antonio Spurs,NBA_H2H,Sacramento Kings,,DraftKings,9.1,0.255706,0.99,2026-11-06T20:52:19.771327+00:00,open,,,
-espn-401909287-away,401909287,2026-11-07T00:00:00+00:00,Atlanta Hawks,Washington Wizards,NBA_H2H,Washington Wizards,,DraftKings,3.51,0.446559,0.99,2026-11-06T20:52:19.771327+00:00,open,,,
-espn-401909288-home,401909288,2026-11-07T00:00:00+00:00,Charlotte Hornets,Boston Celtics,NBA_H2H,Charlotte Hornets,,DraftKings,4.12,0.3681,0.99,2026-11-06T20:52:19.771327+00:00,open,,,
-espn-401909291-home,401909291,2026-11-07T01:00:00+00:00,Memphis Grizzlies,Oklahoma City Thunder,NBA_H2H,Memphis Grizzlies,,DraftKings,2.45,0.593781,0.99,2026-11-06T20:52:19.771327+00:00,open,,,
-espn-401909290-away,401909290,2026-11-07T01:00:00+00:00,Dallas Mavericks,Utah Jazz,NBA_H2H,Utah Jazz,,DraftKings,3.17,0.427621,0.98,2026-11-06T20:52:19.771327+00:00,open,,,
+espn-401909295-home,401909295,2026-11-07T03:00:00+00:00,Sacramento Kings,San Antonio Spurs,NBA_H2H,Sacramento Kings,,DraftKings,9.1,0.255706,0.99,2026-11-06T20:52:19.771327+00:00,settled,lost,-0.99,97.73
+espn-401909287-away,401909287,2026-11-07T00:00:00+00:00,Atlanta Hawks,Washington Wizards,NBA_H2H,Washington Wizards,,DraftKings,3.51,0.446559,0.99,2026-11-06T20:52:19.771327+00:00,settled,lost,-0.99,96.74
+espn-401909288-home,401909288,2026-11-07T00:00:00+00:00,Charlotte Hornets,Boston Celtics,NBA_H2H,Charlotte Hornets,,DraftKings,4.12,0.3681,0.99,2026-11-06T20:52:19.771327+00:00,settled,lost,-0.99,95.75
+espn-401909291-home,401909291,2026-11-07T01:00:00+00:00,Memphis Grizzlies,Oklahoma City Thunder,NBA_H2H,Memphis Grizzlies,,DraftKings,2.45,0.593781,0.99,2026-11-06T20:52:19.771327+00:00,settled,lost,-0.99,94.76
+espn-401909290-away,401909290,2026-11-07T01:00:00+00:00,Dallas Mavericks,Utah Jazz,NBA_H2H,Utah Jazz,,DraftKings,3.17,0.427621,0.98,2026-11-06T20:52:19.771327+00:00,settled,lost,-0.98,93.78
