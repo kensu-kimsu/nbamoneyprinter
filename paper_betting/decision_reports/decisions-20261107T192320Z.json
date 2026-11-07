@@ -1,0 +1,244 @@
+{
+  "generated_at_utc": "2026-11-07T19:23:20.010825+00:00",
+  "odds_captured_at_utc": "2026-11-07T19:23:19.845194+00:00",
+  "min_ev_pct": 8,
+  "min_model_probability_pct": 60,
+  "max_decimal_odds": 2.0,
+  "bankroll_aud": 93.78,
+  "available_exposure_aud": 4.69,
+  "category_counts": {
+    "current_priced_slate": 7,
+    "upcoming": 7
+  },
+  "decision_reasons": {
+    "model_confidence_below_60_percent": 4,
+    "below_8_percent_ev": 3,
+    "not_in_current_odds_slate": 7
+  },
+  "decisions": [
+    {
+      "game_id": "401909938",
+      "game": "Denver Nuggets @ Indiana Pacers",
+      "game_time_utc": "2026-11-07T22:00:00+00:00",
+      "predicted_winner": "Denver Nuggets",
+      "model_win_probability": 0.538153,
+      "predicted_winner_quote": {
+        "bookmaker": "DraftKings",
+        "decimal_odds": 1.308642,
+        "expected_value_pct": -29.575
+      },
+      "best_ev_quote": {
+        "selection": "Indiana Pacers",
+        "bookmaker": "DraftKings",
+        "decimal_odds": 3.61,
+        "model_probability": 0.461847,
+        "expected_value_pct": 66.727
+      },
+      "reason": "model_confidence_below_60_percent",
+      "category": "current_priced_slate"
+    },
+    {
+      "game_id": "401909939",
+      "game": "Brooklyn Nets @ Atlanta Hawks",
+      "game_time_utc": "2026-11-08T00:30:00+00:00",
+      "predicted_winner": "Atlanta Hawks",
+      "model_win_probability": 0.60596,
+      "predicted_winner_quote": {
+        "bookmaker": "DraftKings",
+        "decimal_odds": 1.324675,
+        "expected_value_pct": -19.73
+      },
+      "best_ev_quote": {
+        "selection": "Brooklyn Nets",
+        "bookmaker": "DraftKings",
+        "decimal_odds": 3.49,
+        "model_probability": 0.39404,
+        "expected_value_pct": 37.52
+      },
+      "reason": "below_8_percent_ev",
+      "category": "current_priced_slate"
+    },
+    {
+      "game_id": "401909940",
+      "game": "New York Knicks @ Cleveland Cavaliers",
+      "game_time_utc": "2026-11-08T01:00:00+00:00",
+      "predicted_winner": "Cleveland Cavaliers",
+      "model_win_probability": 0.509964,
+      "predicted_winner_quote": {
+        "bookmaker": "DraftKings",
+        "decimal_odds": 2.7,
+        "expected_value_pct": 37.69
+      },
+      "best_ev_quote": {
+        "selection": "Cleveland Cavaliers",
+        "bookmaker": "DraftKings",
+        "decimal_odds": 2.7,
+        "model_probability": 0.509964,
+        "expected_value_pct": 37.69
+      },
+      "reason": "model_confidence_below_60_percent",
+      "category": "current_priced_slate"
+    },
+    {
+      "game_id": "401909941",
+      "game": "Washington Wizards @ Oklahoma City Thunder",
+      "game_time_utc": "2026-11-08T01:00:00+00:00",
+      "predicted_winner": "Oklahoma City Thunder",
+      "model_win_probability": 0.576338,
+      "predicted_winner_quote": {
+        "bookmaker": "DraftKings",
+        "decimal_odds": 1.167504,
+        "expected_value_pct": -32.712
+      },
+      "best_ev_quote": {
+        "selection": "Washington Wizards",
+        "bookmaker": "DraftKings",
+        "decimal_odds": 5.43,
+        "model_probability": 0.423662,
+        "expected_value_pct": 130.048
+      },
+      "reason": "model_confidence_below_60_percent",
+      "category": "current_priced_slate"
+    },
+    {
+      "game_id": "401909942",
+      "game": "Orlando Magic @ Golden State Warriors",
+      "game_time_utc": "2026-11-08T01:30:00+00:00",
+      "predicted_winner": "Golden State Warriors",
+      "model_win_probability": 0.605842,
+      "predicted_winner_quote": {
+        "bookmaker": "DraftKings",
+        "decimal_odds": 1.460829,
+        "expected_value_pct": -11.497
+      },
+      "best_ev_quote": {
+        "selection": "Orlando Magic",
+        "bookmaker": "DraftKings",
+        "decimal_odds": 2.8,
+        "model_probability": 0.394158,
+        "expected_value_pct": 10.364
+      },
+      "reason": "below_8_percent_ev",
+      "category": "current_priced_slate"
+    },
+    {
+      "game_id": "401909943",
+      "game": "Houston Rockets @ Phoenix Suns",
+      "game_time_utc": "2026-11-08T02:00:00+00:00",
+      "predicted_winner": "Houston Rockets",
+      "model_win_probability": 0.69644,
+      "predicted_winner_quote": {
+        "bookmaker": "DraftKings",
+        "decimal_odds": 1.37037,
+        "expected_value_pct": -4.562
+      },
+      "best_ev_quote": {
+        "selection": "Phoenix Suns",
+        "bookmaker": "DraftKings",
+        "decimal_odds": 3.21,
+        "model_probability": 0.30356,
+        "expected_value_pct": -2.557
+      },
+      "reason": "below_8_percent_ev",
+      "category": "current_priced_slate"
+    },
+    {
+      "game_id": "401909944",
+      "game": "San Antonio Spurs @ Portland Trail Blazers",
+      "game_time_utc": "2026-11-08T03:00:00+00:00",
+      "predicted_winner": "San Antonio Spurs",
+      "model_win_probability": 0.538151,
+      "predicted_winner_quote": {
+        "bookmaker": "DraftKings",
+        "decimal_odds": 1.487805,
+        "expected_value_pct": -19.934
+      },
+      "best_ev_quote": {
+        "selection": "Portland Trail Blazers",
+        "bookmaker": "DraftKings",
+        "decimal_odds": 2.71,
+        "model_probability": 0.461849,
+        "expected_value_pct": 25.161
+      },
+      "reason": "model_confidence_below_60_percent",
+      "category": "current_priced_slate"
+    },
+    {
+      "game_id": "401909945",
+      "game": "Philadelphia 76ers @ Chicago Bulls",
+      "game_time_utc": "2026-11-08T20:30:00+00:00",
+      "predicted_winner": "Philadelphia 76ers",
+      "model_win_probability": 0.69096,
+      "predicted_winner_quote": null,
+      "best_ev_quote": null,
+      "reason": "not_in_current_odds_slate",
+      "category": "upcoming"
+    },
+    {
+      "game_id": "401909946",
+      "game": "Los Angeles Lakers @ Detroit Pistons",
+      "game_time_utc": "2026-11-08T23:00:00+00:00",
+      "predicted_winner": "Detroit Pistons",
+      "model_win_probability": 0.573684,
+      "predicted_winner_quote": null,
+      "best_ev_quote": null,
+      "reason": "not_in_current_odds_slate",
+      "category": "upcoming"
+    },
+    {
+      "game_id": "401909947",
+      "game": "Utah Jazz @ Minnesota Timberwolves",
+      "game_time_utc": "2026-11-09T00:00:00+00:00",
+      "predicted_winner": "Minnesota Timberwolves",
+      "model_win_probability": 0.717816,
+      "predicted_winner_quote": null,
+      "best_ev_quote": null,
+      "reason": "not_in_current_odds_slate",
+      "category": "upcoming"
+    },
+    {
+      "game_id": "401909948",
+      "game": "Brooklyn Nets @ Dallas Mavericks",
+      "game_time_utc": "2026-11-09T00:30:00+00:00",
+      "predicted_winner": "Dallas Mavericks",
+      "model_win_probability": 0.577995,
+      "predicted_winner_quote": null,
+      "best_ev_quote": null,
+      "reason": "not_in_current_odds_slate",
+      "category": "upcoming"
+    },
+    {
+      "game_id": "401909949",
+      "game": "Boston Celtics @ Milwaukee Bucks",
+      "game_time_utc": "2026-11-09T01:00:00+00:00",
+      "predicted_winner": "Boston Celtics",
+      "model_win_probability": 0.720624,
+      "predicted_winner_quote": null,
+      "best_ev_quote": null,
+      "reason": "not_in_current_odds_slate",
+      "category": "upcoming"
+    },
+    {
+      "game_id": "401909950",
+      "game": "New Orleans Pelicans @ LA Clippers",
+      "game_time_utc": "2026-11-09T02:00:00+00:00",
+      "predicted_winner": "New Orleans Pelicans",
+      "model_win_probability": 0.539564,
+      "predicted_winner_quote": null,
+      "best_ev_quote": null,
+      "reason": "not_in_current_odds_slate",
+      "category": "upcoming"
+    },
+    {
+      "game_id": "401909951",
+      "game": "Miami Heat @ Sacramento Kings",
+      "game_time_utc": "2026-11-09T02:00:00+00:00",
+      "predicted_winner": "Miami Heat",
+      "model_win_probability": 0.547281,
+      "predicted_winner_quote": null,
+      "best_ev_quote": null,
+      "reason": "not_in_current_odds_slate",
+      "category": "upcoming"
+    }
+  ]
+}
