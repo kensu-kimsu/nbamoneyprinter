@@ -1,3 +1,7 @@
+### Paper-betting selection update — 7 November 2026
+
+**Experimental change; not evidence of positive expected returns.** The first 10 settled filtered virtual bets were 1 win and 9 losses (A$93.78 remaining from A$100). The prior selector ranked both teams by model-derived EV and could choose the opposite side from the model's predicted winner, including longshot underdogs. New virtual bets must be on the model's predicted winner, have at least **60% model win probability**, decimal odds **at most 2.00**, and calculated **EV at least +8%**. Stakes remain **1% of bankroll**, subject to **5% maximum concurrent exposure**. Existing settled bets are never rewritten. These arbitrary protective thresholds may reject every game and are **not historically validated**; do not interpret no-bet days as a software failure. The all-AI-picks comparison remains unchanged. See [decision reports](paper_betting/decision_reports/) and [selection tests](tests/test_conservative_paper_selection.py).
+
 ### Automatic daily phone summary (optional WhatsApp)
 
 The [daily reporting workflow](.github/workflows/daily-nba-whatsapp-report.yml) refreshes the prediction audit, both virtual bankrolls and the README chart **every day at 09:15 Melbourne during daylight saving (08:15 in winter)**. It prints a daily summary in GitHub Actions even without WhatsApp credentials. GitHub scheduled jobs can be delayed; delivery is not guaranteed.
