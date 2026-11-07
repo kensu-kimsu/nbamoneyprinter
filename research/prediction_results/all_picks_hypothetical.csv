@@ -24,10 +24,17 @@ game_id,game_time_utc,predicted_winner,actual_winner,result_status,bookmaker,odd
 401909293,2026-11-07T01:00:00+00:00,Minnesota Timberwolves,Minnesota Timberwolves,final,DraftKings,2026-11-06T20:52:18.164211+00:00,1.60241,0.95,0.57,95.24,won
 401909294,2026-11-07T03:00:00+00:00,Portland Trail Blazers,Los Angeles Lakers,final,DraftKings,2026-11-06T20:52:18.164211+00:00,2.3,0.95,-0.95,94.29,lost
 401909295,2026-11-07T03:00:00+00:00,San Antonio Spurs,San Antonio Spurs,final,DraftKings,2026-11-06T20:52:18.164211+00:00,1.074627,0.94,0.07,94.36,won
-401909938,2026-11-07T22:00:00+00:00,Denver Nuggets,,scheduled,,,,,,,unpriced
-401909939,2026-11-08T00:30:00+00:00,Atlanta Hawks,,scheduled,,,,,,,unpriced
-401909940,2026-11-08T01:00:00+00:00,New York Knicks,,scheduled,,,,,,,unpriced
-401909941,2026-11-08T01:00:00+00:00,Oklahoma City Thunder,,scheduled,,,,,,,unpriced
-401909942,2026-11-08T01:30:00+00:00,Golden State Warriors,,scheduled,,,,,,,unpriced
-401909943,2026-11-08T02:00:00+00:00,Houston Rockets,,scheduled,,,,,,,unpriced
-401909944,2026-11-08T03:00:00+00:00,Portland Trail Blazers,,scheduled,,,,,,,unpriced
+401909938,2026-11-07T22:00:00+00:00,Denver Nuggets,,awaiting_final,DraftKings,2026-11-07T19:23:19.845194+00:00,1.308642,,,,awaiting_final
+401909939,2026-11-08T00:30:00+00:00,Atlanta Hawks,,scheduled,DraftKings,2026-11-07T19:23:19.845194+00:00,1.324675,,,,awaiting_final
+401909940,2026-11-08T01:00:00+00:00,New York Knicks,,scheduled,DraftKings,2026-11-07T19:23:19.845194+00:00,1.490196,,,,awaiting_final
+401909941,2026-11-08T01:00:00+00:00,Oklahoma City Thunder,,scheduled,DraftKings,2026-11-07T19:23:19.845194+00:00,1.167504,,,,awaiting_final
+401909942,2026-11-08T01:30:00+00:00,Golden State Warriors,,scheduled,DraftKings,2026-11-07T19:23:19.845194+00:00,1.460829,,,,awaiting_final
+401909943,2026-11-08T02:00:00+00:00,Houston Rockets,,scheduled,DraftKings,2026-11-07T19:23:19.845194+00:00,1.37037,,,,awaiting_final
+401909944,2026-11-08T03:00:00+00:00,Portland Trail Blazers,,scheduled,DraftKings,2026-11-07T19:23:19.845194+00:00,2.71,,,,awaiting_final
+401909945,2026-11-08T20:30:00+00:00,Philadelphia 76ers,,scheduled,,,,,,,unpriced
+401909946,2026-11-08T23:00:00+00:00,Detroit Pistons,,scheduled,,,,,,,unpriced
+401909947,2026-11-09T00:00:00+00:00,Minnesota Timberwolves,,scheduled,,,,,,,unpriced
+401909948,2026-11-09T00:30:00+00:00,Dallas Mavericks,,scheduled,,,,,,,unpriced
+401909949,2026-11-09T01:00:00+00:00,Boston Celtics,,scheduled,,,,,,,unpriced
+401909950,2026-11-09T02:00:00+00:00,New Orleans Pelicans,,scheduled,,,,,,,unpriced
+401909951,2026-11-09T02:00:00+00:00,Miami Heat,,scheduled,,,,,,,unpriced
