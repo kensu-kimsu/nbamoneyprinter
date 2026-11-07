@@ -36,6 +36,7 @@ jobs:
                   hits=sum('2025' in v or '2026' in v for v in values)
                   print('CANDIDATE SEASON COLUMN:',key,'2025/2026 matches:',hits)
           if not rows: raise RuntimeError('Dataset is empty')
+          print('IMPORTANT: Historical moneylines alone do not prove pre-tipoff capture timestamps. No bankroll backtest is authorized by this inspection.')
           PY
       - name: Upload historical source dataset for audited research
         uses: actions/upload-artifact@v4
