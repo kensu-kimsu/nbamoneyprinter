@@ -6,7 +6,26 @@ from paper_betting.select_bets import ROOT, LEDGER, PRED_DIR, HEADERS, bankroll,
 
 ODDS_DIR = ROOT / "research/espn_odds_snapshots"
 DECISION_DIR = ROOT / "paper_betting/decision_reports"
-MIN_EV = .05
+MIN_EV = .08
+MIN_MODEL_PROBABILITY = .60
+MAX_DECIMAL_ODDS = 2.00
+
+
+def eligible_quote(quote, winner_side):
+    """Conservative experimental guardrails; not a validated profitable model.
+
+    Avoid betting the opposite side of the predicted winner and avoid longshot
+    underdogs, which dominated the initial losing filtered ledger.
+    """
+    if quote["side"] != winner_side:
+        return "not_model_predicted_winner"
+    if quote["probability"] < MIN_MODEL_PROBABILITY:
+        return "model_confidence_below_60_percent"
+    if quote["decimal_odds"] > MAX_DECIMAL_ODDS:
+        return "odds_above_2_decimal"
+    if quote["ev"] < MIN_EV:
+        return "below_8_percent_ev"
+    return None
 
 def valid_number(value):
     return type(value) in (float, int)
@@ -86,11 +105,18 @@ def run(now=None):
             d["reason"]="duplicate_game_in_ledger"
         elif not quotes:
             d["reason"]="no_valid_team_side_prices"
-        elif quotes[0]["ev"] < MIN_EV:
-            d["reason"]="below_5_percent_ev"
         else:
-            d["reason"]="eligible_positive_ev"
-            eligible.append((quotes[0]["ev"],pred,game,quotes[0],d))
+            # Select only the highest-EV quote on the AI predicted winner.
+            # Do not switch to the opposite team merely because its odds look large.
+            winner_options = [q for q in quotes if q["side"] == winner_side]
+            winner_options.sort(key=lambda q:q["ev"],reverse=True)
+            candidate = winner_options[0] if winner_options else None
+            rejection = eligible_quote(candidate, winner_side) if candidate else "no_predicted_winner_price"
+            if rejection:
+                d["reason"] = rejection
+            else:
+                d["reason"]="eligible_positive_ev"
+                eligible.append((candidate["ev"],pred,game,candidate,d))
     eligible.sort(key=lambda item:item[0],reverse=True)
     placed = []
     for edge,pred,game,q,d in eligible:
@@ -125,7 +151,7 @@ def run(now=None):
     DECISION_DIR.mkdir(parents=True,exist_ok=True)
     report_path=DECISION_DIR/("decisions-"+now.strftime("%Y%m%dT%H%M%SZ")+".json")
     report={"generated_at_utc":now.isoformat(),"odds_captured_at_utc":snapshot["captured_at_utc"],
-        "min_ev_pct":5,"bankroll_aud":balance,"available_exposure_aud":initial_exposure,
+        "min_ev_pct":8,"min_model_probability_pct":60,"max_decimal_odds":2.0,"bankroll_aud":balance,"available_exposure_aud":initial_exposure,
         "category_counts":counts,"decision_reasons":reasons,"decisions":decisions}
     report_path.write_text(json.dumps(report,indent=2)+"\n",encoding="utf-8")
     summary={"source":"Verified ESPN and validated external team-side odds","predictions":len(preds),
