@@ -64,7 +64,9 @@ jobs:
         continue-on-error: true
         run: python -m research.merge_free_odds
       - name: Test decision reporting and quote selection
-        run: python -m unittest discover -s tests -p 'test_paper_decision_quotes.py'
+        run: |
+          python -m unittest discover -s tests -p 'test_paper_decision_quotes.py'
+          python -m unittest discover -s tests -p 'test_conservative_paper_selection.py'
       - name: Create virtual bets only when fresh odds are available
         if: steps.odds.outcome == 'success'
         run: python -m paper_betting.place_espn_bets
