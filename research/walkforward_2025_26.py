@@ -42,8 +42,13 @@ def main(source,output):
             away=row["Away"].strip()
             hp,ap=price(row["ML_Home"]),price(row["ML_Away"])
             win=int(row["home_win"])
+            total=float(row["Points"])
+            margin=float(row["Win_Margin"])
+            home_points=(total+margin)/2
+            away_points=(total-margin)/2
+            if not all(math.isfinite(v) and v>=0 for v in (home_points,away_points)):continue
             if not home or not away or home==away or win not in (0,1):continue
-            games.append((date,home,away,hp,ap,win))
+            games.append((date,home,away,hp,ap,win,home_points,away_points))
         except (ValueError,KeyError,TypeError,OverflowError):continue
     games.sort(key=lambda g:(g[0],g[1],g[2]))
     if not games:raise RuntimeError("No valid historical games")
@@ -55,7 +60,7 @@ def main(source,output):
         batch=[g for g in games if g[0]==date]
         pending=[]
         # Every same-day game is predicted before updating that day's results.
-        for day,home,away,hp,ap,win in batch:
+        for day,home,away,hp,ap,win,home_points,away_points in batch:
             key=(day,home,away)
             if key in unique:raise RuntimeError("Duplicate game "+str(key))
             unique.add(key)
@@ -69,12 +74,12 @@ def main(source,output):
                 report_rows.append({"date":str(day),"home":home,"away":away,
                     "home_prob":p,"away_prob":1-p,"home_odds":hp,"away_odds":ap,
                     "home_win":win,"training_games":len(x_train)})
-            pending.append((home,away,win,feat))
+            pending.append((home,away,win,feat,home_points,away_points))
         # Update only after all games of that date were evaluated.
-        for home,away,win,feat in pending:
+        for home,away,win,feat,home_points,away_points in pending:
             x_train.append(feat);y_train.append(win)
-            history.setdefault(home,[]).append((win,0,0))
-            history.setdefault(away,[]).append((1-win,0,0))
+            history.setdefault(home,[]).append((win,home_points-away_points,home_points))
+            history.setdefault(away,[]).append((1-win,away_points-home_points,away_points))
     # Note: intentionally uses only rolling win-rate feature in practical effect;
     # margin and points features are zero because CSV has no per-team final scores.
     strategies={"old":{"balance":100.0,"bets":0,"wins":0,"losses":0,"peak":100.0,"max_dd":0.0},
