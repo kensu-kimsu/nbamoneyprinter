@@ -1,0 +1,55 @@
+[
+    {
+        "scraped_date": "2026-11-08 18:56:41 UTC",
+        "match_date": "2026-11-08 20:30:00 UTC",
+        "season": null,
+        "match_link": "https://www.oddsportal.com/basketball/h2h/chicago-bulls-bPjc49q0/philadelphia-76ers-vwRW2QSh/#bRkAreCt",
+        "home_team": "Chicago Bulls",
+        "away_team": "Philadelphia 76ers",
+        "league_name": "NBA",
+        "home_score": null,
+        "away_score": null,
+        "partial_results": null,
+        "venue": "United Center",
+        "venue_town": "Chicago, IL",
+        "venue_country": "USA",
+        "match_info": null,
+        "home_away_market": [
+            {
+                "1": "4.20",
+                "2": "1.25",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "4.10",
+                "2": "1.25",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "4.29",
+                "2": "1.23",
+                "bookmaker_name": "DraftKings",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "4.10",
+                "2": "1.25",
+                "bookmaker_name": "Fanatics",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "4.00",
+                "2": "1.27",
+                "bookmaker_name": "Fanduel",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            }
+        ]
+    }
+]
