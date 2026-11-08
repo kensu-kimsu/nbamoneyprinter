@@ -12,15 +12,16 @@
 <text x="72" y="149.0" fill="#8b949e" text-anchor="end" font-family="Arial,sans-serif" font-size="12">99.52</text>
 <line x1="84" x2="972" y1="76.0" y2="76.0" stroke="#30363d"/>
 <text x="72" y="81.0" fill="#8b949e" text-anchor="end" font-family="Arial,sans-serif" font-size="12">101.76</text>
-<polyline fill="none" stroke="#58a6ff" stroke-width="3" stroke-linejoin="round" points="84.0,129.3 306.0,262.3 528.0,275.9 750.0,300.1 972.0,307.4"/>
-<polyline fill="none" stroke="#3fb950" stroke-width="3" stroke-linejoin="round" points="84.0,129.3 306.0,106.3 528.0,168.1 750.0,317.7 972.0,317.7"/>
+<polyline fill="none" stroke="#58a6ff" stroke-width="3" stroke-linejoin="round" points="84.0,129.3 261.6,262.3 439.2,275.9 616.8,300.1 794.4,307.4 972.0,307.4"/>
+<polyline fill="none" stroke="#3fb950" stroke-width="3" stroke-linejoin="round" points="84.0,129.3 261.6,106.3 439.2,168.1 616.8,317.7 794.4,317.7 972.0,317.7"/>
 <circle cx="972.0" cy="307.4" r="4" fill="#58a6ff"/>
 <circle cx="972.0" cy="317.7" r="4" fill="#3fb950"/>
 <text x="84.0" y="377" text-anchor="middle" fill="#8b949e" font-family="Arial,sans-serif" font-size="12">04 Nov</text>
-<text x="306.0" y="377" text-anchor="middle" fill="#8b949e" font-family="Arial,sans-serif" font-size="12">05 Nov</text>
-<text x="528.0" y="377" text-anchor="middle" fill="#8b949e" font-family="Arial,sans-serif" font-size="12">06 Nov</text>
-<text x="750.0" y="377" text-anchor="middle" fill="#8b949e" font-family="Arial,sans-serif" font-size="12">07 Nov</text>
-<text x="972.0" y="377" text-anchor="middle" fill="#8b949e" font-family="Arial,sans-serif" font-size="12">08 Nov</text>
+<text x="261.6" y="377" text-anchor="middle" fill="#8b949e" font-family="Arial,sans-serif" font-size="12">05 Nov</text>
+<text x="439.2" y="377" text-anchor="middle" fill="#8b949e" font-family="Arial,sans-serif" font-size="12">06 Nov</text>
+<text x="616.8" y="377" text-anchor="middle" fill="#8b949e" font-family="Arial,sans-serif" font-size="12">07 Nov</text>
+<text x="794.4" y="377" text-anchor="middle" fill="#8b949e" font-family="Arial,sans-serif" font-size="12">08 Nov</text>
+<text x="972.0" y="377" text-anchor="middle" fill="#8b949e" font-family="Arial,sans-serif" font-size="12">09 Nov</text>
 <line x1="84" y1="402" x2="111" y2="402" stroke="#58a6ff" stroke-width="4"/>
 <text x="119" y="407" fill="#c9d1d9" font-family="Arial,sans-serif" font-size="13">All AI picks: A$94.12</text>
 <line x1="380" y1="402" x2="407" y2="402" stroke="#3fb950" stroke-width="4"/>
