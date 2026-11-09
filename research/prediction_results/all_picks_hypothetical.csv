@@ -33,11 +33,11 @@ game_id,game_time_utc,predicted_winner,actual_winner,result_status,bookmaker,odd
 401909944,2026-11-08T03:00:00+00:00,Portland Trail Blazers,San Antonio Spurs,final,DraftKings,2026-11-07T19:23:19.845194+00:00,2.71,0.95,-0.95,94.12,lost
 401909945,2026-11-08T20:30:00+00:00,Philadelphia 76ers,Philadelphia 76ers,final,DraftKings,2026-11-08T19:37:40.356256+00:00,1.212766,0.94,0.20,94.32,won
 401909946,2026-11-08T23:00:00+00:00,Detroit Pistons,Los Angeles Lakers,final,DraftKings,2026-11-08T19:37:40.356256+00:00,1.371747,0.94,-0.94,93.38,lost
-401909947,2026-11-09T00:00:00+00:00,Minnesota Timberwolves,,awaiting_final,DraftKings,2026-11-08T19:37:40.356256+00:00,1.153846,,,,awaiting_final
-401909948,2026-11-09T00:30:00+00:00,Dallas Mavericks,,awaiting_final,DraftKings,2026-11-08T19:37:40.356256+00:00,1.324675,,,,awaiting_final
-401909949,2026-11-09T01:00:00+00:00,Boston Celtics,,awaiting_final,DraftKings,2026-11-08T19:37:40.356256+00:00,1.133333,,,,awaiting_final
-401909950,2026-11-09T02:00:00+00:00,New Orleans Pelicans,,scheduled,DraftKings,2026-11-08T19:37:40.356256+00:00,1.826446,,,,awaiting_final
-401909951,2026-11-09T02:00:00+00:00,Miami Heat,,scheduled,DraftKings,2026-11-08T19:37:40.356256+00:00,1.224215,,,,awaiting_final
+401909947,2026-11-09T00:00:00+00:00,Minnesota Timberwolves,Minnesota Timberwolves,final,DraftKings,2026-11-08T19:37:40.356256+00:00,1.153846,0.93,0.14,93.52,won
+401909948,2026-11-09T00:30:00+00:00,Dallas Mavericks,Dallas Mavericks,final,DraftKings,2026-11-08T19:37:40.356256+00:00,1.324675,0.94,0.31,93.83,won
+401909949,2026-11-09T01:00:00+00:00,Boston Celtics,Boston Celtics,final,DraftKings,2026-11-08T19:37:40.356256+00:00,1.133333,0.94,0.13,93.96,won
+401909950,2026-11-09T02:00:00+00:00,New Orleans Pelicans,LA Clippers,final,DraftKings,2026-11-08T19:37:40.356256+00:00,1.826446,0.94,-0.94,93.02,lost
+401909951,2026-11-09T02:00:00+00:00,Miami Heat,Miami Heat,final,DraftKings,2026-11-08T19:37:40.356256+00:00,1.224215,0.93,0.21,93.23,won
 401909952,2026-11-10T00:00:00+00:00,Los Angeles Lakers,,scheduled,,,,,,,unpriced
 401909953,2026-11-10T00:00:00+00:00,Cleveland Cavaliers,,scheduled,,,,,,,unpriced
 401909954,2026-11-10T00:00:00+00:00,Detroit Pistons,,scheduled,,,,,,,unpriced
