@@ -1,0 +1,99 @@
+{
+  "captured_at_utc": "2026-11-10T21:16:44.930104+00:00",
+  "date_us_eastern": "2026-11-10",
+  "scheduled_future_games": 6,
+  "games_with_verified_team_side_odds": 6,
+  "games": [
+    {
+      "game_id": "401909960",
+      "home": "New York Knicks",
+      "away": "Milwaukee Bucks",
+      "tipoff_utc": "2026-11-11T00:30:00+00:00",
+      "books": [
+        {
+          "bookmaker": "DraftKings",
+          "home_decimal": 1.096154,
+          "away_decimal": 7.7,
+          "home_american": -1040,
+          "away_american": 670
+        }
+      ]
+    },
+    {
+      "game_id": "401909961",
+      "home": "Philadelphia 76ers",
+      "away": "Boston Celtics",
+      "tipoff_utc": "2026-11-11T01:00:00+00:00",
+      "books": [
+        {
+          "bookmaker": "DraftKings",
+          "home_decimal": 1.990099,
+          "away_decimal": 1.854701,
+          "home_american": -101,
+          "away_american": -117
+        }
+      ]
+    },
+    {
+      "game_id": "401909962",
+      "home": "Phoenix Suns",
+      "away": "LA Clippers",
+      "tipoff_utc": "2026-11-11T02:00:00+00:00",
+      "books": [
+        {
+          "bookmaker": "DraftKings",
+          "home_decimal": 1.578035,
+          "away_decimal": 2.45,
+          "home_american": -173,
+          "away_american": 145
+        }
+      ]
+    },
+    {
+      "game_id": "401909963",
+      "home": "Utah Jazz",
+      "away": "Miami Heat",
+      "tipoff_utc": "2026-11-11T02:00:00+00:00",
+      "books": [
+        {
+          "bookmaker": "DraftKings",
+          "home_decimal": 4.41,
+          "away_decimal": 1.228311,
+          "home_american": 341,
+          "away_american": -438
+        }
+      ]
+    },
+    {
+      "game_id": "401909964",
+      "home": "Sacramento Kings",
+      "away": "Orlando Magic",
+      "tipoff_utc": "2026-11-11T03:00:00+00:00",
+      "books": [
+        {
+          "bookmaker": "DraftKings",
+          "home_decimal": 2.9,
+          "away_decimal": 1.436681,
+          "home_american": 190,
+          "away_american": -229
+        }
+      ]
+    },
+    {
+      "game_id": "401909965",
+      "home": "Portland Trail Blazers",
+      "away": "Oklahoma City Thunder",
+      "tipoff_utc": "2026-11-11T04:00:00+00:00",
+      "books": [
+        {
+          "bookmaker": "DraftKings",
+          "home_decimal": 2.06,
+          "away_decimal": 1.8,
+          "home_american": 106,
+          "away_american": -125
+        }
+      ]
+    }
+  ],
+  "paper_bets_enabled": false
+}
