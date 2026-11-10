@@ -12,9 +12,9 @@
 <text x="72" y="149.0" fill="#8b949e" text-anchor="end" font-family="Arial,sans-serif" font-size="12">99.38</text>
 <line x1="84" x2="972" y1="76.0" y2="76.0" stroke="#30363d"/>
 <text x="72" y="81.0" fill="#8b949e" text-anchor="end" font-family="Arial,sans-serif" font-size="12">101.76</text>
-<polyline fill="none" stroke="#58a6ff" stroke-width="3" stroke-linejoin="round" points="84.0,126.2 232.0,251.5 380.0,264.4 528.0,287.2 676.0,294.1 824.0,319.5 972.0,319.5"/>
+<polyline fill="none" stroke="#58a6ff" stroke-width="3" stroke-linejoin="round" points="84.0,126.2 232.0,251.5 380.0,264.4 528.0,287.2 676.0,294.1 824.0,319.5 972.0,255.2"/>
 <polyline fill="none" stroke="#3fb950" stroke-width="3" stroke-linejoin="round" points="84.0,126.2 232.0,104.5 380.0,162.8 528.0,303.8 676.0,303.8 824.0,303.8 972.0,303.8"/>
-<circle cx="972.0" cy="319.5" r="4" fill="#58a6ff"/>
+<circle cx="972.0" cy="255.2" r="4" fill="#58a6ff"/>
 <circle cx="972.0" cy="303.8" r="4" fill="#3fb950"/>
 <text x="84.0" y="377" text-anchor="middle" fill="#8b949e" font-family="Arial,sans-serif" font-size="12">04 Nov</text>
 <text x="232.0" y="377" text-anchor="middle" fill="#8b949e" font-family="Arial,sans-serif" font-size="12">05 Nov</text>
@@ -23,7 +23,7 @@
 <text x="824.0" y="377" text-anchor="middle" fill="#8b949e" font-family="Arial,sans-serif" font-size="12">09 Nov</text>
 <text x="972.0" y="377" text-anchor="middle" fill="#8b949e" font-family="Arial,sans-serif" font-size="12">10 Nov</text>
 <line x1="84" y1="402" x2="111" y2="402" stroke="#58a6ff" stroke-width="4"/>
-<text x="119" y="407" fill="#c9d1d9" font-family="Arial,sans-serif" font-size="13">All AI picks: A$93.23</text>
+<text x="119" y="407" fill="#c9d1d9" font-family="Arial,sans-serif" font-size="13">All AI picks: A$95.48</text>
 <line x1="380" y1="402" x2="407" y2="402" stroke="#3fb950" stroke-width="4"/>
 <text x="415" y="407" fill="#c9d1d9" font-family="Arial,sans-serif" font-size="13">Filtered EV: A$93.78</text>
 </svg>
