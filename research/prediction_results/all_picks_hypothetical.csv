@@ -46,8 +46,8 @@ game_id,game_time_utc,predicted_winner,actual_winner,result_status,bookmaker,odd
 401909957,2026-11-10T01:30:00+00:00,Houston Rockets,Houston Rockets,final,DraftKings,2026-11-09T23:46:06.535978+00:00,1.578035,0.95,0.55,95.48,won
 401909958,2026-11-10T02:00:00+00:00,San Antonio Spurs,San Antonio Spurs,final,DraftKings,2026-11-09T23:46:06.535978+00:00,1.268817,0.95,0.26,95.74,won
 401909959,2026-11-10T03:00:00+00:00,Golden State Warriors,Golden State Warriors,final,DraftKings,2026-11-09T23:46:06.535978+00:00,1.175747,0.96,0.17,95.91,won
-401909960,2026-11-11T00:30:00+00:00,New York Knicks,,scheduled,DraftKings,2026-11-10T21:16:44.930104+00:00,1.096154,,,,awaiting_final
-401909961,2026-11-11T01:00:00+00:00,Boston Celtics,,scheduled,DraftKings,2026-11-10T21:16:44.930104+00:00,1.854701,,,,awaiting_final
+401909960,2026-11-11T00:30:00+00:00,New York Knicks,,awaiting_final,DraftKings,2026-11-10T21:16:44.930104+00:00,1.096154,,,,awaiting_final
+401909961,2026-11-11T01:00:00+00:00,Boston Celtics,,awaiting_final,DraftKings,2026-11-10T21:16:44.930104+00:00,1.854701,,,,awaiting_final
 401909962,2026-11-11T02:00:00+00:00,LA Clippers,,scheduled,DraftKings,2026-11-10T21:16:44.930104+00:00,2.45,,,,awaiting_final
 401909963,2026-11-11T02:00:00+00:00,Miami Heat,,scheduled,DraftKings,2026-11-10T21:16:44.930104+00:00,1.228311,,,,awaiting_final
 401909964,2026-11-11T03:00:00+00:00,Orlando Magic,,scheduled,DraftKings,2026-11-10T21:16:44.930104+00:00,1.436681,,,,awaiting_final
