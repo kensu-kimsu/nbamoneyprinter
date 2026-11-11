@@ -1,0 +1,79 @@
+{
+  "audited_at_utc": "2026-11-11T21:59:26.614427+00:00",
+  "scheduled_future_games": 10,
+  "predicted_future_games": 10,
+  "missing_predictions": [],
+  "predictions_not_on_future_slate": [
+    "401909976",
+    "401909977",
+    "401909978",
+    "401909979"
+  ],
+  "matched_h2h_games": [],
+  "missing_or_stale_h2h_odds": [
+    {
+      "game_id": "401909966",
+      "home": "Indiana Pacers",
+      "away": "Washington Wizards",
+      "tipoff_utc": "2026-11-12T00:00:00+00:00"
+    },
+    {
+      "game_id": "401909967",
+      "home": "New York Knicks",
+      "away": "Cleveland Cavaliers",
+      "tipoff_utc": "2026-11-12T00:00:00+00:00"
+    },
+    {
+      "game_id": "401909968",
+      "home": "Toronto Raptors",
+      "away": "Boston Celtics",
+      "tipoff_utc": "2026-11-12T00:00:00+00:00"
+    },
+    {
+      "game_id": "401909969",
+      "home": "Chicago Bulls",
+      "away": "San Antonio Spurs",
+      "tipoff_utc": "2026-11-12T01:00:00+00:00"
+    },
+    {
+      "game_id": "401909970",
+      "home": "Memphis Grizzlies",
+      "away": "Denver Nuggets",
+      "tipoff_utc": "2026-11-12T01:00:00+00:00"
+    },
+    {
+      "game_id": "401909971",
+      "home": "Milwaukee Bucks",
+      "away": "Los Angeles Lakers",
+      "tipoff_utc": "2026-11-12T01:00:00+00:00"
+    },
+    {
+      "game_id": "401909972",
+      "home": "New Orleans Pelicans",
+      "away": "Brooklyn Nets",
+      "tipoff_utc": "2026-11-12T01:00:00+00:00"
+    },
+    {
+      "game_id": "401909973",
+      "home": "Utah Jazz",
+      "away": "Orlando Magic",
+      "tipoff_utc": "2026-11-12T02:00:00+00:00"
+    },
+    {
+      "game_id": "401909974",
+      "home": "Houston Rockets",
+      "away": "Golden State Warriors",
+      "tipoff_utc": "2026-11-12T02:30:00+00:00"
+    },
+    {
+      "game_id": "401909975",
+      "home": "Portland Trail Blazers",
+      "away": "Oklahoma City Thunder",
+      "tipoff_utc": "2026-11-12T03:00:00+00:00"
+    }
+  ],
+  "complete_prediction_coverage": false,
+  "complete_odds_coverage": false,
+  "note": "H2H over/under side mapping is unverified; matched market does not authorize a bet.",
+  "prediction_file": "predictions-20261111T215249Z.json"
+}
