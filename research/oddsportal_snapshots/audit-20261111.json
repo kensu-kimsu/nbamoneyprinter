@@ -1,0 +1,58 @@
+{
+  "date_us_eastern": "2026-11-11",
+  "scheduled_games": 10,
+  "scraped_records": 10,
+  "exact_matches": 0,
+  "matched_game_ids": [],
+  "unmatched_game_ids": [
+    "401909966",
+    "401909967",
+    "401909968",
+    "401909969",
+    "401909970",
+    "401909971",
+    "401909972",
+    "401909973",
+    "401909974",
+    "401909975"
+  ],
+  "schema": {
+    "rows": 10,
+    "fields": [
+      "away_score",
+      "away_team",
+      "home_away_market",
+      "home_score",
+      "home_team",
+      "league_name",
+      "match_date",
+      "match_info",
+      "match_link",
+      "partial_results",
+      "scraped_date",
+      "season",
+      "venue",
+      "venue_country",
+      "venue_town"
+    ],
+    "first_row_field_types": {
+      "scraped_date": "str",
+      "match_date": "str",
+      "season": "NoneType",
+      "match_link": "str",
+      "home_team": "str",
+      "away_team": "str",
+      "league_name": "str",
+      "home_score": "NoneType",
+      "away_score": "NoneType",
+      "partial_results": "NoneType",
+      "venue": "str",
+      "venue_town": "str",
+      "venue_country": "str",
+      "match_info": "NoneType",
+      "home_away_market": "list"
+    }
+  },
+  "paper_bets_enabled": false,
+  "reason": "Bookmaker outcome mapping and model calibration not yet validated"
+}
