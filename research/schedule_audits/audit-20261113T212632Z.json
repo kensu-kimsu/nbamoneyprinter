@@ -1,0 +1,74 @@
+{
+  "audited_at_utc": "2026-11-13T21:26:32.704036+00:00",
+  "scheduled_future_games": 9,
+  "predicted_future_games": 9,
+  "missing_predictions": [],
+  "predictions_not_on_future_slate": [
+    "401909980",
+    "401909981",
+    "401909982",
+    "401909983",
+    "401909984"
+  ],
+  "matched_h2h_games": [],
+  "missing_or_stale_h2h_odds": [
+    {
+      "game_id": "401909296",
+      "home": "Indiana Pacers",
+      "away": "New York Knicks",
+      "tipoff_utc": "2026-11-14T00:00:00+00:00"
+    },
+    {
+      "game_id": "401909297",
+      "home": "Orlando Magic",
+      "away": "Milwaukee Bucks",
+      "tipoff_utc": "2026-11-14T00:00:00+00:00"
+    },
+    {
+      "game_id": "401909298",
+      "home": "Miami Heat",
+      "away": "Cleveland Cavaliers",
+      "tipoff_utc": "2026-11-14T01:00:00+00:00"
+    },
+    {
+      "game_id": "401909299",
+      "home": "Chicago Bulls",
+      "away": "Atlanta Hawks",
+      "tipoff_utc": "2026-11-14T01:00:00+00:00"
+    },
+    {
+      "game_id": "401909300",
+      "home": "New Orleans Pelicans",
+      "away": "Memphis Grizzlies",
+      "tipoff_utc": "2026-11-14T01:00:00+00:00"
+    },
+    {
+      "game_id": "401909301",
+      "home": "Houston Rockets",
+      "away": "Utah Jazz",
+      "tipoff_utc": "2026-11-14T01:30:00+00:00"
+    },
+    {
+      "game_id": "401909302",
+      "home": "San Antonio Spurs",
+      "away": "Golden State Warriors",
+      "tipoff_utc": "2026-11-14T02:30:00+00:00"
+    },
+    {
+      "game_id": "401909303",
+      "home": "Sacramento Kings",
+      "away": "Portland Trail Blazers",
+      "tipoff_utc": "2026-11-14T03:00:00+00:00"
+    },
+    {
+      "game_id": "401909304",
+      "home": "LA Clippers",
+      "away": "Oklahoma City Thunder",
+      "tipoff_utc": "2026-11-14T03:30:00+00:00"
+    }
+  ],
+  "complete_prediction_coverage": false,
+  "complete_odds_coverage": false,
+  "note": "H2H over/under side mapping is unverified; matched market does not authorize a bet.",
+  "prediction_file": "predictions-20261113T212435Z.json"
+}
