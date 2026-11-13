@@ -1,0 +1,149 @@
+{
+  "captured_at_utc": "2026-11-13T21:24:51.915046+00:00",
+  "date_us_eastern": "2026-11-13",
+  "scheduled_future_games": 9,
+  "games_with_verified_team_side_odds": 9,
+  "games": [
+    {
+      "game_id": "401909296",
+      "home": "Indiana Pacers",
+      "away": "New York Knicks",
+      "tipoff_utc": "2026-11-14T00:00:00+00:00",
+      "books": [
+        {
+          "bookmaker": "DraftKings",
+          "home_decimal": 3.71,
+          "away_decimal": 1.296736,
+          "home_american": 271,
+          "away_american": -337
+        }
+      ]
+    },
+    {
+      "game_id": "401909297",
+      "home": "Orlando Magic",
+      "away": "Milwaukee Bucks",
+      "tipoff_utc": "2026-11-14T00:00:00+00:00",
+      "books": [
+        {
+          "bookmaker": "DraftKings",
+          "home_decimal": 1.253165,
+          "away_decimal": 4.12,
+          "home_american": -395,
+          "away_american": 312
+        }
+      ]
+    },
+    {
+      "game_id": "401909298",
+      "home": "Miami Heat",
+      "away": "Cleveland Cavaliers",
+      "tipoff_utc": "2026-11-14T01:00:00+00:00",
+      "books": [
+        {
+          "bookmaker": "DraftKings",
+          "home_decimal": 1.740741,
+          "away_decimal": 2.14,
+          "home_american": -135,
+          "away_american": 114
+        }
+      ]
+    },
+    {
+      "game_id": "401909299",
+      "home": "Chicago Bulls",
+      "away": "Atlanta Hawks",
+      "tipoff_utc": "2026-11-14T01:00:00+00:00",
+      "books": [
+        {
+          "bookmaker": "DraftKings",
+          "home_decimal": 3.27,
+          "away_decimal": 1.361011,
+          "home_american": 227,
+          "away_american": -277
+        }
+      ]
+    },
+    {
+      "game_id": "401909300",
+      "home": "New Orleans Pelicans",
+      "away": "Memphis Grizzlies",
+      "tipoff_utc": "2026-11-14T01:00:00+00:00",
+      "books": [
+        {
+          "bookmaker": "DraftKings",
+          "home_decimal": 2.36,
+          "away_decimal": 1.617284,
+          "home_american": 136,
+          "away_american": -162
+        }
+      ]
+    },
+    {
+      "game_id": "401909301",
+      "home": "Houston Rockets",
+      "away": "Utah Jazz",
+      "tipoff_utc": "2026-11-14T01:30:00+00:00",
+      "books": [
+        {
+          "bookmaker": "DraftKings",
+          "home_decimal": 1.084746,
+          "away_decimal": 8.4,
+          "home_american": -1180,
+          "away_american": 740
+        }
+      ]
+    },
+    {
+      "game_id": "401909302",
+      "home": "San Antonio Spurs",
+      "away": "Golden State Warriors",
+      "tipoff_utc": "2026-11-14T02:30:00+00:00",
+      "books": [
+        {
+          "bookmaker": "DraftKings",
+          "home_decimal": 1.149254,
+          "away_decimal": 5.87,
+          "home_american": -670,
+          "away_american": 487
+        }
+      ]
+    },
+    {
+      "game_id": "401909303",
+      "home": "Sacramento Kings",
+      "away": "Portland Trail Blazers",
+      "tipoff_utc": "2026-11-14T03:00:00+00:00",
+      "books": [
+        {
+          "bookmaker": "DraftKings",
+          "home_decimal": 4.61,
+          "away_decimal": 1.213675,
+          "home_american": 361,
+          "away_american": -468
+        }
+      ]
+    },
+    {
+      "game_id": "401909304",
+      "home": "LA Clippers",
+      "away": "Oklahoma City Thunder",
+      "tipoff_utc": "2026-11-14T03:30:00+00:00",
+      "books": [
+        {
+          "bookmaker": "DraftKings",
+          "home_decimal": 3.31,
+          "away_decimal": 1.353357,
+          "home_american": 231,
+          "away_american": -283
+        }
+      ]
+    }
+  ],
+  "paper_bets_enabled": false,
+  "source": "ESPN + validated external snapshots",
+  "external_prices_added": 0,
+  "external_errors": [],
+  "missing_games": [],
+  "coverage_pct": 100.0
+}
