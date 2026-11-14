@@ -1,0 +1,84 @@
+{
+  "captured_at_utc": "2026-11-14T19:54:20.928298+00:00",
+  "date_us_eastern": "2026-11-14",
+  "scheduled_future_games": 5,
+  "games_with_verified_team_side_odds": 5,
+  "games": [
+    {
+      "game_id": "401909980",
+      "home": "New Orleans Pelicans",
+      "away": "Denver Nuggets",
+      "tipoff_utc": "2026-11-15T00:00:00+00:00",
+      "books": [
+        {
+          "bookmaker": "DraftKings",
+          "home_decimal": 5.83,
+          "away_decimal": 1.149254,
+          "home_american": 483,
+          "away_american": -670
+        }
+      ]
+    },
+    {
+      "game_id": "401909981",
+      "home": "Cleveland Cavaliers",
+      "away": "Dallas Mavericks",
+      "tipoff_utc": "2026-11-15T00:30:00+00:00",
+      "books": [
+        {
+          "bookmaker": "DraftKings",
+          "home_decimal": 2.64,
+          "away_decimal": 1.510204,
+          "home_american": 164,
+          "away_american": -196
+        }
+      ]
+    },
+    {
+      "game_id": "401909982",
+      "home": "Miami Heat",
+      "away": "Detroit Pistons",
+      "tipoff_utc": "2026-11-15T01:00:00+00:00",
+      "books": [
+        {
+          "bookmaker": "DraftKings",
+          "home_decimal": 2.46,
+          "away_decimal": 1.578035,
+          "home_american": 146,
+          "away_american": -173
+        }
+      ]
+    },
+    {
+      "game_id": "401909983",
+      "home": "Memphis Grizzlies",
+      "away": "Brooklyn Nets",
+      "tipoff_utc": "2026-11-15T01:00:00+00:00",
+      "books": [
+        {
+          "bookmaker": "DraftKings",
+          "home_decimal": 1.819672,
+          "away_decimal": 2.03,
+          "home_american": -122,
+          "away_american": 103
+        }
+      ]
+    },
+    {
+      "game_id": "401909984",
+      "home": "Minnesota Timberwolves",
+      "away": "Chicago Bulls",
+      "tipoff_utc": "2026-11-15T01:00:00+00:00",
+      "books": [
+        {
+          "bookmaker": "DraftKings",
+          "home_decimal": 1.092593,
+          "away_decimal": 7.9,
+          "home_american": -1080,
+          "away_american": 690
+        }
+      ]
+    }
+  ],
+  "paper_bets_enabled": false
+}
