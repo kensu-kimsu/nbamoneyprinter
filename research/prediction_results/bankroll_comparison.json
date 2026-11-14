@@ -10,13 +10,13 @@
   },
   "all_ai_winners_hypothetical": {
     "total_predictions": 81,
-    "completed_games": 67,
-    "priced_completed_games": 63,
+    "completed_games": 76,
+    "priced_completed_games": 72,
     "completed_games_without_verified_odds": 4,
-    "wins": 41,
-    "losses": 22,
-    "profit_aud": -6.15,
-    "bankroll_aud": 93.85
+    "wins": 46,
+    "losses": 26,
+    "profit_aud": -8.64,
+    "bankroll_aud": 91.36
   },
   "comparison_caveat": "The all-picks hypothetical is restricted to games with saved, verified pre-tipoff prices. Unpriced games are excluded, not assigned invented odds or zero-profit bets. Each settled hypothetical bet risks 1% of its simulated bankroll, compounded in scheduled tipoff order. It does not model the actual strategy's 5% concurrent exposure limit or real-time bet availability. This is an illustrative counterfactual, not a directly equivalent execution backtest."
 }
