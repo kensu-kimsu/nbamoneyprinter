@@ -75,11 +75,11 @@ game_id,game_time_utc,predicted_winner,actual_winner,result_status,bookmaker,odd
 401909302,2026-11-14T02:30:00+00:00,San Antonio Spurs,San Antonio Spurs,final,DraftKings,2026-11-13T21:24:51.915046+00:00,1.149254,0.92,0.14,92.08,won
 401909303,2026-11-14T03:00:00+00:00,Portland Trail Blazers,Portland Trail Blazers,final,DraftKings,2026-11-13T21:24:51.915046+00:00,1.213675,0.92,0.20,92.28,won
 401909304,2026-11-14T03:30:00+00:00,Oklahoma City Thunder,LA Clippers,final,DraftKings,2026-11-13T21:24:51.915046+00:00,1.353357,0.92,-0.92,91.36,lost
-401909980,2026-11-15T00:00:00+00:00,Denver Nuggets,,scheduled,DraftKings,2026-11-14T19:54:20.928298+00:00,1.149254,,,,awaiting_final
-401909981,2026-11-15T00:30:00+00:00,Dallas Mavericks,,scheduled,DraftKings,2026-11-14T19:54:20.928298+00:00,1.510204,,,,awaiting_final
-401909982,2026-11-15T01:00:00+00:00,Detroit Pistons,,scheduled,DraftKings,2026-11-14T19:54:20.928298+00:00,1.578035,,,,awaiting_final
-401909983,2026-11-15T01:00:00+00:00,Memphis Grizzlies,,scheduled,DraftKings,2026-11-14T19:54:20.928298+00:00,1.819672,,,,awaiting_final
-401909984,2026-11-15T01:00:00+00:00,Minnesota Timberwolves,,scheduled,DraftKings,2026-11-14T19:54:20.928298+00:00,1.092593,,,,awaiting_final
+401909980,2026-11-15T00:00:00+00:00,Denver Nuggets,,awaiting_final,DraftKings,2026-11-14T19:54:20.928298+00:00,1.149254,,,,awaiting_final
+401909981,2026-11-15T00:30:00+00:00,Dallas Mavericks,,awaiting_final,DraftKings,2026-11-14T19:54:20.928298+00:00,1.510204,,,,awaiting_final
+401909982,2026-11-15T01:00:00+00:00,Detroit Pistons,,awaiting_final,DraftKings,2026-11-14T19:54:20.928298+00:00,1.578035,,,,awaiting_final
+401909983,2026-11-15T01:00:00+00:00,Memphis Grizzlies,,awaiting_final,DraftKings,2026-11-14T19:54:20.928298+00:00,1.819672,,,,awaiting_final
+401909984,2026-11-15T01:00:00+00:00,Minnesota Timberwolves,,awaiting_final,DraftKings,2026-11-14T19:54:20.928298+00:00,1.092593,,,,awaiting_final
 401909985,2026-11-15T18:00:00+00:00,Philadelphia 76ers,,scheduled,,,,,,,unpriced
 401909986,2026-11-15T21:00:00+00:00,Los Angeles Lakers,,scheduled,,,,,,,unpriced
 401909987,2026-11-15T21:30:00+00:00,Charlotte Hornets,,scheduled,,,,,,,unpriced
