@@ -12,16 +12,16 @@
 <text x="72" y="149.0" fill="#8b949e" text-anchor="end" font-family="Arial,sans-serif" font-size="12">98.45</text>
 <line x1="84" x2="972" y1="76.0" y2="76.0" stroke="#30363d"/>
 <text x="72" y="81.0" fill="#8b949e" text-anchor="end" font-family="Arial,sans-serif" font-size="12">101.76</text>
-<polyline fill="none" stroke="#58a6ff" stroke-width="3" stroke-linejoin="round" points="84.0,112.1 158.0,202.2 232.0,211.5 306.0,227.9 380.0,232.8 454.0,251.1 528.0,196.1 602.0,203.9 676.0,238.4 750.0,238.4 824.0,289.5 898.0,327.5 972.0,306.9"/>
-<polyline fill="none" stroke="#3fb950" stroke-width="3" stroke-linejoin="round" points="84.0,112.1 158.0,96.5 232.0,138.4 306.0,239.8 380.0,239.8 454.0,239.8 528.0,239.8 602.0,259.1 676.0,259.1 750.0,259.1 824.0,259.1 898.0,243.5 972.0,243.5"/>
+<polyline fill="none" stroke="#58a6ff" stroke-width="3" stroke-linejoin="round" points="84.0,112.1 152.3,202.2 220.6,211.5 288.9,227.9 357.2,232.8 425.5,251.1 493.8,196.1 562.2,203.9 630.5,238.4 698.8,238.4 767.1,289.5 835.4,327.5 903.7,306.9 972.0,306.9"/>
+<polyline fill="none" stroke="#3fb950" stroke-width="3" stroke-linejoin="round" points="84.0,112.1 152.3,96.5 220.6,138.4 288.9,239.8 357.2,239.8 425.5,239.8 493.8,239.8 562.2,259.1 630.5,259.1 698.8,259.1 767.1,259.1 835.4,243.5 903.7,243.5 972.0,243.5"/>
 <circle cx="972.0" cy="306.9" r="4" fill="#58a6ff"/>
 <circle cx="972.0" cy="243.5" r="4" fill="#3fb950"/>
 <text x="84.0" y="377" text-anchor="middle" fill="#8b949e" font-family="Arial,sans-serif" font-size="12">04 Nov</text>
-<text x="232.0" y="377" text-anchor="middle" fill="#8b949e" font-family="Arial,sans-serif" font-size="12">06 Nov</text>
-<text x="454.0" y="377" text-anchor="middle" fill="#8b949e" font-family="Arial,sans-serif" font-size="12">09 Nov</text>
-<text x="602.0" y="377" text-anchor="middle" fill="#8b949e" font-family="Arial,sans-serif" font-size="12">11 Nov</text>
-<text x="824.0" y="377" text-anchor="middle" fill="#8b949e" font-family="Arial,sans-serif" font-size="12">14 Nov</text>
-<text x="972.0" y="377" text-anchor="middle" fill="#8b949e" font-family="Arial,sans-serif" font-size="12">16 Nov</text>
+<text x="288.9" y="377" text-anchor="middle" fill="#8b949e" font-family="Arial,sans-serif" font-size="12">07 Nov</text>
+<text x="425.5" y="377" text-anchor="middle" fill="#8b949e" font-family="Arial,sans-serif" font-size="12">09 Nov</text>
+<text x="630.5" y="377" text-anchor="middle" fill="#8b949e" font-family="Arial,sans-serif" font-size="12">12 Nov</text>
+<text x="767.1" y="377" text-anchor="middle" fill="#8b949e" font-family="Arial,sans-serif" font-size="12">14 Nov</text>
+<text x="972.0" y="377" text-anchor="middle" fill="#8b949e" font-family="Arial,sans-serif" font-size="12">17 Nov</text>
 <line x1="84" y1="402" x2="111" y2="402" stroke="#58a6ff" stroke-width="4"/>
 <text x="119" y="407" fill="#c9d1d9" font-family="Arial,sans-serif" font-size="13">All AI picks: A$90.51</text>
 <line x1="380" y1="402" x2="407" y2="402" stroke="#3fb950" stroke-width="4"/>
