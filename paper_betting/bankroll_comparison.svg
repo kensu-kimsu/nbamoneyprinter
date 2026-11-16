@@ -12,9 +12,9 @@
 <text x="72" y="149.0" fill="#8b949e" text-anchor="end" font-family="Arial,sans-serif" font-size="12">98.45</text>
 <line x1="84" x2="972" y1="76.0" y2="76.0" stroke="#30363d"/>
 <text x="72" y="81.0" fill="#8b949e" text-anchor="end" font-family="Arial,sans-serif" font-size="12">101.76</text>
-<polyline fill="none" stroke="#58a6ff" stroke-width="3" stroke-linejoin="round" points="84.0,112.1 158.0,202.2 232.0,211.5 306.0,227.9 380.0,232.8 454.0,251.1 528.0,196.1 602.0,203.9 676.0,238.4 750.0,238.4 824.0,289.5 898.0,327.5 972.0,322.3"/>
+<polyline fill="none" stroke="#58a6ff" stroke-width="3" stroke-linejoin="round" points="84.0,112.1 158.0,202.2 232.0,211.5 306.0,227.9 380.0,232.8 454.0,251.1 528.0,196.1 602.0,203.9 676.0,238.4 750.0,238.4 824.0,289.5 898.0,327.5 972.0,306.9"/>
 <polyline fill="none" stroke="#3fb950" stroke-width="3" stroke-linejoin="round" points="84.0,112.1 158.0,96.5 232.0,138.4 306.0,239.8 380.0,239.8 454.0,239.8 528.0,239.8 602.0,259.1 676.0,259.1 750.0,259.1 824.0,259.1 898.0,243.5 972.0,243.5"/>
-<circle cx="972.0" cy="322.3" r="4" fill="#58a6ff"/>
+<circle cx="972.0" cy="306.9" r="4" fill="#58a6ff"/>
 <circle cx="972.0" cy="243.5" r="4" fill="#3fb950"/>
 <text x="84.0" y="377" text-anchor="middle" fill="#8b949e" font-family="Arial,sans-serif" font-size="12">04 Nov</text>
 <text x="232.0" y="377" text-anchor="middle" fill="#8b949e" font-family="Arial,sans-serif" font-size="12">06 Nov</text>
@@ -23,7 +23,7 @@
 <text x="824.0" y="377" text-anchor="middle" fill="#8b949e" font-family="Arial,sans-serif" font-size="12">14 Nov</text>
 <text x="972.0" y="377" text-anchor="middle" fill="#8b949e" font-family="Arial,sans-serif" font-size="12">16 Nov</text>
 <line x1="84" y1="402" x2="111" y2="402" stroke="#58a6ff" stroke-width="4"/>
-<text x="119" y="407" fill="#c9d1d9" font-family="Arial,sans-serif" font-size="13">All AI picks: A$89.76</text>
+<text x="119" y="407" fill="#c9d1d9" font-family="Arial,sans-serif" font-size="13">All AI picks: A$90.51</text>
 <line x1="380" y1="402" x2="407" y2="402" stroke="#3fb950" stroke-width="4"/>
 <text x="415" y="407" fill="#c9d1d9" font-family="Arial,sans-serif" font-size="13">Filtered EV: A$93.60</text>
 </svg>
