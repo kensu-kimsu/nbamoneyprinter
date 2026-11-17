@@ -1,0 +1,567 @@
+{
+  "audited_at_utc": "2026-11-17T22:55:15.363945+00:00",
+  "scheduled_future_games": 5,
+  "predicted_future_games": 5,
+  "missing_predictions": [],
+  "predictions_not_on_future_slate": [
+    "401910007",
+    "401910008",
+    "401910009",
+    "401910010",
+    "401910011",
+    "401910012",
+    "401910013",
+    "401910014",
+    "401910015",
+    "401910016",
+    "401910017",
+    "401910018"
+  ],
+  "matched_h2h_games": [
+    {
+      "game_id": "401910002",
+      "home": "Toronto Raptors",
+      "away": "New York Knicks",
+      "tipoff_utc": "2026-11-18T00:30:00+00:00",
+      "markets": [
+        {
+          "bookmaker": "ladbrokes",
+          "market_id": "NBA-8f8a2f3ec675eb9594f72d7d3c4abaff-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:51:00.837920+00:00"
+        },
+        {
+          "bookmaker": "pointsbet",
+          "market_id": "NBA-8f8a2f3ec675eb9594f72d7d3c4abaff-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:51:00.863821+00:00"
+        },
+        {
+          "bookmaker": "neds",
+          "market_id": "NBA-8f8a2f3ec675eb9594f72d7d3c4abaff-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:51:00.837050+00:00"
+        },
+        {
+          "bookmaker": "betright",
+          "market_id": "NBA-8f8a2f3ec675eb9594f72d7d3c4abaff-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:47:44.041777+00:00"
+        },
+        {
+          "bookmaker": "tab",
+          "market_id": "NBA-8f8a2f3ec675eb9594f72d7d3c4abaff-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:50:30.723286+00:00"
+        },
+        {
+          "bookmaker": "unibet",
+          "market_id": "NBA-8f8a2f3ec675eb9594f72d7d3c4abaff-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:43:50.721597+00:00"
+        },
+        {
+          "bookmaker": "betr",
+          "market_id": "NBA-8f8a2f3ec675eb9594f72d7d3c4abaff-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:43:39.416925+00:00"
+        },
+        {
+          "bookmaker": "playup",
+          "market_id": "NBA-8f8a2f3ec675eb9594f72d7d3c4abaff-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:43:34.769993+00:00"
+        },
+        {
+          "bookmaker": "tabtouch",
+          "market_id": "NBA-8f8a2f3ec675eb9594f72d7d3c4abaff-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:47:25.461768+00:00"
+        },
+        {
+          "bookmaker": "palmerbet",
+          "market_id": "NBA-8f8a2f3ec675eb9594f72d7d3c4abaff-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:38:25.485296+00:00"
+        },
+        {
+          "bookmaker": "betdeluxe",
+          "market_id": "NBA-8f8a2f3ec675eb9594f72d7d3c4abaff-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:44:03.713229+00:00"
+        },
+        {
+          "bookmaker": "betnation",
+          "market_id": "NBA-8f8a2f3ec675eb9594f72d7d3c4abaff-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:44:03.864171+00:00"
+        },
+        {
+          "bookmaker": "pulsebet",
+          "market_id": "NBA-8f8a2f3ec675eb9594f72d7d3c4abaff-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:44:04.115369+00:00"
+        },
+        {
+          "bookmaker": "yesbet",
+          "market_id": "NBA-8f8a2f3ec675eb9594f72d7d3c4abaff-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:44:04.317542+00:00"
+        },
+        {
+          "bookmaker": "noisy",
+          "market_id": "NBA-8f8a2f3ec675eb9594f72d7d3c4abaff-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:44:04.509782+00:00"
+        },
+        {
+          "bookmaker": "surge",
+          "market_id": "NBA-8f8a2f3ec675eb9594f72d7d3c4abaff-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:44:04.769602+00:00"
+        },
+        {
+          "bookmaker": "bigbet",
+          "market_id": "NBA-8f8a2f3ec675eb9594f72d7d3c4abaff-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:44:05.192781+00:00"
+        },
+        {
+          "bookmaker": "mightybet",
+          "market_id": "NBA-8f8a2f3ec675eb9594f72d7d3c4abaff-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:44:05.409461+00:00"
+        },
+        {
+          "bookmaker": "betjet",
+          "market_id": "NBA-8f8a2f3ec675eb9594f72d7d3c4abaff-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:44:05.799417+00:00"
+        },
+        {
+          "bookmaker": "pinnacle",
+          "market_id": "NBA-8f8a2f3ec675eb9594f72d7d3c4abaff-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:51:35.994685+00:00"
+        }
+      ]
+    },
+    {
+      "game_id": "401910003",
+      "home": "Minnesota Timberwolves",
+      "away": "Portland Trail Blazers",
+      "tipoff_utc": "2026-11-18T01:00:00+00:00",
+      "markets": [
+        {
+          "bookmaker": "ladbrokes",
+          "market_id": "NBA-8d66a93f796b96fd7973ba7d9f6da9e1-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:51:00.837920+00:00"
+        },
+        {
+          "bookmaker": "pointsbet",
+          "market_id": "NBA-8d66a93f796b96fd7973ba7d9f6da9e1-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:51:00.863821+00:00"
+        },
+        {
+          "bookmaker": "neds",
+          "market_id": "NBA-8d66a93f796b96fd7973ba7d9f6da9e1-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:51:00.837050+00:00"
+        },
+        {
+          "bookmaker": "betright",
+          "market_id": "NBA-8d66a93f796b96fd7973ba7d9f6da9e1-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:47:44.041777+00:00"
+        },
+        {
+          "bookmaker": "tab",
+          "market_id": "NBA-8d66a93f796b96fd7973ba7d9f6da9e1-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:50:30.723286+00:00"
+        },
+        {
+          "bookmaker": "unibet",
+          "market_id": "NBA-8d66a93f796b96fd7973ba7d9f6da9e1-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:43:50.721597+00:00"
+        },
+        {
+          "bookmaker": "betr",
+          "market_id": "NBA-8d66a93f796b96fd7973ba7d9f6da9e1-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:43:39.416925+00:00"
+        },
+        {
+          "bookmaker": "playup",
+          "market_id": "NBA-8d66a93f796b96fd7973ba7d9f6da9e1-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:43:34.769993+00:00"
+        },
+        {
+          "bookmaker": "tabtouch",
+          "market_id": "NBA-8d66a93f796b96fd7973ba7d9f6da9e1-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:47:25.461768+00:00"
+        },
+        {
+          "bookmaker": "palmerbet",
+          "market_id": "NBA-8d66a93f796b96fd7973ba7d9f6da9e1-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:38:25.485296+00:00"
+        },
+        {
+          "bookmaker": "betdeluxe",
+          "market_id": "NBA-8d66a93f796b96fd7973ba7d9f6da9e1-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:44:03.713229+00:00"
+        },
+        {
+          "bookmaker": "betnation",
+          "market_id": "NBA-8d66a93f796b96fd7973ba7d9f6da9e1-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:44:03.864171+00:00"
+        },
+        {
+          "bookmaker": "pulsebet",
+          "market_id": "NBA-8d66a93f796b96fd7973ba7d9f6da9e1-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:44:04.115369+00:00"
+        },
+        {
+          "bookmaker": "yesbet",
+          "market_id": "NBA-8d66a93f796b96fd7973ba7d9f6da9e1-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:44:04.317542+00:00"
+        },
+        {
+          "bookmaker": "noisy",
+          "market_id": "NBA-8d66a93f796b96fd7973ba7d9f6da9e1-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:44:04.509782+00:00"
+        },
+        {
+          "bookmaker": "surge",
+          "market_id": "NBA-8d66a93f796b96fd7973ba7d9f6da9e1-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:44:04.769602+00:00"
+        },
+        {
+          "bookmaker": "bigbet",
+          "market_id": "NBA-8d66a93f796b96fd7973ba7d9f6da9e1-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:44:05.192781+00:00"
+        },
+        {
+          "bookmaker": "mightybet",
+          "market_id": "NBA-8d66a93f796b96fd7973ba7d9f6da9e1-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:44:05.409461+00:00"
+        },
+        {
+          "bookmaker": "betjet",
+          "market_id": "NBA-8d66a93f796b96fd7973ba7d9f6da9e1-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:44:05.799417+00:00"
+        },
+        {
+          "bookmaker": "pinnacle",
+          "market_id": "NBA-8d66a93f796b96fd7973ba7d9f6da9e1-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:51:35.994685+00:00"
+        }
+      ]
+    },
+    {
+      "game_id": "401910004",
+      "home": "San Antonio Spurs",
+      "away": "Detroit Pistons",
+      "tipoff_utc": "2026-11-18T01:00:00+00:00",
+      "markets": [
+        {
+          "bookmaker": "ladbrokes",
+          "market_id": "NBA-fe6ad7aadbe981952dfa99f6af890fd9-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:51:00.837920+00:00"
+        },
+        {
+          "bookmaker": "pointsbet",
+          "market_id": "NBA-fe6ad7aadbe981952dfa99f6af890fd9-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:51:00.863821+00:00"
+        },
+        {
+          "bookmaker": "neds",
+          "market_id": "NBA-fe6ad7aadbe981952dfa99f6af890fd9-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:51:00.837050+00:00"
+        },
+        {
+          "bookmaker": "betright",
+          "market_id": "NBA-fe6ad7aadbe981952dfa99f6af890fd9-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:47:44.041777+00:00"
+        },
+        {
+          "bookmaker": "tab",
+          "market_id": "NBA-fe6ad7aadbe981952dfa99f6af890fd9-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:50:30.723286+00:00"
+        },
+        {
+          "bookmaker": "unibet",
+          "market_id": "NBA-fe6ad7aadbe981952dfa99f6af890fd9-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:43:50.721597+00:00"
+        },
+        {
+          "bookmaker": "betr",
+          "market_id": "NBA-fe6ad7aadbe981952dfa99f6af890fd9-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:43:39.416925+00:00"
+        },
+        {
+          "bookmaker": "playup",
+          "market_id": "NBA-fe6ad7aadbe981952dfa99f6af890fd9-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:43:34.769993+00:00"
+        },
+        {
+          "bookmaker": "tabtouch",
+          "market_id": "NBA-fe6ad7aadbe981952dfa99f6af890fd9-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:47:25.461768+00:00"
+        },
+        {
+          "bookmaker": "palmerbet",
+          "market_id": "NBA-fe6ad7aadbe981952dfa99f6af890fd9-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:38:25.485296+00:00"
+        },
+        {
+          "bookmaker": "betdeluxe",
+          "market_id": "NBA-fe6ad7aadbe981952dfa99f6af890fd9-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:44:03.713229+00:00"
+        },
+        {
+          "bookmaker": "betnation",
+          "market_id": "NBA-fe6ad7aadbe981952dfa99f6af890fd9-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:44:03.864171+00:00"
+        },
+        {
+          "bookmaker": "pulsebet",
+          "market_id": "NBA-fe6ad7aadbe981952dfa99f6af890fd9-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:44:04.115369+00:00"
+        },
+        {
+          "bookmaker": "yesbet",
+          "market_id": "NBA-fe6ad7aadbe981952dfa99f6af890fd9-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:44:04.317542+00:00"
+        },
+        {
+          "bookmaker": "noisy",
+          "market_id": "NBA-fe6ad7aadbe981952dfa99f6af890fd9-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:44:04.509782+00:00"
+        },
+        {
+          "bookmaker": "surge",
+          "market_id": "NBA-fe6ad7aadbe981952dfa99f6af890fd9-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:44:04.769602+00:00"
+        },
+        {
+          "bookmaker": "bigbet",
+          "market_id": "NBA-fe6ad7aadbe981952dfa99f6af890fd9-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:44:05.192781+00:00"
+        },
+        {
+          "bookmaker": "mightybet",
+          "market_id": "NBA-fe6ad7aadbe981952dfa99f6af890fd9-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:44:05.409461+00:00"
+        },
+        {
+          "bookmaker": "betjet",
+          "market_id": "NBA-fe6ad7aadbe981952dfa99f6af890fd9-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:44:05.799417+00:00"
+        },
+        {
+          "bookmaker": "pinnacle",
+          "market_id": "NBA-fe6ad7aadbe981952dfa99f6af890fd9-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:51:35.994685+00:00"
+        }
+      ]
+    },
+    {
+      "game_id": "401910006",
+      "home": "LA Clippers",
+      "away": "Utah Jazz",
+      "tipoff_utc": "2026-11-18T03:30:00+00:00",
+      "markets": [
+        {
+          "bookmaker": "ladbrokes",
+          "market_id": "NBA-b90f402d5180e5b1dd4417673ee25dd7-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:51:00.837920+00:00"
+        },
+        {
+          "bookmaker": "pointsbet",
+          "market_id": "NBA-b90f402d5180e5b1dd4417673ee25dd7-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:51:00.863821+00:00"
+        },
+        {
+          "bookmaker": "neds",
+          "market_id": "NBA-b90f402d5180e5b1dd4417673ee25dd7-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:51:00.837050+00:00"
+        },
+        {
+          "bookmaker": "betright",
+          "market_id": "NBA-b90f402d5180e5b1dd4417673ee25dd7-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:47:44.041777+00:00"
+        },
+        {
+          "bookmaker": "tab",
+          "market_id": "NBA-b90f402d5180e5b1dd4417673ee25dd7-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:50:30.723286+00:00"
+        },
+        {
+          "bookmaker": "unibet",
+          "market_id": "NBA-b90f402d5180e5b1dd4417673ee25dd7-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:43:50.721597+00:00"
+        },
+        {
+          "bookmaker": "betr",
+          "market_id": "NBA-b90f402d5180e5b1dd4417673ee25dd7-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:43:39.416925+00:00"
+        },
+        {
+          "bookmaker": "playup",
+          "market_id": "NBA-b90f402d5180e5b1dd4417673ee25dd7-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:43:34.769993+00:00"
+        },
+        {
+          "bookmaker": "tabtouch",
+          "market_id": "NBA-b90f402d5180e5b1dd4417673ee25dd7-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:47:25.461768+00:00"
+        },
+        {
+          "bookmaker": "palmerbet",
+          "market_id": "NBA-b90f402d5180e5b1dd4417673ee25dd7-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:38:25.485296+00:00"
+        },
+        {
+          "bookmaker": "betdeluxe",
+          "market_id": "NBA-b90f402d5180e5b1dd4417673ee25dd7-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:44:03.713229+00:00"
+        },
+        {
+          "bookmaker": "betnation",
+          "market_id": "NBA-b90f402d5180e5b1dd4417673ee25dd7-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:44:03.864171+00:00"
+        },
+        {
+          "bookmaker": "pulsebet",
+          "market_id": "NBA-b90f402d5180e5b1dd4417673ee25dd7-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:44:04.115369+00:00"
+        },
+        {
+          "bookmaker": "yesbet",
+          "market_id": "NBA-b90f402d5180e5b1dd4417673ee25dd7-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:44:04.317542+00:00"
+        },
+        {
+          "bookmaker": "noisy",
+          "market_id": "NBA-b90f402d5180e5b1dd4417673ee25dd7-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:44:04.509782+00:00"
+        },
+        {
+          "bookmaker": "surge",
+          "market_id": "NBA-b90f402d5180e5b1dd4417673ee25dd7-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:44:04.769602+00:00"
+        },
+        {
+          "bookmaker": "bigbet",
+          "market_id": "NBA-b90f402d5180e5b1dd4417673ee25dd7-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:44:05.192781+00:00"
+        },
+        {
+          "bookmaker": "mightybet",
+          "market_id": "NBA-b90f402d5180e5b1dd4417673ee25dd7-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:44:05.409461+00:00"
+        },
+        {
+          "bookmaker": "betjet",
+          "market_id": "NBA-b90f402d5180e5b1dd4417673ee25dd7-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:44:05.799417+00:00"
+        },
+        {
+          "bookmaker": "pinnacle",
+          "market_id": "NBA-b90f402d5180e5b1dd4417673ee25dd7-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:51:35.994685+00:00"
+        }
+      ]
+    },
+    {
+      "game_id": "401910005",
+      "home": "Los Angeles Lakers",
+      "away": "Charlotte Hornets",
+      "tipoff_utc": "2026-11-18T04:00:00+00:00",
+      "markets": [
+        {
+          "bookmaker": "ladbrokes",
+          "market_id": "NBA-d0dfcfc8cb95ca73a0960704e05f7397-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:51:00.837920+00:00"
+        },
+        {
+          "bookmaker": "pointsbet",
+          "market_id": "NBA-d0dfcfc8cb95ca73a0960704e05f7397-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:51:00.863821+00:00"
+        },
+        {
+          "bookmaker": "neds",
+          "market_id": "NBA-d0dfcfc8cb95ca73a0960704e05f7397-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:51:00.837050+00:00"
+        },
+        {
+          "bookmaker": "betright",
+          "market_id": "NBA-d0dfcfc8cb95ca73a0960704e05f7397-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:47:44.041777+00:00"
+        },
+        {
+          "bookmaker": "tab",
+          "market_id": "NBA-d0dfcfc8cb95ca73a0960704e05f7397-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:50:30.723286+00:00"
+        },
+        {
+          "bookmaker": "unibet",
+          "market_id": "NBA-d0dfcfc8cb95ca73a0960704e05f7397-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:43:50.721597+00:00"
+        },
+        {
+          "bookmaker": "betr",
+          "market_id": "NBA-d0dfcfc8cb95ca73a0960704e05f7397-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:43:39.416925+00:00"
+        },
+        {
+          "bookmaker": "playup",
+          "market_id": "NBA-d0dfcfc8cb95ca73a0960704e05f7397-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:43:34.769993+00:00"
+        },
+        {
+          "bookmaker": "tabtouch",
+          "market_id": "NBA-d0dfcfc8cb95ca73a0960704e05f7397-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:47:25.461768+00:00"
+        },
+        {
+          "bookmaker": "palmerbet",
+          "market_id": "NBA-d0dfcfc8cb95ca73a0960704e05f7397-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:38:25.485296+00:00"
+        },
+        {
+          "bookmaker": "betdeluxe",
+          "market_id": "NBA-d0dfcfc8cb95ca73a0960704e05f7397-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:44:03.713229+00:00"
+        },
+        {
+          "bookmaker": "betnation",
+          "market_id": "NBA-d0dfcfc8cb95ca73a0960704e05f7397-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:44:03.864171+00:00"
+        },
+        {
+          "bookmaker": "pulsebet",
+          "market_id": "NBA-d0dfcfc8cb95ca73a0960704e05f7397-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:44:04.115369+00:00"
+        },
+        {
+          "bookmaker": "yesbet",
+          "market_id": "NBA-d0dfcfc8cb95ca73a0960704e05f7397-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:44:04.317542+00:00"
+        },
+        {
+          "bookmaker": "noisy",
+          "market_id": "NBA-d0dfcfc8cb95ca73a0960704e05f7397-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:44:04.509782+00:00"
+        },
+        {
+          "bookmaker": "surge",
+          "market_id": "NBA-d0dfcfc8cb95ca73a0960704e05f7397-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:44:04.769602+00:00"
+        },
+        {
+          "bookmaker": "bigbet",
+          "market_id": "NBA-d0dfcfc8cb95ca73a0960704e05f7397-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:44:05.192781+00:00"
+        },
+        {
+          "bookmaker": "mightybet",
+          "market_id": "NBA-d0dfcfc8cb95ca73a0960704e05f7397-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:44:05.409461+00:00"
+        },
+        {
+          "bookmaker": "betjet",
+          "market_id": "NBA-d0dfcfc8cb95ca73a0960704e05f7397-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:44:05.799417+00:00"
+        },
+        {
+          "bookmaker": "pinnacle",
+          "market_id": "NBA-d0dfcfc8cb95ca73a0960704e05f7397-NBA_H2H-0",
+          "scraped_at": "2026-11-17T22:51:35.994685+00:00"
+        }
+      ]
+    }
+  ],
+  "missing_or_stale_h2h_odds": [],
+  "complete_prediction_coverage": false,
+  "complete_odds_coverage": true,
+  "note": "H2H over/under side mapping is unverified; matched market does not authorize a bet.",
+  "prediction_file": "predictions-20261117T225125Z.json"
+}
