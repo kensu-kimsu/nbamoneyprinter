@@ -1,0 +1,267 @@
+[
+    {
+        "scraped_date": "2026-11-17 22:35:09 UTC",
+        "match_date": "2026-11-18 00:30:00 UTC",
+        "season": null,
+        "match_link": "https://www.oddsportal.com/basketball/h2h/new-york-knicks-WCNO4nbt/toronto-raptors-CxtbCMdU/#QDqzfbZa",
+        "home_team": "Toronto Raptors",
+        "away_team": "New York Knicks",
+        "league_name": "NBA",
+        "home_score": null,
+        "away_score": null,
+        "partial_results": null,
+        "venue": "Scotiabank Arena",
+        "venue_town": "Toronto, ON",
+        "venue_country": "Canada",
+        "match_info": null,
+        "home_away_market": [
+            {
+                "1": "2.45",
+                "2": "1.59",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "2.45",
+                "2": "1.56",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "2.50",
+                "2": "1.55",
+                "bookmaker_name": "DraftKings",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "2.45",
+                "2": "1.57",
+                "bookmaker_name": "Fanatics",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "2.48",
+                "2": "1.57",
+                "bookmaker_name": "Fanduel",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            }
+        ]
+    },
+    {
+        "scraped_date": "2026-11-17 22:35:13 UTC",
+        "match_date": "2026-11-18 01:00:00 UTC",
+        "season": null,
+        "match_link": "https://www.oddsportal.com/basketball/h2h/detroit-pistons-UcjMRj6J/san-antonio-spurs-IwmkErSH/#bRsrhx4C",
+        "home_team": "San Antonio Spurs",
+        "away_team": "Detroit Pistons",
+        "league_name": "NBA",
+        "home_score": null,
+        "away_score": null,
+        "partial_results": null,
+        "venue": "Frost Bank Center",
+        "venue_town": "San Antonio, TX",
+        "venue_country": "USA",
+        "match_info": null,
+        "home_away_market": [
+            {
+                "1": "1.22",
+                "2": "4.50",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "1.22",
+                "2": "4.50",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "1.22",
+                "2": "4.40",
+                "bookmaker_name": "DraftKings",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "1.22",
+                "2": "4.40",
+                "bookmaker_name": "Fanatics",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "1.23",
+                "2": "4.40",
+                "bookmaker_name": "Fanduel",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            }
+        ]
+    },
+    {
+        "scraped_date": "2026-11-17 22:35:18 UTC",
+        "match_date": "2026-11-18 01:00:00 UTC",
+        "season": null,
+        "match_link": "https://www.oddsportal.com/basketball/h2h/minnesota-timberwolves-KjBIVQcI/portland-trail-blazers-4Awl14c5/#prtjjGYO",
+        "home_team": "Minnesota Timberwolves",
+        "away_team": "Portland Trail Blazers",
+        "league_name": "NBA",
+        "home_score": null,
+        "away_score": null,
+        "partial_results": null,
+        "venue": null,
+        "venue_town": null,
+        "venue_country": null,
+        "match_info": null,
+        "home_away_market": [
+            {
+                "1": "1.69",
+                "2": "2.22",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "1.70",
+                "2": "2.20",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "1.68",
+                "2": "2.23",
+                "bookmaker_name": "DraftKings",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "1.68",
+                "2": "2.20",
+                "bookmaker_name": "Fanatics",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "1.68",
+                "2": "2.24",
+                "bookmaker_name": "Fanduel",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            }
+        ]
+    },
+    {
+        "scraped_date": "2026-11-17 22:35:22 UTC",
+        "match_date": "2026-11-18 03:30:00 UTC",
+        "season": null,
+        "match_link": "https://www.oddsportal.com/basketball/h2h/los-angeles-clippers-vPeTYlqm/utah-jazz-hGuCX5Su/#8KJ78clg",
+        "home_team": "Los Angeles Clippers",
+        "away_team": "Utah Jazz",
+        "league_name": "NBA",
+        "home_score": null,
+        "away_score": null,
+        "partial_results": null,
+        "venue": "Intuit Dome",
+        "venue_town": "Inglewood, CA",
+        "venue_country": "USA",
+        "match_info": null,
+        "home_away_market": [
+            {
+                "1": "1.42",
+                "2": "2.95",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "1.42",
+                "2": "2.90",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "1.42",
+                "2": "2.97",
+                "bookmaker_name": "DraftKings",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "1.42",
+                "2": "2.90",
+                "bookmaker_name": "Fanatics",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "1.43",
+                "2": "2.94",
+                "bookmaker_name": "Fanduel",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            }
+        ]
+    },
+    {
+        "scraped_date": "2026-11-17 22:35:26 UTC",
+        "match_date": "2026-11-18 04:00:00 UTC",
+        "season": null,
+        "match_link": "https://www.oddsportal.com/basketball/h2h/charlotte-hornets-xftMikUg/los-angeles-lakers-ngegZ8bg/#z7LaAJJt",
+        "home_team": "Los Angeles Lakers",
+        "away_team": "Charlotte Hornets",
+        "league_name": "NBA",
+        "home_score": null,
+        "away_score": null,
+        "partial_results": null,
+        "venue": "Crypto.com Arena",
+        "venue_town": "Los Angeles, CA",
+        "venue_country": "USA",
+        "match_info": null,
+        "home_away_market": [
+            {
+                "1": "1.33",
+                "2": "3.40",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "1.33",
+                "2": "3.40",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "1.34",
+                "2": "3.36",
+                "bookmaker_name": "DraftKings",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "1.33",
+                "2": "3.40",
+                "bookmaker_name": "Fanatics",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "1.34",
+                "2": "3.40",
+                "bookmaker_name": "Fanduel",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            }
+        ]
+    }
+]
