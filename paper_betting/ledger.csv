@@ -11,5 +11,5 @@ espn-401909291-home,401909291,2026-11-07T01:00:00+00:00,Memphis Grizzlies,Oklaho
 espn-401909290-away,401909290,2026-11-07T01:00:00+00:00,Dallas Mavericks,Utah Jazz,NBA_H2H,Utah Jazz,,DraftKings,3.17,0.427621,0.98,2026-11-06T20:52:19.771327+00:00,settled,lost,-0.98,93.78
 espn-401909965-away,401909965,2026-11-11T04:00:00+00:00,Portland Trail Blazers,Oklahoma City Thunder,NBA_H2H,Oklahoma City Thunder,,DraftKings,1.8,0.602513,0.94,2026-11-10T21:16:45.746764+00:00,settled,lost,-0.94,92.84
 espn-401909983-home,401909983,2026-11-15T01:00:00+00:00,Memphis Grizzlies,Brooklyn Nets,NBA_H2H,Memphis Grizzlies,,DraftKings,1.819672,0.683861,0.93,2026-11-14T19:54:22.104095+00:00,settled,won,0.76,93.60
-espn-401910000-away,401910000,2026-11-17T01:00:00+00:00,New Orleans Pelicans,Golden State Warriors,NBA_H2H,Golden State Warriors,,DraftKings,1.645161,0.711557,0.94,2026-11-16T23:44:20.848454+00:00,open,,,
-espn-401909996-away,401909996,2026-11-17T00:00:00+00:00,Washington Wizards,Memphis Grizzlies,NBA_H2H,Memphis Grizzlies,,DraftKings,1.588235,0.688096,0.94,2026-11-16T23:44:20.848454+00:00,open,,,
+espn-401910000-away,401910000,2026-11-17T01:00:00+00:00,New Orleans Pelicans,Golden State Warriors,NBA_H2H,Golden State Warriors,,DraftKings,1.645161,0.711557,0.94,2026-11-16T23:44:20.848454+00:00,settled,lost,-0.94,92.66
+espn-401909996-away,401909996,2026-11-17T00:00:00+00:00,Washington Wizards,Memphis Grizzlies,NBA_H2H,Memphis Grizzlies,,DraftKings,1.588235,0.688096,0.94,2026-11-16T23:44:20.848454+00:00,settled,won,0.55,93.21
