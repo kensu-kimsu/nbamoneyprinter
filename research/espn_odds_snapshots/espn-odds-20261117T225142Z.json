@@ -1,0 +1,89 @@
+{
+  "captured_at_utc": "2026-11-17T22:51:42.547780+00:00",
+  "date_us_eastern": "2026-11-17",
+  "scheduled_future_games": 5,
+  "games_with_verified_team_side_odds": 5,
+  "games": [
+    {
+      "game_id": "401910002",
+      "home": "Toronto Raptors",
+      "away": "New York Knicks",
+      "tipoff_utc": "2026-11-18T00:30:00+00:00",
+      "books": [
+        {
+          "bookmaker": "DraftKings",
+          "home_decimal": 2.21,
+          "away_decimal": 1.694444,
+          "home_american": 121,
+          "away_american": -144
+        }
+      ]
+    },
+    {
+      "game_id": "401910003",
+      "home": "Minnesota Timberwolves",
+      "away": "Portland Trail Blazers",
+      "tipoff_utc": "2026-11-18T01:00:00+00:00",
+      "books": [
+        {
+          "bookmaker": "DraftKings",
+          "home_decimal": 1.684932,
+          "away_decimal": 2.23,
+          "home_american": -146,
+          "away_american": 123
+        }
+      ]
+    },
+    {
+      "game_id": "401910004",
+      "home": "San Antonio Spurs",
+      "away": "Detroit Pistons",
+      "tipoff_utc": "2026-11-18T01:00:00+00:00",
+      "books": [
+        {
+          "bookmaker": "DraftKings",
+          "home_decimal": 1.228833,
+          "away_decimal": 4.4,
+          "home_american": -437,
+          "away_american": 340
+        }
+      ]
+    },
+    {
+      "game_id": "401910006",
+      "home": "LA Clippers",
+      "away": "Utah Jazz",
+      "tipoff_utc": "2026-11-18T03:30:00+00:00",
+      "books": [
+        {
+          "bookmaker": "DraftKings",
+          "home_decimal": 1.420168,
+          "away_decimal": 2.97,
+          "home_american": -238,
+          "away_american": 197
+        }
+      ]
+    },
+    {
+      "game_id": "401910005",
+      "home": "Los Angeles Lakers",
+      "away": "Charlotte Hornets",
+      "tipoff_utc": "2026-11-18T04:00:00+00:00",
+      "books": [
+        {
+          "bookmaker": "DraftKings",
+          "home_decimal": 1.346021,
+          "away_decimal": 3.36,
+          "home_american": -289,
+          "away_american": 236
+        }
+      ]
+    }
+  ],
+  "paper_bets_enabled": false,
+  "source": "ESPN + validated external snapshots",
+  "external_prices_added": 0,
+  "external_errors": [],
+  "missing_games": [],
+  "coverage_pct": 100.0
+}
