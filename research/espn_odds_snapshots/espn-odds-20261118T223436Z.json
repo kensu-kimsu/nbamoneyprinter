@@ -1,0 +1,194 @@
+{
+  "captured_at_utc": "2026-11-18T22:34:36.195689+00:00",
+  "date_us_eastern": "2026-11-18",
+  "scheduled_future_games": 12,
+  "games_with_verified_team_side_odds": 12,
+  "games": [
+    {
+      "game_id": "401910007",
+      "home": "Cleveland Cavaliers",
+      "away": "Memphis Grizzlies",
+      "tipoff_utc": "2026-11-19T00:00:00+00:00",
+      "books": [
+        {
+          "bookmaker": "DraftKings",
+          "home_decimal": 1.510204,
+          "away_decimal": 2.64,
+          "home_american": -196,
+          "away_american": 164
+        }
+      ]
+    },
+    {
+      "game_id": "401910008",
+      "home": "Indiana Pacers",
+      "away": "Houston Rockets",
+      "tipoff_utc": "2026-11-19T00:00:00+00:00",
+      "books": [
+        {
+          "bookmaker": "DraftKings",
+          "home_decimal": 3.61,
+          "away_decimal": 1.308642,
+          "home_american": 261,
+          "away_american": -324
+        }
+      ]
+    },
+    {
+      "game_id": "401910009",
+      "home": "Miami Heat",
+      "away": "Milwaukee Bucks",
+      "tipoff_utc": "2026-11-19T00:00:00+00:00",
+      "books": [
+        {
+          "bookmaker": "DraftKings",
+          "home_decimal": 1.142857,
+          "away_decimal": 6.04,
+          "home_american": -700,
+          "away_american": 504
+        }
+      ]
+    },
+    {
+      "game_id": "401910010",
+      "home": "Orlando Magic",
+      "away": "Philadelphia 76ers",
+      "tipoff_utc": "2026-11-19T00:00:00+00:00",
+      "books": [
+        {
+          "bookmaker": "DraftKings",
+          "home_decimal": 1.952381,
+          "away_decimal": 1.884956,
+          "home_american": -105,
+          "away_american": -113
+        }
+      ]
+    },
+    {
+      "game_id": "401910011",
+      "home": "Brooklyn Nets",
+      "away": "Chicago Bulls",
+      "tipoff_utc": "2026-11-19T00:30:00+00:00",
+      "books": [
+        {
+          "bookmaker": "DraftKings",
+          "home_decimal": 1.806452,
+          "away_decimal": 2.05,
+          "home_american": -124,
+          "away_american": 105
+        }
+      ]
+    },
+    {
+      "game_id": "401910012",
+      "home": "Toronto Raptors",
+      "away": "Washington Wizards",
+      "tipoff_utc": "2026-11-19T00:30:00+00:00",
+      "books": [
+        {
+          "bookmaker": "DraftKings",
+          "home_decimal": 1.492611,
+          "away_decimal": 2.69,
+          "home_american": -203,
+          "away_american": 169
+        }
+      ]
+    },
+    {
+      "game_id": "401910013",
+      "home": "New Orleans Pelicans",
+      "away": "Detroit Pistons",
+      "tipoff_utc": "2026-11-19T01:00:00+00:00",
+      "books": [
+        {
+          "bookmaker": "DraftKings",
+          "home_decimal": 2.55,
+          "away_decimal": 1.540541,
+          "home_american": 155,
+          "away_american": -185
+        }
+      ]
+    },
+    {
+      "game_id": "401910014",
+      "home": "Oklahoma City Thunder",
+      "away": "Atlanta Hawks",
+      "tipoff_utc": "2026-11-19T01:00:00+00:00",
+      "books": [
+        {
+          "bookmaker": "DraftKings",
+          "home_decimal": 1.401606,
+          "away_decimal": 3.05,
+          "home_american": -249,
+          "away_american": 205
+        }
+      ]
+    },
+    {
+      "game_id": "401910016",
+      "home": "Dallas Mavericks",
+      "away": "Golden State Warriors",
+      "tipoff_utc": "2026-11-19T01:00:00+00:00",
+      "books": [
+        {
+          "bookmaker": "DraftKings",
+          "home_decimal": 1.507614,
+          "away_decimal": 2.64,
+          "home_american": -197,
+          "away_american": 164
+        }
+      ]
+    },
+    {
+      "game_id": "401910015",
+      "home": "Denver Nuggets",
+      "away": "Boston Celtics",
+      "tipoff_utc": "2026-11-19T02:30:00+00:00",
+      "books": [
+        {
+          "bookmaker": "DraftKings",
+          "home_decimal": 2.2,
+          "away_decimal": 1.704225,
+          "home_american": 120,
+          "away_american": -142
+        }
+      ]
+    },
+    {
+      "game_id": "401910017",
+      "home": "Los Angeles Lakers",
+      "away": "Utah Jazz",
+      "tipoff_utc": "2026-11-19T03:00:00+00:00",
+      "books": [
+        {
+          "bookmaker": "DraftKings",
+          "home_decimal": 1.176367,
+          "away_decimal": 5.24,
+          "home_american": -567,
+          "away_american": 424
+        }
+      ]
+    },
+    {
+      "game_id": "401910018",
+      "home": "Sacramento Kings",
+      "away": "Phoenix Suns",
+      "tipoff_utc": "2026-11-19T03:00:00+00:00",
+      "books": [
+        {
+          "bookmaker": "DraftKings",
+          "home_decimal": 3.21,
+          "away_decimal": 1.371747,
+          "home_american": 221,
+          "away_american": -269
+        }
+      ]
+    }
+  ],
+  "paper_bets_enabled": false,
+  "source": "ESPN + validated external snapshots",
+  "external_prices_added": 0,
+  "external_errors": [],
+  "missing_games": [],
+  "coverage_pct": 100.0
+}
