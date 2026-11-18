@@ -3,19 +3,19 @@
 <text x="84" y="38" fill="#f0f6fc" font-family="Arial,sans-serif" font-size="23" font-weight="bold">NBA Paper Bankroll Progress</text>
 <text x="84" y="59" fill="#8b949e" font-family="Arial,sans-serif" font-size="13">Realized AUD • daily close • Australia/Melbourne • A$100 start</text>
 <line x1="84" x2="972" y1="348.0" y2="348.0" stroke="#30363d"/>
-<text x="72" y="353.0" fill="#8b949e" text-anchor="end" font-family="Arial,sans-serif" font-size="12">87.75</text>
+<text x="72" y="353.0" fill="#8b949e" text-anchor="end" font-family="Arial,sans-serif" font-size="12">87.49</text>
 <line x1="84" x2="972" y1="280.0" y2="280.0" stroke="#30363d"/>
-<text x="72" y="285.0" fill="#8b949e" text-anchor="end" font-family="Arial,sans-serif" font-size="12">91.25</text>
+<text x="72" y="285.0" fill="#8b949e" text-anchor="end" font-family="Arial,sans-serif" font-size="12">91.06</text>
 <line x1="84" x2="972" y1="212.0" y2="212.0" stroke="#30363d"/>
-<text x="72" y="217.0" fill="#8b949e" text-anchor="end" font-family="Arial,sans-serif" font-size="12">94.75</text>
+<text x="72" y="217.0" fill="#8b949e" text-anchor="end" font-family="Arial,sans-serif" font-size="12">94.62</text>
 <line x1="84" x2="972" y1="144.0" y2="144.0" stroke="#30363d"/>
-<text x="72" y="149.0" fill="#8b949e" text-anchor="end" font-family="Arial,sans-serif" font-size="12">98.26</text>
+<text x="72" y="149.0" fill="#8b949e" text-anchor="end" font-family="Arial,sans-serif" font-size="12">98.19</text>
 <line x1="84" x2="972" y1="76.0" y2="76.0" stroke="#30363d"/>
 <text x="72" y="81.0" fill="#8b949e" text-anchor="end" font-family="Arial,sans-serif" font-size="12">101.76</text>
-<polyline fill="none" stroke="#58a6ff" stroke-width="3" stroke-linejoin="round" points="84.0,110.2 147.4,195.4 210.9,204.1 274.3,219.7 337.7,224.3 401.1,241.6 464.6,189.6 528.0,197.0 591.4,229.6 654.9,229.6 718.3,277.9 781.7,313.8 845.1,294.4 908.6,328.6 972.0,322.2"/>
-<polyline fill="none" stroke="#3fb950" stroke-width="3" stroke-linejoin="round" points="84.0,110.2 147.4,95.4 210.9,135.0 274.3,230.9 337.7,230.9 401.1,230.9 464.6,230.9 528.0,249.2 591.4,249.2 654.9,249.2 718.3,249.2 781.7,234.4 845.1,234.4 908.6,242.0 972.0,242.0"/>
-<circle cx="972.0" cy="322.2" r="4" fill="#58a6ff"/>
-<circle cx="972.0" cy="242.0" r="4" fill="#3fb950"/>
+<polyline fill="none" stroke="#58a6ff" stroke-width="3" stroke-linejoin="round" points="84.0,109.5 147.4,193.2 210.9,201.8 274.3,217.1 337.7,221.6 401.1,238.6 464.6,187.5 528.0,194.7 591.4,226.8 654.9,226.8 718.3,274.2 781.7,309.5 845.1,290.4 908.6,324.0 972.0,328.9"/>
+<polyline fill="none" stroke="#3fb950" stroke-width="3" stroke-linejoin="round" points="84.0,109.5 147.4,95.1 210.9,133.9 274.3,228.1 337.7,228.1 401.1,228.1 464.6,228.1 528.0,246.0 591.4,246.0 654.9,246.0 718.3,246.0 781.7,231.5 845.1,231.5 908.6,239.0 972.0,226.6"/>
+<circle cx="972.0" cy="328.9" r="4" fill="#58a6ff"/>
+<circle cx="972.0" cy="226.6" r="4" fill="#3fb950"/>
 <text x="84.0" y="377" text-anchor="middle" fill="#8b949e" font-family="Arial,sans-serif" font-size="12">04 Nov</text>
 <text x="274.3" y="377" text-anchor="middle" fill="#8b949e" font-family="Arial,sans-serif" font-size="12">07 Nov</text>
 <text x="464.6" y="377" text-anchor="middle" fill="#8b949e" font-family="Arial,sans-serif" font-size="12">10 Nov</text>
@@ -23,7 +23,7 @@
 <text x="781.7" y="377" text-anchor="middle" fill="#8b949e" font-family="Arial,sans-serif" font-size="12">15 Nov</text>
 <text x="972.0" y="377" text-anchor="middle" fill="#8b949e" font-family="Arial,sans-serif" font-size="12">18 Nov</text>
 <line x1="84" y1="402" x2="111" y2="402" stroke="#58a6ff" stroke-width="4"/>
-<text x="119" y="407" fill="#c9d1d9" font-family="Arial,sans-serif" font-size="13">All AI picks: A$89.08</text>
+<text x="119" y="407" fill="#c9d1d9" font-family="Arial,sans-serif" font-size="13">All AI picks: A$88.49</text>
 <line x1="380" y1="402" x2="407" y2="402" stroke="#3fb950" stroke-width="4"/>
-<text x="415" y="407" fill="#c9d1d9" font-family="Arial,sans-serif" font-size="13">Filtered EV: A$93.21</text>
+<text x="415" y="407" fill="#c9d1d9" font-family="Arial,sans-serif" font-size="13">Filtered EV: A$93.86</text>
 </svg>

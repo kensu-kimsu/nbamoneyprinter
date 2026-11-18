@@ -100,8 +100,8 @@ game_id,game_time_utc,predicted_winner,actual_winner,result_status,bookmaker,odd
 401910002,2026-11-18T00:30:00+00:00,New York Knicks,New York Knicks,final,DraftKings,2026-11-17T22:51:42.547780+00:00,1.694444,0.89,0.62,89.37,won
 401910003,2026-11-18T01:00:00+00:00,Minnesota Timberwolves,Minnesota Timberwolves,final,DraftKings,2026-11-17T22:51:42.547780+00:00,1.684932,0.89,0.61,89.98,won
 401910004,2026-11-18T01:00:00+00:00,San Antonio Spurs,Detroit Pistons,final,DraftKings,2026-11-17T22:51:42.547780+00:00,1.228833,0.90,-0.90,89.08,lost
-401910006,2026-11-18T03:30:00+00:00,LA Clippers,,awaiting_final,DraftKings,2026-11-17T22:51:42.547780+00:00,1.420168,,,,awaiting_final
-401910005,2026-11-18T04:00:00+00:00,Los Angeles Lakers,,scheduled,DraftKings,2026-11-17T22:51:42.547780+00:00,1.346021,,,,awaiting_final
+401910006,2026-11-18T03:30:00+00:00,LA Clippers,Utah Jazz,final,DraftKings,2026-11-17T22:51:42.547780+00:00,1.420168,0.89,-0.89,88.19,lost
+401910005,2026-11-18T04:00:00+00:00,Los Angeles Lakers,Los Angeles Lakers,final,DraftKings,2026-11-17T22:51:42.547780+00:00,1.346021,0.88,0.30,88.49,won
 401910007,2026-11-19T00:00:00+00:00,Memphis Grizzlies,,scheduled,,,,,,,unpriced
 401910008,2026-11-19T00:00:00+00:00,Houston Rockets,,scheduled,,,,,,,unpriced
 401910009,2026-11-19T00:00:00+00:00,Miami Heat,,scheduled,,,,,,,unpriced

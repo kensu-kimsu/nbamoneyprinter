@@ -97,11 +97,11 @@ game_id,game_time_utc,home_team,away_team,predicted_at_utc,predicted_winner,conf
 401909999,2026-11-17T01:00:00+00:00,Minnesota Timberwolves,Portland Trail Blazers,2026-11-15T20:21:36.402979+00:00,Minnesota Timberwolves,0.558576,0.558576,0.441424,Minnesota Timberwolves,106,98,final,1,,,
 401910000,2026-11-17T01:00:00+00:00,New Orleans Pelicans,Golden State Warriors,2026-11-15T20:21:36.402979+00:00,Golden State Warriors,0.69172,0.30828,0.69172,New Orleans Pelicans,115,94,final,0,Golden State Warriors,settled,-0.94
 401910001,2026-11-17T02:00:00+00:00,Denver Nuggets,Phoenix Suns,2026-11-15T20:21:36.402979+00:00,Denver Nuggets,0.612606,0.612606,0.387394,Phoenix Suns,105,117,final,0,,,
-401910002,2026-11-18T00:30:00+00:00,Toronto Raptors,New York Knicks,2026-11-16T23:43:58.833887+00:00,New York Knicks,0.656377,0.343623,0.656377,New York Knicks,102,111,final,1,New York Knicks,open,
+401910002,2026-11-18T00:30:00+00:00,Toronto Raptors,New York Knicks,2026-11-16T23:43:58.833887+00:00,New York Knicks,0.656377,0.343623,0.656377,New York Knicks,102,111,final,1,New York Knicks,settled,0.65
 401910003,2026-11-18T01:00:00+00:00,Minnesota Timberwolves,Portland Trail Blazers,2026-11-16T23:43:58.833887+00:00,Minnesota Timberwolves,0.549589,0.549589,0.450411,Minnesota Timberwolves,106,105,final,1,,,
 401910004,2026-11-18T01:00:00+00:00,San Antonio Spurs,Detroit Pistons,2026-11-16T23:43:58.833887+00:00,San Antonio Spurs,0.714666,0.714666,0.285334,Detroit Pistons,93,105,final,0,,,
-401910006,2026-11-18T03:30:00+00:00,LA Clippers,Utah Jazz,2026-11-16T23:43:58.833887+00:00,LA Clippers,0.646143,0.646143,0.353857,,,,awaiting_final,,,,
-401910005,2026-11-18T04:00:00+00:00,Los Angeles Lakers,Charlotte Hornets,2026-11-16T23:43:58.833887+00:00,Los Angeles Lakers,0.791686,0.791686,0.208314,,,,scheduled,,,,
+401910006,2026-11-18T03:30:00+00:00,LA Clippers,Utah Jazz,2026-11-16T23:43:58.833887+00:00,LA Clippers,0.646143,0.646143,0.353857,Utah Jazz,107,132,final,0,,,
+401910005,2026-11-18T04:00:00+00:00,Los Angeles Lakers,Charlotte Hornets,2026-11-16T23:43:58.833887+00:00,Los Angeles Lakers,0.791686,0.791686,0.208314,Los Angeles Lakers,118,114,final,1,,,
 401910007,2026-11-19T00:00:00+00:00,Cleveland Cavaliers,Memphis Grizzlies,2026-11-17T22:51:25.100917+00:00,Memphis Grizzlies,0.528726,0.471274,0.528726,,,,scheduled,,,,
 401910008,2026-11-19T00:00:00+00:00,Indiana Pacers,Houston Rockets,2026-11-17T22:51:25.100917+00:00,Houston Rockets,0.599966,0.400034,0.599966,,,,scheduled,,,,
 401910009,2026-11-19T00:00:00+00:00,Miami Heat,Milwaukee Bucks,2026-11-17T22:51:25.100917+00:00,Miami Heat,0.823945,0.823945,0.176055,,,,scheduled,,,,
