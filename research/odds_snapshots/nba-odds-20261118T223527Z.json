@@ -1,0 +1,15 @@
+{
+  "captured_at_utc": "2026-11-18T22:35:27.608436+00:00",
+  "source": "HaterPicks",
+  "payload": {
+    "version": "v1",
+    "feed": "odds",
+    "generated_at": "2026-11-18T22:30:39.308Z",
+    "count": 0,
+    "filtered": "game-lines-only",
+    "props_available": 1093,
+    "props_note": "1,093 more prices for NBA (player props and other markets) are on Starter: https://www.haterpicks.app/developer?plan=starter. Free keys can read NBA props, refreshed every 30 minutes, at /api/v1/props?sport=nba.",
+    "sport": "NBA",
+    "data": []
+  }
+}
