@@ -104,16 +104,16 @@ game_id,game_time_utc,predicted_winner,actual_winner,result_status,bookmaker,odd
 401910005,2026-11-18T04:00:00+00:00,Los Angeles Lakers,Los Angeles Lakers,final,DraftKings,2026-11-17T22:51:42.547780+00:00,1.346021,0.88,0.30,88.49,won
 401910007,2026-11-19T00:00:00+00:00,Memphis Grizzlies,Memphis Grizzlies,final,DraftKings,2026-11-18T22:34:35.801615+00:00,2.64,0.88,1.44,89.93,won
 401910008,2026-11-19T00:00:00+00:00,Houston Rockets,Houston Rockets,final,DraftKings,2026-11-18T22:34:35.801615+00:00,1.308642,0.90,0.28,90.21,won
-401910009,2026-11-19T00:00:00+00:00,Miami Heat,,awaiting_final,DraftKings,2026-11-18T22:34:35.801615+00:00,1.142857,,,,awaiting_final
-401910010,2026-11-19T00:00:00+00:00,Philadelphia 76ers,Philadelphia 76ers,final,DraftKings,2026-11-18T22:34:35.801615+00:00,1.884956,0.90,0.80,91.01,won
-401910011,2026-11-19T00:30:00+00:00,Brooklyn Nets,,awaiting_final,DraftKings,2026-11-18T22:34:35.801615+00:00,1.806452,,,,awaiting_final
-401910012,2026-11-19T00:30:00+00:00,Toronto Raptors,,awaiting_final,DraftKings,2026-11-18T22:34:35.801615+00:00,1.492611,,,,awaiting_final
+401910009,2026-11-19T00:00:00+00:00,Miami Heat,Miami Heat,final,DraftKings,2026-11-18T22:34:35.801615+00:00,1.142857,0.90,0.13,90.34,won
+401910010,2026-11-19T00:00:00+00:00,Philadelphia 76ers,Philadelphia 76ers,final,DraftKings,2026-11-18T22:34:35.801615+00:00,1.884956,0.90,0.80,91.14,won
+401910011,2026-11-19T00:30:00+00:00,Brooklyn Nets,Chicago Bulls,final,DraftKings,2026-11-18T22:34:35.801615+00:00,1.806452,0.91,-0.91,90.23,lost
+401910012,2026-11-19T00:30:00+00:00,Toronto Raptors,Washington Wizards,final,DraftKings,2026-11-18T22:34:35.801615+00:00,1.492611,0.90,-0.90,89.33,lost
 401910013,2026-11-19T01:00:00+00:00,Detroit Pistons,,awaiting_final,DraftKings,2026-11-18T22:34:35.801615+00:00,1.540541,,,,awaiting_final
-401910014,2026-11-19T01:00:00+00:00,Oklahoma City Thunder,,awaiting_final,DraftKings,2026-11-18T22:34:35.801615+00:00,1.401606,,,,awaiting_final
-401910016,2026-11-19T01:00:00+00:00,Golden State Warriors,,awaiting_final,DraftKings,2026-11-18T22:34:35.801615+00:00,2.64,,,,awaiting_final
+401910014,2026-11-19T01:00:00+00:00,Oklahoma City Thunder,Atlanta Hawks,final,DraftKings,2026-11-18T22:34:35.801615+00:00,1.401606,0.89,-0.89,88.44,lost
+401910016,2026-11-19T01:00:00+00:00,Golden State Warriors,Dallas Mavericks,final,DraftKings,2026-11-18T22:34:35.801615+00:00,2.64,0.88,-0.88,87.56,lost
 401910015,2026-11-19T02:30:00+00:00,Boston Celtics,,awaiting_final,DraftKings,2026-11-18T22:34:35.801615+00:00,1.704225,,,,awaiting_final
-401910017,2026-11-19T03:00:00+00:00,Los Angeles Lakers,,scheduled,DraftKings,2026-11-18T22:34:35.801615+00:00,1.176367,,,,awaiting_final
-401910018,2026-11-19T03:00:00+00:00,Phoenix Suns,,scheduled,DraftKings,2026-11-18T22:34:35.801615+00:00,1.371747,,,,awaiting_final
+401910017,2026-11-19T03:00:00+00:00,Los Angeles Lakers,,awaiting_final,DraftKings,2026-11-18T22:34:35.801615+00:00,1.176367,,,,awaiting_final
+401910018,2026-11-19T03:00:00+00:00,Phoenix Suns,,awaiting_final,DraftKings,2026-11-18T22:34:35.801615+00:00,1.371747,,,,awaiting_final
 401910019,2026-11-20T01:00:00+00:00,Memphis Grizzlies,,scheduled,,,,,,,unpriced
 401910020,2026-11-20T01:00:00+00:00,Portland Trail Blazers,,scheduled,,,,,,,unpriced
 401910021,2026-11-20T01:00:00+00:00,Minnesota Timberwolves,,scheduled,,,,,,,unpriced
