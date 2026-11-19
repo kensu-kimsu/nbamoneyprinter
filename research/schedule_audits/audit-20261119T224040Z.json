@@ -1,0 +1,48 @@
+{
+  "audited_at_utc": "2026-11-19T22:40:40.348813+00:00",
+  "scheduled_future_games": 4,
+  "predicted_future_games": 4,
+  "missing_predictions": [],
+  "predictions_not_on_future_slate": [
+    "401909305",
+    "401909306",
+    "401909307",
+    "401909308",
+    "401909309",
+    "401909310",
+    "401909311",
+    "401909312",
+    "401909313"
+  ],
+  "matched_h2h_games": [],
+  "missing_or_stale_h2h_odds": [
+    {
+      "game_id": "401910019",
+      "home": "Memphis Grizzlies",
+      "away": "Golden State Warriors",
+      "tipoff_utc": "2026-11-20T01:00:00+00:00"
+    },
+    {
+      "game_id": "401910020",
+      "home": "Milwaukee Bucks",
+      "away": "Portland Trail Blazers",
+      "tipoff_utc": "2026-11-20T01:00:00+00:00"
+    },
+    {
+      "game_id": "401910021",
+      "home": "Minnesota Timberwolves",
+      "away": "New York Knicks",
+      "tipoff_utc": "2026-11-20T01:00:00+00:00"
+    },
+    {
+      "game_id": "401910022",
+      "home": "San Antonio Spurs",
+      "away": "LA Clippers",
+      "tipoff_utc": "2026-11-20T01:00:00+00:00"
+    }
+  ],
+  "complete_prediction_coverage": false,
+  "complete_odds_coverage": false,
+  "note": "H2H over/under side mapping is unverified; matched market does not authorize a bet.",
+  "prediction_file": "predictions-20261119T223913Z.json"
+}
