@@ -1,0 +1,75 @@
+{
+  "audited_at_utc": "2026-11-20T22:15:18.110675+00:00",
+  "scheduled_future_games": 9,
+  "predicted_future_games": 9,
+  "missing_predictions": [],
+  "predictions_not_on_future_slate": [
+    "401910023",
+    "401910024",
+    "401910025",
+    "401910026",
+    "401910027",
+    "401910028"
+  ],
+  "matched_h2h_games": [],
+  "missing_or_stale_h2h_odds": [
+    {
+      "game_id": "401909305",
+      "home": "Atlanta Hawks",
+      "away": "Charlotte Hornets",
+      "tipoff_utc": "2026-11-21T00:00:00+00:00"
+    },
+    {
+      "game_id": "401909306",
+      "home": "Brooklyn Nets",
+      "away": "Orlando Magic",
+      "tipoff_utc": "2026-11-21T00:30:00+00:00"
+    },
+    {
+      "game_id": "401909307",
+      "home": "Cleveland Cavaliers",
+      "away": "Indiana Pacers",
+      "tipoff_utc": "2026-11-21T00:30:00+00:00"
+    },
+    {
+      "game_id": "401909308",
+      "home": "Detroit Pistons",
+      "away": "Toronto Raptors",
+      "tipoff_utc": "2026-11-21T00:30:00+00:00"
+    },
+    {
+      "game_id": "401909309",
+      "home": "Chicago Bulls",
+      "away": "Washington Wizards",
+      "tipoff_utc": "2026-11-21T01:00:00+00:00"
+    },
+    {
+      "game_id": "401909310",
+      "home": "Oklahoma City Thunder",
+      "away": "New Orleans Pelicans",
+      "tipoff_utc": "2026-11-21T01:00:00+00:00"
+    },
+    {
+      "game_id": "401909311",
+      "home": "Utah Jazz",
+      "away": "Phoenix Suns",
+      "tipoff_utc": "2026-11-21T02:30:00+00:00"
+    },
+    {
+      "game_id": "401909312",
+      "home": "Denver Nuggets",
+      "away": "Houston Rockets",
+      "tipoff_utc": "2026-11-21T03:00:00+00:00"
+    },
+    {
+      "game_id": "401909313",
+      "home": "Los Angeles Lakers",
+      "away": "Sacramento Kings",
+      "tipoff_utc": "2026-11-21T03:00:00+00:00"
+    }
+  ],
+  "complete_prediction_coverage": false,
+  "complete_odds_coverage": false,
+  "note": "H2H over/under side mapping is unverified; matched market does not authorize a bet.",
+  "prediction_file": "predictions-20261120T221409Z.json"
+}
