@@ -114,7 +114,16 @@ game_id,game_time_utc,predicted_winner,actual_winner,result_status,bookmaker,odd
 401910015,2026-11-19T02:30:00+00:00,Boston Celtics,Denver Nuggets,final,DraftKings,2026-11-18T22:34:35.801615+00:00,1.704225,0.88,-0.88,87.14,lost
 401910017,2026-11-19T03:00:00+00:00,Los Angeles Lakers,Utah Jazz,final,DraftKings,2026-11-18T22:34:35.801615+00:00,1.176367,0.87,-0.87,86.27,lost
 401910018,2026-11-19T03:00:00+00:00,Phoenix Suns,Phoenix Suns,final,DraftKings,2026-11-18T22:34:35.801615+00:00,1.371747,0.86,0.32,86.59,won
-401910019,2026-11-20T01:00:00+00:00,Memphis Grizzlies,,scheduled,,,,,,,unpriced
-401910020,2026-11-20T01:00:00+00:00,Portland Trail Blazers,,scheduled,,,,,,,unpriced
-401910021,2026-11-20T01:00:00+00:00,Minnesota Timberwolves,,scheduled,,,,,,,unpriced
-401910022,2026-11-20T01:00:00+00:00,San Antonio Spurs,,scheduled,,,,,,,unpriced
+401910019,2026-11-20T01:00:00+00:00,Memphis Grizzlies,,awaiting_final,DraftKings,2026-11-19T22:39:37.094148+00:00,1.462963,,,,awaiting_final
+401910020,2026-11-20T01:00:00+00:00,Portland Trail Blazers,,awaiting_final,DraftKings,2026-11-19T22:39:37.094148+00:00,1.202429,,,,awaiting_final
+401910021,2026-11-20T01:00:00+00:00,Minnesota Timberwolves,,awaiting_final,DraftKings,2026-11-19T22:39:37.094148+00:00,1.961538,,,,awaiting_final
+401910022,2026-11-20T01:00:00+00:00,San Antonio Spurs,,awaiting_final,DraftKings,2026-11-19T22:39:37.094148+00:00,1.098039,,,,awaiting_final
+401909305,2026-11-21T00:00:00+00:00,Atlanta Hawks,,scheduled,,,,,,,unpriced
+401909306,2026-11-21T00:30:00+00:00,Orlando Magic,,scheduled,,,,,,,unpriced
+401909307,2026-11-21T00:30:00+00:00,Cleveland Cavaliers,,scheduled,,,,,,,unpriced
+401909308,2026-11-21T00:30:00+00:00,Detroit Pistons,,scheduled,,,,,,,unpriced
+401909309,2026-11-21T01:00:00+00:00,Chicago Bulls,,scheduled,,,,,,,unpriced
+401909310,2026-11-21T01:00:00+00:00,Oklahoma City Thunder,,scheduled,,,,,,,unpriced
+401909311,2026-11-21T02:30:00+00:00,Phoenix Suns,,scheduled,,,,,,,unpriced
+401909312,2026-11-21T03:00:00+00:00,Houston Rockets,,scheduled,,,,,,,unpriced
+401909313,2026-11-21T03:00:00+00:00,Los Angeles Lakers,,scheduled,,,,,,,unpriced
