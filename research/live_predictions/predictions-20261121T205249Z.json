@@ -1,0 +1,272 @@
+{
+  "generated_at_utc": "2026-11-21T20:52:49.807622+00:00",
+  "model": "espn-rolling-logistic-v1",
+  "training_games": 253,
+  "fetch_errors": [],
+  "predictions": [
+    {
+      "prediction_id": "espn-baseline-401910024-20261121T205249Z",
+      "game_id": "401910024",
+      "home_team": "New York Knicks",
+      "away_team": "Portland Trail Blazers",
+      "game_time_utc": "2026-11-22T00:30:00+00:00",
+      "predicted_at_utc": "2026-11-21T20:52:49.807622+00:00",
+      "model_version": "espn-rolling-logistic-v1",
+      "home_win_probability": 0.566008,
+      "away_win_probability": 0.433992,
+      "predicted_winner": "New York Knicks",
+      "feature_values": [
+        0.09999999999999998,
+        0.25500000000000006,
+        -0.33000000000000007,
+        1.0,
+        1.0
+      ],
+      "training_games": 253,
+      "paper_bet": false,
+      "data_source": "ESPN unofficial scoreboard"
+    },
+    {
+      "prediction_id": "espn-baseline-401910025-20261121T205249Z",
+      "game_id": "401910025",
+      "home_team": "Dallas Mavericks",
+      "away_team": "LA Clippers",
+      "game_time_utc": "2026-11-22T01:00:00+00:00",
+      "predicted_at_utc": "2026-11-21T20:52:49.807622+00:00",
+      "model_version": "espn-rolling-logistic-v1",
+      "home_win_probability": 0.59684,
+      "away_win_probability": 0.40316,
+      "predicted_winner": "Dallas Mavericks",
+      "feature_values": [
+        0.2,
+        0.29,
+        -0.1299999999999999,
+        1.0,
+        1.0
+      ],
+      "training_games": 253,
+      "paper_bet": false,
+      "data_source": "ESPN unofficial scoreboard"
+    },
+    {
+      "prediction_id": "espn-baseline-401910026-20261121T205249Z",
+      "game_id": "401910026",
+      "home_team": "Minnesota Timberwolves",
+      "away_team": "Memphis Grizzlies",
+      "game_time_utc": "2026-11-22T01:00:00+00:00",
+      "predicted_at_utc": "2026-11-21T20:52:49.807622+00:00",
+      "model_version": "espn-rolling-logistic-v1",
+      "home_win_probability": 0.525376,
+      "away_win_probability": 0.474624,
+      "predicted_winner": "Minnesota Timberwolves",
+      "feature_values": [
+        0.09999999999999998,
+        -0.024999999999999967,
+        -0.5350000000000001,
+        1.0,
+        1.0
+      ],
+      "training_games": 253,
+      "paper_bet": false,
+      "data_source": "ESPN unofficial scoreboard"
+    },
+    {
+      "prediction_id": "espn-baseline-401910027-20261121T205249Z",
+      "game_id": "401910027",
+      "home_team": "San Antonio Spurs",
+      "away_team": "New Orleans Pelicans",
+      "game_time_utc": "2026-11-22T01:00:00+00:00",
+      "predicted_at_utc": "2026-11-21T20:52:49.807622+00:00",
+      "model_version": "espn-rolling-logistic-v1",
+      "home_win_probability": 0.819618,
+      "away_win_probability": 0.180382,
+      "predicted_winner": "San Antonio Spurs",
+      "feature_values": [
+        0.7,
+        1.3699999999999999,
+        0.3150000000000004,
+        1.0,
+        1.0
+      ],
+      "training_games": 253,
+      "paper_bet": false,
+      "data_source": "ESPN unofficial scoreboard"
+    },
+    {
+      "prediction_id": "espn-baseline-401910028-20261121T205249Z",
+      "game_id": "401910028",
+      "home_team": "Sacramento Kings",
+      "away_team": "Boston Celtics",
+      "game_time_utc": "2026-11-22T03:00:00+00:00",
+      "predicted_at_utc": "2026-11-21T20:52:49.807622+00:00",
+      "model_version": "espn-rolling-logistic-v1",
+      "home_win_probability": 0.230114,
+      "away_win_probability": 0.769886,
+      "predicted_winner": "Boston Celtics",
+      "feature_values": [
+        -0.6,
+        -1.13,
+        -0.21500000000000075,
+        1.0,
+        1.0
+      ],
+      "training_games": 253,
+      "paper_bet": false,
+      "data_source": "ESPN unofficial scoreboard"
+    },
+    {
+      "prediction_id": "espn-baseline-401910029-20261121T205249Z",
+      "game_id": "401910029",
+      "home_team": "Atlanta Hawks",
+      "away_team": "Detroit Pistons",
+      "game_time_utc": "2026-11-22T20:30:00+00:00",
+      "predicted_at_utc": "2026-11-21T20:52:49.807622+00:00",
+      "model_version": "espn-rolling-logistic-v1",
+      "home_win_probability": 0.505267,
+      "away_win_probability": 0.494733,
+      "predicted_winner": "Atlanta Hawks",
+      "feature_values": [
+        0.09999999999999998,
+        -0.2,
+        -0.02999999999999936,
+        1.0,
+        1.0
+      ],
+      "training_games": 253,
+      "paper_bet": false,
+      "data_source": "ESPN unofficial scoreboard"
+    },
+    {
+      "prediction_id": "espn-baseline-401910030-20261121T205249Z",
+      "game_id": "401910030",
+      "home_team": "Miami Heat",
+      "away_team": "Oklahoma City Thunder",
+      "game_time_utc": "2026-11-22T23:00:00+00:00",
+      "predicted_at_utc": "2026-11-21T20:52:49.807622+00:00",
+      "model_version": "espn-rolling-logistic-v1",
+      "home_win_probability": 0.543478,
+      "away_win_probability": 0.456522,
+      "predicted_winner": "Miami Heat",
+      "feature_values": [
+        0.20000000000000007,
+        -0.12999999999999998,
+        0.3699999999999992,
+        1.0,
+        1.0
+      ],
+      "training_games": 253,
+      "paper_bet": false,
+      "data_source": "ESPN unofficial scoreboard"
+    },
+    {
+      "prediction_id": "espn-baseline-401910031-20261121T205249Z",
+      "game_id": "401910031",
+      "home_team": "Washington Wizards",
+      "away_team": "Orlando Magic",
+      "game_time_utc": "2026-11-23T00:00:00+00:00",
+      "predicted_at_utc": "2026-11-21T20:52:49.807622+00:00",
+      "model_version": "espn-rolling-logistic-v1",
+      "home_win_probability": 0.352799,
+      "away_win_probability": 0.647201,
+      "predicted_winner": "Orlando Magic",
+      "feature_values": [
+        -0.3,
+        -0.61,
+        0.04500000000000082,
+        1.0,
+        1.0
+      ],
+      "training_games": 253,
+      "paper_bet": false,
+      "data_source": "ESPN unofficial scoreboard"
+    },
+    {
+      "prediction_id": "espn-baseline-401910032-20261121T205249Z",
+      "game_id": "401910032",
+      "home_team": "Chicago Bulls",
+      "away_team": "Denver Nuggets",
+      "game_time_utc": "2026-11-23T00:00:00+00:00",
+      "predicted_at_utc": "2026-11-21T20:52:49.807622+00:00",
+      "model_version": "espn-rolling-logistic-v1",
+      "home_win_probability": 0.359906,
+      "away_win_probability": 0.640094,
+      "predicted_winner": "Denver Nuggets",
+      "feature_values": [
+        -0.39999999999999997,
+        -0.37,
+        -0.04999999999999982,
+        1.0,
+        1.0
+      ],
+      "training_games": 253,
+      "paper_bet": false,
+      "data_source": "ESPN unofficial scoreboard"
+    },
+    {
+      "prediction_id": "espn-baseline-401910033-20261121T205249Z",
+      "game_id": "401910033",
+      "home_team": "Utah Jazz",
+      "away_team": "Dallas Mavericks",
+      "game_time_utc": "2026-11-23T00:00:00+00:00",
+      "predicted_at_utc": "2026-11-21T20:52:49.807622+00:00",
+      "model_version": "espn-rolling-logistic-v1",
+      "home_win_probability": 0.419075,
+      "away_win_probability": 0.580925,
+      "predicted_winner": "Dallas Mavericks",
+      "feature_values": [
+        -0.3,
+        -0.1,
+        -0.11500000000000021,
+        1.0,
+        1.0
+      ],
+      "training_games": 253,
+      "paper_bet": false,
+      "data_source": "ESPN unofficial scoreboard"
+    },
+    {
+      "prediction_id": "espn-baseline-401910034-20261121T205249Z",
+      "game_id": "401910034",
+      "home_team": "New York Knicks",
+      "away_team": "Indiana Pacers",
+      "game_time_utc": "2026-11-23T01:00:00+00:00",
+      "predicted_at_utc": "2026-11-21T20:52:49.807622+00:00",
+      "model_version": "espn-rolling-logistic-v1",
+      "home_win_probability": 0.687972,
+      "away_win_probability": 0.312028,
+      "predicted_winner": "New York Knicks",
+      "feature_values": [
+        0.39999999999999997,
+        0.635,
+        0.004999999999999893,
+        1.0,
+        1.0
+      ],
+      "training_games": 253,
+      "paper_bet": false,
+      "data_source": "ESPN unofficial scoreboard"
+    },
+    {
+      "prediction_id": "espn-baseline-401910035-20261121T205249Z",
+      "game_id": "401910035",
+      "home_team": "Golden State Warriors",
+      "away_team": "Boston Celtics",
+      "game_time_utc": "2026-11-23T01:30:00+00:00",
+      "predicted_at_utc": "2026-11-21T20:52:49.807622+00:00",
+      "model_version": "espn-rolling-logistic-v1",
+      "home_win_probability": 0.367738,
+      "away_win_probability": 0.632262,
+      "predicted_winner": "Boston Celtics",
+      "feature_values": [
+        -0.19999999999999996,
+        -0.6699999999999999,
+        -0.005000000000000782,
+        1.0,
+        1.0
+      ],
+      "training_games": 253,
+      "paper_bet": false,
+      "data_source": "ESPN unofficial scoreboard"
+    }
+  ]
+}
