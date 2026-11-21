@@ -127,7 +127,7 @@ game_id,game_time_utc,home_team,away_team,predicted_at_utc,predicted_winner,conf
 401909311,2026-11-21T02:30:00+00:00,Utah Jazz,Phoenix Suns,2026-11-19T22:39:13.991322+00:00,Phoenix Suns,0.637052,0.362948,0.637052,Phoenix Suns,101,111,final,1,,,
 401909312,2026-11-21T03:00:00+00:00,Denver Nuggets,Houston Rockets,2026-11-19T22:39:13.991322+00:00,Houston Rockets,0.514337,0.485663,0.514337,Denver Nuggets,133,124,final,0,,,
 401909313,2026-11-21T03:00:00+00:00,Los Angeles Lakers,Sacramento Kings,2026-11-19T22:39:13.991322+00:00,Los Angeles Lakers,0.790608,0.790608,0.209392,Los Angeles Lakers,106,104,final,1,,,
-401910023,2026-11-21T18:00:00+00:00,Philadelphia 76ers,Milwaukee Bucks,2026-11-20T22:14:09.536143+00:00,Philadelphia 76ers,0.774206,0.774206,0.225794,,,,scheduled,,,,
+401910023,2026-11-21T18:00:00+00:00,Philadelphia 76ers,Milwaukee Bucks,2026-11-20T22:14:09.536143+00:00,Philadelphia 76ers,0.774206,0.774206,0.225794,,,,awaiting_final,,,,
 401910024,2026-11-22T00:30:00+00:00,New York Knicks,Portland Trail Blazers,2026-11-20T22:14:09.536143+00:00,New York Knicks,0.56658,0.56658,0.43342,,,,scheduled,,,,
 401910025,2026-11-22T01:00:00+00:00,Dallas Mavericks,LA Clippers,2026-11-20T22:14:09.536143+00:00,Dallas Mavericks,0.595182,0.595182,0.404818,,,,scheduled,,,,
 401910026,2026-11-22T01:00:00+00:00,Minnesota Timberwolves,Memphis Grizzlies,2026-11-20T22:14:09.536143+00:00,Minnesota Timberwolves,0.525877,0.525877,0.474123,,,,scheduled,,,,
