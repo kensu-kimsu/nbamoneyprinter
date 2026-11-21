@@ -122,11 +122,11 @@ game_id,game_time_utc,predicted_winner,actual_winner,result_status,bookmaker,odd
 401909306,2026-11-21T00:30:00+00:00,Orlando Magic,Orlando Magic,final,DraftKings,2026-11-20T22:14:31.705841+00:00,1.378788,0.87,0.33,87.06,won
 401909307,2026-11-21T00:30:00+00:00,Cleveland Cavaliers,Cleveland Cavaliers,final,DraftKings,2026-11-20T22:14:31.705841+00:00,1.434783,0.87,0.38,87.44,won
 401909308,2026-11-21T00:30:00+00:00,Detroit Pistons,Toronto Raptors,final,DraftKings,2026-11-20T22:14:31.705841+00:00,1.378788,0.87,-0.87,86.57,lost
-401909309,2026-11-21T01:00:00+00:00,Chicago Bulls,,awaiting_final,DraftKings,2026-11-20T22:14:31.705841+00:00,1.740741,,,,awaiting_final
-401909310,2026-11-21T01:00:00+00:00,Oklahoma City Thunder,,awaiting_final,DraftKings,2026-11-20T22:14:31.705841+00:00,1.167224,,,,awaiting_final
-401909311,2026-11-21T02:30:00+00:00,Phoenix Suns,,awaiting_final,DraftKings,2026-11-20T22:14:31.705841+00:00,1.543478,,,,awaiting_final
-401909312,2026-11-21T03:00:00+00:00,Houston Rockets,,awaiting_final,DraftKings,2026-11-20T22:14:31.705841+00:00,2.05,,,,awaiting_final
-401909313,2026-11-21T03:00:00+00:00,Los Angeles Lakers,,awaiting_final,DraftKings,2026-11-20T22:14:31.705841+00:00,1.11236,,,,awaiting_final
+401909309,2026-11-21T01:00:00+00:00,Chicago Bulls,Washington Wizards,final,DraftKings,2026-11-20T22:14:31.705841+00:00,1.740741,0.87,-0.87,85.70,lost
+401909310,2026-11-21T01:00:00+00:00,Oklahoma City Thunder,Oklahoma City Thunder,final,DraftKings,2026-11-20T22:14:31.705841+00:00,1.167224,0.86,0.14,85.84,won
+401909311,2026-11-21T02:30:00+00:00,Phoenix Suns,Phoenix Suns,final,DraftKings,2026-11-20T22:14:31.705841+00:00,1.543478,0.86,0.47,86.31,won
+401909312,2026-11-21T03:00:00+00:00,Houston Rockets,Denver Nuggets,final,DraftKings,2026-11-20T22:14:31.705841+00:00,2.05,0.86,-0.86,85.45,lost
+401909313,2026-11-21T03:00:00+00:00,Los Angeles Lakers,Los Angeles Lakers,final,DraftKings,2026-11-20T22:14:31.705841+00:00,1.11236,0.85,0.10,85.55,won
 401910023,2026-11-21T18:00:00+00:00,Philadelphia 76ers,,scheduled,,,,,,,unpriced
 401910024,2026-11-22T00:30:00+00:00,New York Knicks,,scheduled,,,,,,,unpriced
 401910025,2026-11-22T01:00:00+00:00,Dallas Mavericks,,scheduled,,,,,,,unpriced
