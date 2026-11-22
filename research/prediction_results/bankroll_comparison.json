@@ -9,10 +9,10 @@
     "open_bets": 0
   },
   "all_ai_winners_hypothetical": {
-    "total_predictions": 134,
-    "completed_games": 128,
+    "total_predictions": 141,
+    "completed_games": 129,
     "priced_completed_games": 123,
-    "completed_games_without_verified_odds": 5,
+    "completed_games_without_verified_odds": 6,
     "wins": 77,
     "losses": 46,
     "profit_aud": -14.45,
