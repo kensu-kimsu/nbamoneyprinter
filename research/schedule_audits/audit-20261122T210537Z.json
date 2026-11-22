@@ -1,0 +1,61 @@
+{
+  "audited_at_utc": "2026-11-22T21:05:37.883555+00:00",
+  "scheduled_future_games": 6,
+  "predicted_future_games": 6,
+  "missing_predictions": [],
+  "predictions_not_on_future_slate": [
+    "401910036",
+    "401910037",
+    "401910038",
+    "401910039",
+    "401910040",
+    "401910041",
+    "401910042",
+    "401910043",
+    "401910044",
+    "401910045"
+  ],
+  "matched_h2h_games": [],
+  "missing_or_stale_h2h_odds": [
+    {
+      "game_id": "401910030",
+      "home": "Miami Heat",
+      "away": "Oklahoma City Thunder",
+      "tipoff_utc": "2026-11-22T23:00:00+00:00"
+    },
+    {
+      "game_id": "401910031",
+      "home": "Washington Wizards",
+      "away": "Orlando Magic",
+      "tipoff_utc": "2026-11-23T00:00:00+00:00"
+    },
+    {
+      "game_id": "401910032",
+      "home": "Chicago Bulls",
+      "away": "Denver Nuggets",
+      "tipoff_utc": "2026-11-23T00:00:00+00:00"
+    },
+    {
+      "game_id": "401910033",
+      "home": "Utah Jazz",
+      "away": "Dallas Mavericks",
+      "tipoff_utc": "2026-11-23T00:00:00+00:00"
+    },
+    {
+      "game_id": "401910034",
+      "home": "New York Knicks",
+      "away": "Indiana Pacers",
+      "tipoff_utc": "2026-11-23T01:00:00+00:00"
+    },
+    {
+      "game_id": "401910035",
+      "home": "Golden State Warriors",
+      "away": "Boston Celtics",
+      "tipoff_utc": "2026-11-23T01:30:00+00:00"
+    }
+  ],
+  "complete_prediction_coverage": false,
+  "complete_odds_coverage": false,
+  "note": "H2H over/under side mapping is unverified; matched market does not authorize a bet.",
+  "prediction_file": "predictions-20261122T210141Z.json"
+}
