@@ -1,0 +1,99 @@
+{
+  "captured_at_utc": "2026-11-22T21:02:05.405111+00:00",
+  "date_us_eastern": "2026-11-22",
+  "scheduled_future_games": 6,
+  "games_with_verified_team_side_odds": 6,
+  "games": [
+    {
+      "game_id": "401910030",
+      "home": "Miami Heat",
+      "away": "Oklahoma City Thunder",
+      "tipoff_utc": "2026-11-22T23:00:00+00:00",
+      "books": [
+        {
+          "bookmaker": "DraftKings",
+          "home_decimal": 1.578035,
+          "away_decimal": 2.46,
+          "home_american": -173,
+          "away_american": 146
+        }
+      ]
+    },
+    {
+      "game_id": "401910031",
+      "home": "Washington Wizards",
+      "away": "Orlando Magic",
+      "tipoff_utc": "2026-11-23T00:00:00+00:00",
+      "books": [
+        {
+          "bookmaker": "DraftKings",
+          "home_decimal": 2.65,
+          "away_decimal": 1.507614,
+          "home_american": 165,
+          "away_american": -197
+        }
+      ]
+    },
+    {
+      "game_id": "401910032",
+      "home": "Chicago Bulls",
+      "away": "Denver Nuggets",
+      "tipoff_utc": "2026-11-23T00:00:00+00:00",
+      "books": [
+        {
+          "bookmaker": "DraftKings",
+          "home_decimal": 4.4,
+          "away_decimal": 1.228833,
+          "home_american": 340,
+          "away_american": -437
+        }
+      ]
+    },
+    {
+      "game_id": "401910033",
+      "home": "Utah Jazz",
+      "away": "Dallas Mavericks",
+      "tipoff_utc": "2026-11-23T00:00:00+00:00",
+      "books": [
+        {
+          "bookmaker": "DraftKings",
+          "home_decimal": 2.14,
+          "away_decimal": 1.740741,
+          "home_american": 114,
+          "away_american": -135
+        }
+      ]
+    },
+    {
+      "game_id": "401910034",
+      "home": "New York Knicks",
+      "away": "Indiana Pacers",
+      "tipoff_utc": "2026-11-23T01:00:00+00:00",
+      "books": [
+        {
+          "bookmaker": "DraftKings",
+          "home_decimal": 1.337838,
+          "away_decimal": 3.4,
+          "home_american": -296,
+          "away_american": 240
+        }
+      ]
+    },
+    {
+      "game_id": "401910035",
+      "home": "Golden State Warriors",
+      "away": "Boston Celtics",
+      "tipoff_utc": "2026-11-23T01:30:00+00:00",
+      "books": [
+        {
+          "bookmaker": "DraftKings",
+          "home_decimal": 3.47,
+          "away_decimal": 1.328947,
+          "home_american": 247,
+          "away_american": -304
+        }
+      ]
+    }
+  ],
+  "paper_bets_enabled": false
+}

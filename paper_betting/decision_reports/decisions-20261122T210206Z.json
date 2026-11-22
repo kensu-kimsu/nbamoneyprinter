@@ -1,0 +1,256 @@
+{
+  "generated_at_utc": "2026-11-22T21:02:06.779588+00:00",
+  "odds_captured_at_utc": "2026-11-22T21:02:06.630968+00:00",
+  "min_ev_pct": 8,
+  "min_model_probability_pct": 60,
+  "max_decimal_odds": 2.0,
+  "bankroll_aud": 92.92,
+  "available_exposure_aud": 4.65,
+  "category_counts": {
+    "current_priced_slate": 6,
+    "upcoming": 10
+  },
+  "decision_reasons": {
+    "model_confidence_below_60_percent": 3,
+    "below_8_percent_ev": 3,
+    "not_in_current_odds_slate": 10
+  },
+  "decisions": [
+    {
+      "game_id": "401910030",
+      "game": "Oklahoma City Thunder @ Miami Heat",
+      "game_time_utc": "2026-11-22T23:00:00+00:00",
+      "predicted_winner": "Miami Heat",
+      "model_win_probability": 0.550551,
+      "predicted_winner_quote": {
+        "bookmaker": "DraftKings",
+        "decimal_odds": 1.578035,
+        "expected_value_pct": -13.121
+      },
+      "best_ev_quote": {
+        "selection": "Oklahoma City Thunder",
+        "bookmaker": "DraftKings",
+        "decimal_odds": 2.46,
+        "model_probability": 0.449449,
+        "expected_value_pct": 10.564
+      },
+      "reason": "model_confidence_below_60_percent",
+      "category": "current_priced_slate"
+    },
+    {
+      "game_id": "401910031",
+      "game": "Orlando Magic @ Washington Wizards",
+      "game_time_utc": "2026-11-23T00:00:00+00:00",
+      "predicted_winner": "Orlando Magic",
+      "model_win_probability": 0.637918,
+      "predicted_winner_quote": {
+        "bookmaker": "DraftKings",
+        "decimal_odds": 1.507614,
+        "expected_value_pct": -3.827
+      },
+      "best_ev_quote": {
+        "selection": "Orlando Magic",
+        "bookmaker": "DraftKings",
+        "decimal_odds": 1.507614,
+        "model_probability": 0.637918,
+        "expected_value_pct": -3.827
+      },
+      "reason": "below_8_percent_ev",
+      "category": "current_priced_slate"
+    },
+    {
+      "game_id": "401910032",
+      "game": "Denver Nuggets @ Chicago Bulls",
+      "game_time_utc": "2026-11-23T00:00:00+00:00",
+      "predicted_winner": "Denver Nuggets",
+      "model_win_probability": 0.628602,
+      "predicted_winner_quote": {
+        "bookmaker": "DraftKings",
+        "decimal_odds": 1.228833,
+        "expected_value_pct": -22.755
+      },
+      "best_ev_quote": {
+        "selection": "Chicago Bulls",
+        "bookmaker": "DraftKings",
+        "decimal_odds": 4.4,
+        "model_probability": 0.371398,
+        "expected_value_pct": 63.415
+      },
+      "reason": "below_8_percent_ev",
+      "category": "current_priced_slate"
+    },
+    {
+      "game_id": "401910033",
+      "game": "Dallas Mavericks @ Utah Jazz",
+      "game_time_utc": "2026-11-23T00:00:00+00:00",
+      "predicted_winner": "Dallas Mavericks",
+      "model_win_probability": 0.57031,
+      "predicted_winner_quote": {
+        "bookmaker": "DraftKings",
+        "decimal_odds": 1.740741,
+        "expected_value_pct": -0.724
+      },
+      "best_ev_quote": {
+        "selection": "Dallas Mavericks",
+        "bookmaker": "DraftKings",
+        "decimal_odds": 1.740741,
+        "model_probability": 0.57031,
+        "expected_value_pct": -0.724
+      },
+      "reason": "model_confidence_below_60_percent",
+      "category": "current_priced_slate"
+    },
+    {
+      "game_id": "401910034",
+      "game": "Indiana Pacers @ New York Knicks",
+      "game_time_utc": "2026-11-23T01:00:00+00:00",
+      "predicted_winner": "New York Knicks",
+      "model_win_probability": 0.726243,
+      "predicted_winner_quote": {
+        "bookmaker": "DraftKings",
+        "decimal_odds": 1.337838,
+        "expected_value_pct": -2.84
+      },
+      "best_ev_quote": {
+        "selection": "New York Knicks",
+        "bookmaker": "DraftKings",
+        "decimal_odds": 1.337838,
+        "model_probability": 0.726243,
+        "expected_value_pct": -2.84
+      },
+      "reason": "below_8_percent_ev",
+      "category": "current_priced_slate"
+    },
+    {
+      "game_id": "401910035",
+      "game": "Boston Celtics @ Golden State Warriors",
+      "game_time_utc": "2026-11-23T01:30:00+00:00",
+      "predicted_winner": "Boston Celtics",
+      "model_win_probability": 0.590091,
+      "predicted_winner_quote": {
+        "bookmaker": "DraftKings",
+        "decimal_odds": 1.328947,
+        "expected_value_pct": -21.58
+      },
+      "best_ev_quote": {
+        "selection": "Golden State Warriors",
+        "bookmaker": "DraftKings",
+        "decimal_odds": 3.47,
+        "model_probability": 0.409909,
+        "expected_value_pct": 42.238
+      },
+      "reason": "model_confidence_below_60_percent",
+      "category": "current_priced_slate"
+    },
+    {
+      "game_id": "401910036",
+      "game": "Memphis Grizzlies @ Charlotte Hornets",
+      "game_time_utc": "2026-11-24T00:00:00+00:00",
+      "predicted_winner": "Memphis Grizzlies",
+      "model_win_probability": 0.713887,
+      "predicted_winner_quote": null,
+      "best_ev_quote": null,
+      "reason": "not_in_current_odds_slate",
+      "category": "upcoming"
+    },
+    {
+      "game_id": "401910037",
+      "game": "Portland Trail Blazers @ Philadelphia 76ers",
+      "game_time_utc": "2026-11-24T00:00:00+00:00",
+      "predicted_winner": "Philadelphia 76ers",
+      "model_win_probability": 0.590454,
+      "predicted_winner_quote": null,
+      "best_ev_quote": null,
+      "reason": "not_in_current_odds_slate",
+      "category": "upcoming"
+    },
+    {
+      "game_id": "401910038",
+      "game": "Oklahoma City Thunder @ Indiana Pacers",
+      "game_time_utc": "2026-11-24T00:30:00+00:00",
+      "predicted_winner": "Oklahoma City Thunder",
+      "model_win_probability": 0.628846,
+      "predicted_winner_quote": null,
+      "best_ev_quote": null,
+      "reason": "not_in_current_odds_slate",
+      "category": "upcoming"
+    },
+    {
+      "game_id": "401910039",
+      "game": "Milwaukee Bucks @ Toronto Raptors",
+      "game_time_utc": "2026-11-24T00:30:00+00:00",
+      "predicted_winner": "Toronto Raptors",
+      "model_win_probability": 0.647646,
+      "predicted_winner_quote": null,
+      "best_ev_quote": null,
+      "reason": "not_in_current_odds_slate",
+      "category": "upcoming"
+    },
+    {
+      "game_id": "401910040",
+      "game": "Brooklyn Nets @ Minnesota Timberwolves",
+      "game_time_utc": "2026-11-24T00:30:00+00:00",
+      "predicted_winner": "Minnesota Timberwolves",
+      "model_win_probability": 0.735979,
+      "predicted_winner_quote": null,
+      "best_ev_quote": null,
+      "reason": "not_in_current_odds_slate",
+      "category": "upcoming"
+    },
+    {
+      "game_id": "401910041",
+      "game": "Cleveland Cavaliers @ Chicago Bulls",
+      "game_time_utc": "2026-11-24T01:00:00+00:00",
+      "predicted_winner": "Cleveland Cavaliers",
+      "model_win_probability": 0.565963,
+      "predicted_winner_quote": null,
+      "best_ev_quote": null,
+      "reason": "not_in_current_odds_slate",
+      "category": "upcoming"
+    },
+    {
+      "game_id": "401910042",
+      "game": "Phoenix Suns @ New Orleans Pelicans",
+      "game_time_utc": "2026-11-24T01:00:00+00:00",
+      "predicted_winner": "Phoenix Suns",
+      "model_win_probability": 0.750321,
+      "predicted_winner_quote": null,
+      "best_ev_quote": null,
+      "reason": "not_in_current_odds_slate",
+      "category": "upcoming"
+    },
+    {
+      "game_id": "401910043",
+      "game": "LA Clippers @ Houston Rockets",
+      "game_time_utc": "2026-11-24T01:30:00+00:00",
+      "predicted_winner": "Houston Rockets",
+      "model_win_probability": 0.667696,
+      "predicted_winner_quote": null,
+      "best_ev_quote": null,
+      "reason": "not_in_current_odds_slate",
+      "category": "upcoming"
+    },
+    {
+      "game_id": "401910044",
+      "game": "Utah Jazz @ Los Angeles Lakers",
+      "game_time_utc": "2026-11-24T03:00:00+00:00",
+      "predicted_winner": "Los Angeles Lakers",
+      "model_win_probability": 0.749503,
+      "predicted_winner_quote": null,
+      "best_ev_quote": null,
+      "reason": "not_in_current_odds_slate",
+      "category": "upcoming"
+    },
+    {
+      "game_id": "401910045",
+      "game": "San Antonio Spurs @ Sacramento Kings",
+      "game_time_utc": "2026-11-24T03:00:00+00:00",
+      "predicted_winner": "San Antonio Spurs",
+      "model_win_probability": 0.77406,
+      "predicted_winner_quote": null,
+      "best_ev_quote": null,
+      "reason": "not_in_current_odds_slate",
+      "category": "upcoming"
+    }
+  ]
+}
