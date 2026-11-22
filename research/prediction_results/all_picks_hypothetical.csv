@@ -128,11 +128,11 @@ game_id,game_time_utc,predicted_winner,actual_winner,result_status,bookmaker,odd
 401909312,2026-11-21T03:00:00+00:00,Houston Rockets,Denver Nuggets,final,DraftKings,2026-11-20T22:14:31.705841+00:00,2.05,0.86,-0.86,85.45,lost
 401909313,2026-11-21T03:00:00+00:00,Los Angeles Lakers,Los Angeles Lakers,final,DraftKings,2026-11-20T22:14:31.705841+00:00,1.11236,0.85,0.10,85.55,won
 401910023,2026-11-21T18:00:00+00:00,Philadelphia 76ers,Philadelphia 76ers,final,,,,,,,unpriced
-401910024,2026-11-22T00:30:00+00:00,New York Knicks,,awaiting_final,Draft Kings,2026-11-21T20:53:12.779193+00:00,1.641026,,,,awaiting_final
-401910025,2026-11-22T01:00:00+00:00,Dallas Mavericks,,awaiting_final,Draft Kings,2026-11-21T20:53:12.779193+00:00,1.510204,,,,awaiting_final
-401910026,2026-11-22T01:00:00+00:00,Minnesota Timberwolves,,awaiting_final,Draft Kings,2026-11-21T20:53:12.779193+00:00,1.421941,,,,awaiting_final
-401910027,2026-11-22T01:00:00+00:00,San Antonio Spurs,,awaiting_final,Draft Kings,2026-11-21T20:53:12.779193+00:00,1.057471,,,,awaiting_final
-401910028,2026-11-22T03:00:00+00:00,Boston Celtics,,scheduled,Draft Kings,2026-11-21T20:53:12.779193+00:00,1.183486,,,,awaiting_final
+401910024,2026-11-22T00:30:00+00:00,New York Knicks,New York Knicks,final,Draft Kings,2026-11-21T20:53:12.779193+00:00,1.641026,0.86,0.55,86.10,won
+401910025,2026-11-22T01:00:00+00:00,Dallas Mavericks,Dallas Mavericks,final,Draft Kings,2026-11-21T20:53:12.779193+00:00,1.510204,0.86,0.44,86.54,won
+401910026,2026-11-22T01:00:00+00:00,Minnesota Timberwolves,Minnesota Timberwolves,final,Draft Kings,2026-11-21T20:53:12.779193+00:00,1.421941,0.87,0.37,86.91,won
+401910027,2026-11-22T01:00:00+00:00,San Antonio Spurs,San Antonio Spurs,final,Draft Kings,2026-11-21T20:53:12.779193+00:00,1.057471,0.87,0.05,86.96,won
+401910028,2026-11-22T03:00:00+00:00,Boston Celtics,Sacramento Kings,final,Draft Kings,2026-11-21T20:53:12.779193+00:00,1.183486,0.87,-0.87,86.09,lost
 401910029,2026-11-22T20:30:00+00:00,Atlanta Hawks,,scheduled,,,,,,,unpriced
 401910030,2026-11-22T23:00:00+00:00,Miami Heat,,scheduled,,,,,,,unpriced
 401910031,2026-11-23T00:00:00+00:00,Orlando Magic,,scheduled,,,,,,,unpriced
