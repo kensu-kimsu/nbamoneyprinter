@@ -133,10 +133,20 @@ game_id,game_time_utc,predicted_winner,actual_winner,result_status,bookmaker,odd
 401910026,2026-11-22T01:00:00+00:00,Minnesota Timberwolves,Minnesota Timberwolves,final,Draft Kings,2026-11-21T20:53:12.779193+00:00,1.421941,0.87,0.37,86.91,won
 401910027,2026-11-22T01:00:00+00:00,San Antonio Spurs,San Antonio Spurs,final,Draft Kings,2026-11-21T20:53:12.779193+00:00,1.057471,0.87,0.05,86.96,won
 401910028,2026-11-22T03:00:00+00:00,Boston Celtics,Sacramento Kings,final,Draft Kings,2026-11-21T20:53:12.779193+00:00,1.183486,0.87,-0.87,86.09,lost
-401910029,2026-11-22T20:30:00+00:00,Atlanta Hawks,,scheduled,,,,,,,unpriced
-401910030,2026-11-22T23:00:00+00:00,Miami Heat,,scheduled,,,,,,,unpriced
-401910031,2026-11-23T00:00:00+00:00,Orlando Magic,,scheduled,,,,,,,unpriced
-401910032,2026-11-23T00:00:00+00:00,Denver Nuggets,,scheduled,,,,,,,unpriced
-401910033,2026-11-23T00:00:00+00:00,Dallas Mavericks,,scheduled,,,,,,,unpriced
-401910034,2026-11-23T01:00:00+00:00,New York Knicks,,scheduled,,,,,,,unpriced
-401910035,2026-11-23T01:30:00+00:00,Boston Celtics,,scheduled,,,,,,,unpriced
+401910029,2026-11-22T20:30:00+00:00,Atlanta Hawks,Atlanta Hawks,final,,,,,,,unpriced
+401910030,2026-11-22T23:00:00+00:00,Miami Heat,Miami Heat,final,DraftKings,2026-11-22T21:02:05.405111+00:00,1.578035,0.86,0.50,86.59,won
+401910031,2026-11-23T00:00:00+00:00,Orlando Magic,,awaiting_final,DraftKings,2026-11-22T21:02:05.405111+00:00,1.507614,,,,awaiting_final
+401910032,2026-11-23T00:00:00+00:00,Denver Nuggets,,awaiting_final,DraftKings,2026-11-22T21:02:05.405111+00:00,1.228833,,,,awaiting_final
+401910033,2026-11-23T00:00:00+00:00,Dallas Mavericks,,awaiting_final,DraftKings,2026-11-22T21:02:05.405111+00:00,1.740741,,,,awaiting_final
+401910034,2026-11-23T01:00:00+00:00,New York Knicks,,awaiting_final,DraftKings,2026-11-22T21:02:05.405111+00:00,1.337838,,,,awaiting_final
+401910035,2026-11-23T01:30:00+00:00,Boston Celtics,,awaiting_final,DraftKings,2026-11-22T21:02:05.405111+00:00,1.328947,,,,awaiting_final
+401910036,2026-11-24T00:00:00+00:00,Memphis Grizzlies,,scheduled,,,,,,,unpriced
+401910037,2026-11-24T00:00:00+00:00,Philadelphia 76ers,,scheduled,,,,,,,unpriced
+401910038,2026-11-24T00:30:00+00:00,Oklahoma City Thunder,,scheduled,,,,,,,unpriced
+401910039,2026-11-24T00:30:00+00:00,Toronto Raptors,,scheduled,,,,,,,unpriced
+401910040,2026-11-24T00:30:00+00:00,Minnesota Timberwolves,,scheduled,,,,,,,unpriced
+401910041,2026-11-24T01:00:00+00:00,Cleveland Cavaliers,,scheduled,,,,,,,unpriced
+401910042,2026-11-24T01:00:00+00:00,Phoenix Suns,,scheduled,,,,,,,unpriced
+401910043,2026-11-24T01:30:00+00:00,Houston Rockets,,scheduled,,,,,,,unpriced
+401910044,2026-11-24T03:00:00+00:00,Los Angeles Lakers,,scheduled,,,,,,,unpriced
+401910045,2026-11-24T03:00:00+00:00,San Antonio Spurs,,scheduled,,,,,,,unpriced
