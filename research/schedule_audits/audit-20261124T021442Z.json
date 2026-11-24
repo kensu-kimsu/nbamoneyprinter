@@ -1,0 +1,39 @@
+{
+  "audited_at_utc": "2026-11-24T02:14:42.750983+00:00",
+  "scheduled_future_games": 2,
+  "predicted_future_games": 2,
+  "missing_predictions": [],
+  "predictions_not_on_future_slate": [
+    "401909314",
+    "401909315",
+    "401909316",
+    "401909317",
+    "401909318",
+    "401909319",
+    "401909320",
+    "401909321",
+    "401909322",
+    "401909323",
+    "401909324",
+    "401909325"
+  ],
+  "matched_h2h_games": [],
+  "missing_or_stale_h2h_odds": [
+    {
+      "game_id": "401910044",
+      "home": "Los Angeles Lakers",
+      "away": "Utah Jazz",
+      "tipoff_utc": "2026-11-24T03:00:00+00:00"
+    },
+    {
+      "game_id": "401910045",
+      "home": "Sacramento Kings",
+      "away": "San Antonio Spurs",
+      "tipoff_utc": "2026-11-24T03:00:00+00:00"
+    }
+  ],
+  "complete_prediction_coverage": false,
+  "complete_odds_coverage": false,
+  "note": "H2H over/under side mapping is unverified; matched market does not authorize a bet.",
+  "prediction_file": "predictions-20261124T020902Z.json"
+}
