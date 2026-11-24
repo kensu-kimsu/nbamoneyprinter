@@ -1,0 +1,59 @@
+{
+  "captured_at_utc": "2026-11-24T23:52:21.953318+00:00",
+  "date_us_eastern": "2026-11-24",
+  "scheduled_future_games": 3,
+  "games_with_verified_team_side_odds": 3,
+  "games": [
+    {
+      "game_id": "401909314",
+      "home": "Orlando Magic",
+      "away": "Detroit Pistons",
+      "tipoff_utc": "2026-11-25T00:00:00+00:00",
+      "books": [
+        {
+          "bookmaker": "DraftKings",
+          "home_decimal": 1.671141,
+          "away_decimal": 2.26,
+          "home_american": -149,
+          "away_american": 126
+        }
+      ]
+    },
+    {
+      "game_id": "401909315",
+      "home": "Washington Wizards",
+      "away": "Boston Celtics",
+      "tipoff_utc": "2026-11-25T01:00:00+00:00",
+      "books": [
+        {
+          "bookmaker": "DraftKings",
+          "home_decimal": 4.51,
+          "away_decimal": 1.221239,
+          "home_american": 351,
+          "away_american": -452
+        }
+      ]
+    },
+    {
+      "game_id": "401909316",
+      "home": "Denver Nuggets",
+      "away": "Dallas Mavericks",
+      "tipoff_utc": "2026-11-25T03:00:00+00:00",
+      "books": [
+        {
+          "bookmaker": "DraftKings",
+          "home_decimal": 1.322581,
+          "away_decimal": 3.51,
+          "home_american": -310,
+          "away_american": 251
+        }
+      ]
+    }
+  ],
+  "paper_bets_enabled": false,
+  "source": "ESPN + validated external snapshots",
+  "external_prices_added": 0,
+  "external_errors": [],
+  "missing_games": [],
+  "coverage_pct": 100.0
+}
