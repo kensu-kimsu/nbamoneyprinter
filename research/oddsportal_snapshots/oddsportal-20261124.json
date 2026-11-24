@@ -1,0 +1,161 @@
+[
+    {
+        "scraped_date": "2026-11-24 23:35:35 UTC",
+        "match_date": "2026-11-25 00:00:00 UTC",
+        "season": null,
+        "match_link": "https://www.oddsportal.com/basketball/h2h/detroit-pistons-UcjMRj6J/orlando-magic-QZMS36Dn/#O6Oqpuzq",
+        "home_team": "Orlando Magic",
+        "away_team": "Detroit Pistons",
+        "league_name": "NBA Cup",
+        "home_score": null,
+        "away_score": null,
+        "partial_results": null,
+        "venue": "Kia Center",
+        "venue_town": "Orlando, FL",
+        "venue_country": "USA",
+        "match_info": null,
+        "home_away_market": [
+            {
+                "1": "2.12",
+                "2": "1.76",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "2.10",
+                "2": "1.75",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "2.10",
+                "2": "1.76",
+                "bookmaker_name": "DraftKings",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "2.10",
+                "2": "1.76",
+                "bookmaker_name": "Fanatics",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "2.12",
+                "2": "1.76",
+                "bookmaker_name": "Fanduel",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            }
+        ]
+    },
+    {
+        "scraped_date": "2026-11-24 23:35:40 UTC",
+        "match_date": "2026-11-25 01:00:00 UTC",
+        "season": null,
+        "match_link": "https://www.oddsportal.com/basketball/h2h/boston-celtics-KYD9hVEm/washington-wizards-W6vGWPsn/#WWRirJ4e",
+        "home_team": "Washington Wizards",
+        "away_team": "Boston Celtics",
+        "league_name": "NBA Cup",
+        "home_score": null,
+        "away_score": null,
+        "partial_results": null,
+        "venue": "Capital One Arena",
+        "venue_town": "Washington, DC",
+        "venue_country": "USA",
+        "match_info": null,
+        "home_away_market": [
+            {
+                "1": "4.40",
+                "2": "1.23",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "4.40",
+                "2": "1.22",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "4.31",
+                "2": "1.23",
+                "bookmaker_name": "DraftKings",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "4.40",
+                "2": "1.22",
+                "bookmaker_name": "Fanatics",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "4.50",
+                "2": "1.22",
+                "bookmaker_name": "Fanduel",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            }
+        ]
+    },
+    {
+        "scraped_date": "2026-11-24 23:35:44 UTC",
+        "match_date": "2026-11-25 03:00:00 UTC",
+        "season": null,
+        "match_link": "https://www.oddsportal.com/basketball/h2h/dallas-mavericks-YouS3mEC/denver-nuggets-CxvW27TI/#4pQatcZ7",
+        "home_team": "Denver Nuggets",
+        "away_team": "Dallas Mavericks",
+        "league_name": "NBA Cup",
+        "home_score": null,
+        "away_score": null,
+        "partial_results": null,
+        "venue": "Ball Arena",
+        "venue_town": "Denver, CO",
+        "venue_country": "USA",
+        "match_info": null,
+        "home_away_market": [
+            {
+                "1": "1.32",
+                "2": "3.50",
+                "bookmaker_name": "bet365.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "1.33",
+                "2": "3.40",
+                "bookmaker_name": "BetMGM.us",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "1.32",
+                "2": "3.51",
+                "bookmaker_name": "DraftKings",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "1.33",
+                "2": "3.40",
+                "bookmaker_name": "Fanatics",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            },
+            {
+                "1": "1.33",
+                "2": "3.45",
+                "bookmaker_name": "Fanduel",
+                "period": "FullIncludingOT",
+                "submarket_name": "Home/Away"
+            }
+        ]
+    }
+]
