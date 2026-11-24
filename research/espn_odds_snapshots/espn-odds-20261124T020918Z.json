@@ -1,0 +1,44 @@
+{
+  "captured_at_utc": "2026-11-24T02:09:18.842523+00:00",
+  "date_us_eastern": "2026-11-23",
+  "scheduled_future_games": 2,
+  "games_with_verified_team_side_odds": 2,
+  "games": [
+    {
+      "game_id": "401910044",
+      "home": "Los Angeles Lakers",
+      "away": "Utah Jazz",
+      "tipoff_utc": "2026-11-24T03:00:00+00:00",
+      "books": [
+        {
+          "bookmaker": "Draft Kings",
+          "home_decimal": 1.133333,
+          "away_decimal": 6.3,
+          "home_american": -750,
+          "away_american": 530
+        }
+      ]
+    },
+    {
+      "game_id": "401910045",
+      "home": "Sacramento Kings",
+      "away": "San Antonio Spurs",
+      "tipoff_utc": "2026-11-24T03:00:00+00:00",
+      "books": [
+        {
+          "bookmaker": "Draft Kings",
+          "home_decimal": 3.49,
+          "away_decimal": 1.324675,
+          "home_american": 249,
+          "away_american": -308
+        }
+      ]
+    }
+  ],
+  "paper_bets_enabled": false,
+  "source": "ESPN + validated external snapshots",
+  "external_prices_added": 0,
+  "external_errors": [],
+  "missing_games": [],
+  "coverage_pct": 100.0
+}
