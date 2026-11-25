@@ -150,9 +150,9 @@ game_id,game_time_utc,predicted_winner,actual_winner,result_status,bookmaker,odd
 401910043,2026-11-24T01:30:00+00:00,Houston Rockets,Houston Rockets,final,,,,,,,unpriced
 401910044,2026-11-24T03:00:00+00:00,Los Angeles Lakers,Los Angeles Lakers,final,Draft Kings,2026-11-24T02:09:18.842523+00:00,1.133333,0.86,0.11,86.09,won
 401910045,2026-11-24T03:00:00+00:00,San Antonio Spurs,San Antonio Spurs,final,Draft Kings,2026-11-24T02:09:18.842523+00:00,1.324675,0.86,0.28,86.37,won
-401909314,2026-11-25T00:00:00+00:00,Orlando Magic,,scheduled,DraftKings,2026-11-24T23:52:21.953318+00:00,1.671141,,,,awaiting_final
-401909315,2026-11-25T01:00:00+00:00,Boston Celtics,,scheduled,DraftKings,2026-11-24T23:52:21.953318+00:00,1.221239,,,,awaiting_final
-401909316,2026-11-25T03:00:00+00:00,Denver Nuggets,,scheduled,DraftKings,2026-11-24T23:52:21.953318+00:00,1.322581,,,,awaiting_final
+401909314,2026-11-25T00:00:00+00:00,Orlando Magic,Detroit Pistons,final,DraftKings,2026-11-24T23:52:21.953318+00:00,1.671141,0.86,-0.86,85.51,lost
+401909315,2026-11-25T01:00:00+00:00,Boston Celtics,Boston Celtics,final,DraftKings,2026-11-24T23:52:21.953318+00:00,1.221239,0.86,0.19,85.70,won
+401909316,2026-11-25T03:00:00+00:00,Denver Nuggets,,awaiting_final,DraftKings,2026-11-24T23:52:21.953318+00:00,1.322581,,,,awaiting_final
 401909317,2026-11-25T22:00:00+00:00,Philadelphia 76ers,,scheduled,,,,,,,unpriced
 401909318,2026-11-26T00:00:00+00:00,Chicago Bulls,,scheduled,,,,,,,unpriced
 401909319,2026-11-26T00:30:00+00:00,New York Knicks,,scheduled,,,,,,,unpriced
