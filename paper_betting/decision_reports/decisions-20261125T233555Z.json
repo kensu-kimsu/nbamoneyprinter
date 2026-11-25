@@ -1,0 +1,187 @@
+{
+  "generated_at_utc": "2026-11-25T23:35:55.531580+00:00",
+  "odds_captured_at_utc": "2026-11-25T23:35:55.284667+00:00",
+  "min_ev_pct": 8,
+  "min_model_probability_pct": 60,
+  "max_decimal_odds": 2.0,
+  "bankroll_aud": 92.92,
+  "available_exposure_aud": 4.65,
+  "category_counts": {
+    "current_priced_slate": 8
+  },
+  "decision_reasons": {
+    "odds_above_2_decimal": 2,
+    "below_8_percent_ev": 4,
+    "model_confidence_below_60_percent": 2
+  },
+  "decisions": [
+    {
+      "game_id": "401909318",
+      "game": "Chicago Bulls @ Charlotte Hornets",
+      "game_time_utc": "2026-11-26T00:00:00+00:00",
+      "predicted_winner": "Chicago Bulls",
+      "model_win_probability": 0.634164,
+      "predicted_winner_quote": {
+        "bookmaker": "Draft Kings",
+        "decimal_odds": 2.51,
+        "expected_value_pct": 59.175
+      },
+      "best_ev_quote": {
+        "selection": "Chicago Bulls",
+        "bookmaker": "Draft Kings",
+        "decimal_odds": 2.51,
+        "model_probability": 0.634164,
+        "expected_value_pct": 59.175
+      },
+      "reason": "odds_above_2_decimal",
+      "category": "current_priced_slate"
+    },
+    {
+      "game_id": "401909319",
+      "game": "Cleveland Cavaliers @ New York Knicks",
+      "game_time_utc": "2026-11-26T00:30:00+00:00",
+      "predicted_winner": "New York Knicks",
+      "model_win_probability": 0.653308,
+      "predicted_winner_quote": {
+        "bookmaker": "Draft Kings",
+        "decimal_odds": 1.555556,
+        "expected_value_pct": 1.626
+      },
+      "best_ev_quote": {
+        "selection": "New York Knicks",
+        "bookmaker": "Draft Kings",
+        "decimal_odds": 1.555556,
+        "model_probability": 0.653308,
+        "expected_value_pct": 1.626
+      },
+      "reason": "below_8_percent_ev",
+      "category": "current_priced_slate"
+    },
+    {
+      "game_id": "401909320",
+      "game": "Minnesota Timberwolves @ Oklahoma City Thunder",
+      "game_time_utc": "2026-11-26T00:30:00+00:00",
+      "predicted_winner": "Minnesota Timberwolves",
+      "model_win_probability": 0.622989,
+      "predicted_winner_quote": {
+        "bookmaker": "Draft Kings",
+        "decimal_odds": 2.14,
+        "expected_value_pct": 33.32
+      },
+      "best_ev_quote": {
+        "selection": "Minnesota Timberwolves",
+        "bookmaker": "Draft Kings",
+        "decimal_odds": 2.14,
+        "model_probability": 0.622989,
+        "expected_value_pct": 33.32
+      },
+      "reason": "odds_above_2_decimal",
+      "category": "current_priced_slate"
+    },
+    {
+      "game_id": "401909321",
+      "game": "LA Clippers @ Memphis Grizzlies",
+      "game_time_utc": "2026-11-26T01:00:00+00:00",
+      "predicted_winner": "Memphis Grizzlies",
+      "model_win_probability": 0.712958,
+      "predicted_winner_quote": {
+        "bookmaker": "Draft Kings",
+        "decimal_odds": 1.371747,
+        "expected_value_pct": -2.2
+      },
+      "best_ev_quote": {
+        "selection": "Memphis Grizzlies",
+        "bookmaker": "Draft Kings",
+        "decimal_odds": 1.371747,
+        "model_probability": 0.712958,
+        "expected_value_pct": -2.2
+      },
+      "reason": "below_8_percent_ev",
+      "category": "current_priced_slate"
+    },
+    {
+      "game_id": "401909322",
+      "game": "Brooklyn Nets @ Milwaukee Bucks",
+      "game_time_utc": "2026-11-26T01:00:00+00:00",
+      "predicted_winner": "Brooklyn Nets",
+      "model_win_probability": 0.512002,
+      "predicted_winner_quote": {
+        "bookmaker": "Draft Kings",
+        "decimal_odds": 1.990099,
+        "expected_value_pct": 1.893
+      },
+      "best_ev_quote": {
+        "selection": "Brooklyn Nets",
+        "bookmaker": "Draft Kings",
+        "decimal_odds": 1.990099,
+        "model_probability": 0.512002,
+        "expected_value_pct": 1.893
+      },
+      "reason": "model_confidence_below_60_percent",
+      "category": "current_priced_slate"
+    },
+    {
+      "game_id": "401909323",
+      "game": "Phoenix Suns @ Houston Rockets",
+      "game_time_utc": "2026-11-26T01:30:00+00:00",
+      "predicted_winner": "Phoenix Suns",
+      "model_win_probability": 0.545464,
+      "predicted_winner_quote": {
+        "bookmaker": "Draft Kings",
+        "decimal_odds": 4.12,
+        "expected_value_pct": 124.731
+      },
+      "best_ev_quote": {
+        "selection": "Phoenix Suns",
+        "bookmaker": "Draft Kings",
+        "decimal_odds": 4.12,
+        "model_probability": 0.545464,
+        "expected_value_pct": 124.731
+      },
+      "reason": "model_confidence_below_60_percent",
+      "category": "current_priced_slate"
+    },
+    {
+      "game_id": "401909324",
+      "game": "Sacramento Kings @ Golden State Warriors",
+      "game_time_utc": "2026-11-26T03:00:00+00:00",
+      "predicted_winner": "Golden State Warriors",
+      "model_win_probability": 0.681197,
+      "predicted_winner_quote": {
+        "bookmaker": "Draft Kings",
+        "decimal_odds": 1.308642,
+        "expected_value_pct": -10.856
+      },
+      "best_ev_quote": {
+        "selection": "Sacramento Kings",
+        "bookmaker": "Draft Kings",
+        "decimal_odds": 3.61,
+        "model_probability": 0.318803,
+        "expected_value_pct": 15.088
+      },
+      "reason": "below_8_percent_ev",
+      "category": "current_priced_slate"
+    },
+    {
+      "game_id": "401909325",
+      "game": "San Antonio Spurs @ Portland Trail Blazers",
+      "game_time_utc": "2026-11-26T03:00:00+00:00",
+      "predicted_winner": "San Antonio Spurs",
+      "model_win_probability": 0.662987,
+      "predicted_winner_quote": {
+        "bookmaker": "Draft Kings",
+        "decimal_odds": 1.617284,
+        "expected_value_pct": 7.224
+      },
+      "best_ev_quote": {
+        "selection": "San Antonio Spurs",
+        "bookmaker": "Draft Kings",
+        "decimal_odds": 1.617284,
+        "model_probability": 0.662987,
+        "expected_value_pct": 7.224
+      },
+      "reason": "below_8_percent_ev",
+      "category": "current_priced_slate"
+    }
+  ]
+}
