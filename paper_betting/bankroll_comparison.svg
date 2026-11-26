@@ -12,18 +12,18 @@
 <text x="72" y="149.0" fill="#8b949e" text-anchor="end" font-family="Arial,sans-serif" font-size="12">97.28</text>
 <line x1="84" x2="972" y1="76.0" y2="76.0" stroke="#30363d"/>
 <text x="72" y="81.0" fill="#8b949e" text-anchor="end" font-family="Arial,sans-serif" font-size="12">101.76</text>
-<polyline fill="none" stroke="#58a6ff" stroke-width="3" stroke-linejoin="round" points="84.0,102.7 124.4,169.3 164.7,176.2 205.1,188.3 245.5,192.0 285.8,205.5 326.2,164.8 366.5,170.6 406.9,196.1 447.3,196.1 487.6,233.9 528.0,261.9 568.4,246.8 608.7,273.5 649.1,277.4 689.5,306.3 729.8,309.4 770.2,322.0 810.5,313.8 850.9,315.5 891.3,309.6 931.6,332.8 972.0,269.4"/>
-<polyline fill="none" stroke="#3fb950" stroke-width="3" stroke-linejoin="round" points="84.0,102.7 124.4,91.2 164.7,122.1 205.1,197.1 245.5,197.1 285.8,197.1 326.2,197.1 366.5,211.4 406.9,211.4 447.3,211.4 487.6,211.4 528.0,199.9 568.4,199.9 608.7,205.8 649.1,195.9 689.5,210.2 729.8,210.2 770.2,210.2 810.5,210.2 850.9,210.2 891.3,210.2 931.6,210.2 972.0,210.2"/>
-<circle cx="972.0" cy="269.4" r="4" fill="#58a6ff"/>
+<polyline fill="none" stroke="#58a6ff" stroke-width="3" stroke-linejoin="round" points="84.0,102.7 122.6,169.3 161.2,176.2 199.8,188.3 238.4,192.0 277.0,205.5 315.7,164.8 354.3,170.6 392.9,196.1 431.5,196.1 470.1,233.9 508.7,261.9 547.3,246.8 585.9,273.5 624.5,277.4 663.1,306.3 701.7,309.4 740.3,322.0 779.0,313.8 817.6,315.5 856.2,309.6 894.8,332.8 933.4,278.8 972.0,278.8"/>
+<polyline fill="none" stroke="#3fb950" stroke-width="3" stroke-linejoin="round" points="84.0,102.7 122.6,91.2 161.2,122.1 199.8,197.1 238.4,197.1 277.0,197.1 315.7,197.1 354.3,211.4 392.9,211.4 431.5,211.4 470.1,211.4 508.7,199.9 547.3,199.9 585.9,205.8 624.5,195.9 663.1,210.2 701.7,210.2 740.3,210.2 779.0,210.2 817.6,210.2 856.2,210.2 894.8,210.2 933.4,210.2 972.0,210.2"/>
+<circle cx="972.0" cy="278.8" r="4" fill="#58a6ff"/>
 <circle cx="972.0" cy="210.2" r="4" fill="#3fb950"/>
 <text x="84.0" y="377" text-anchor="middle" fill="#8b949e" font-family="Arial,sans-serif" font-size="12">04 Nov</text>
-<text x="245.5" y="377" text-anchor="middle" fill="#8b949e" font-family="Arial,sans-serif" font-size="12">08 Nov</text>
-<text x="447.3" y="377" text-anchor="middle" fill="#8b949e" font-family="Arial,sans-serif" font-size="12">13 Nov</text>
-<text x="608.7" y="377" text-anchor="middle" fill="#8b949e" font-family="Arial,sans-serif" font-size="12">17 Nov</text>
-<text x="810.5" y="377" text-anchor="middle" fill="#8b949e" font-family="Arial,sans-serif" font-size="12">22 Nov</text>
-<text x="972.0" y="377" text-anchor="middle" fill="#8b949e" font-family="Arial,sans-serif" font-size="12">26 Nov</text>
+<text x="277.0" y="377" text-anchor="middle" fill="#8b949e" font-family="Arial,sans-serif" font-size="12">09 Nov</text>
+<text x="431.5" y="377" text-anchor="middle" fill="#8b949e" font-family="Arial,sans-serif" font-size="12">13 Nov</text>
+<text x="624.5" y="377" text-anchor="middle" fill="#8b949e" font-family="Arial,sans-serif" font-size="12">18 Nov</text>
+<text x="779.0" y="377" text-anchor="middle" fill="#8b949e" font-family="Arial,sans-serif" font-size="12">22 Nov</text>
+<text x="972.0" y="377" text-anchor="middle" fill="#8b949e" font-family="Arial,sans-serif" font-size="12">27 Nov</text>
 <line x1="84" y1="402" x2="111" y2="402" stroke="#58a6ff" stroke-width="4"/>
-<text x="119" y="407" fill="#c9d1d9" font-family="Arial,sans-serif" font-size="13">All AI picks: A$89.02</text>
+<text x="119" y="407" fill="#c9d1d9" font-family="Arial,sans-serif" font-size="13">All AI picks: A$88.40</text>
 <line x1="380" y1="402" x2="407" y2="402" stroke="#3fb950" stroke-width="4"/>
 <text x="415" y="407" fill="#c9d1d9" font-family="Arial,sans-serif" font-size="13">Filtered EV: A$92.92</text>
 </svg>
