@@ -153,12 +153,12 @@ game_id,game_time_utc,predicted_winner,actual_winner,result_status,bookmaker,odd
 401909314,2026-11-25T00:00:00+00:00,Orlando Magic,Detroit Pistons,final,DraftKings,2026-11-24T23:52:21.953318+00:00,1.671141,0.86,-0.86,85.51,lost
 401909315,2026-11-25T01:00:00+00:00,Boston Celtics,Boston Celtics,final,DraftKings,2026-11-24T23:52:21.953318+00:00,1.221239,0.86,0.19,85.70,won
 401909316,2026-11-25T03:00:00+00:00,Denver Nuggets,Dallas Mavericks,final,DraftKings,2026-11-24T23:52:21.953318+00:00,1.322581,0.86,-0.86,84.84,lost
-401909317,2026-11-25T22:00:00+00:00,Philadelphia 76ers,,scheduled,,,,,,,unpriced
-401909318,2026-11-26T00:00:00+00:00,Chicago Bulls,,scheduled,,,,,,,unpriced
-401909319,2026-11-26T00:30:00+00:00,New York Knicks,,scheduled,,,,,,,unpriced
-401909320,2026-11-26T00:30:00+00:00,Minnesota Timberwolves,,scheduled,,,,,,,unpriced
-401909321,2026-11-26T01:00:00+00:00,Memphis Grizzlies,,scheduled,,,,,,,unpriced
-401909322,2026-11-26T01:00:00+00:00,Brooklyn Nets,,scheduled,,,,,,,unpriced
-401909323,2026-11-26T01:30:00+00:00,Houston Rockets,,scheduled,,,,,,,unpriced
-401909324,2026-11-26T03:00:00+00:00,Golden State Warriors,,scheduled,,,,,,,unpriced
-401909325,2026-11-26T03:00:00+00:00,San Antonio Spurs,,scheduled,,,,,,,unpriced
+401909317,2026-11-25T22:00:00+00:00,Philadelphia 76ers,Philadelphia 76ers,final,,,,,,,unpriced
+401909318,2026-11-26T00:00:00+00:00,Chicago Bulls,Chicago Bulls,final,Draft Kings,2026-11-25T23:35:54.501907+00:00,2.51,0.85,1.28,86.12,won
+401909319,2026-11-26T00:30:00+00:00,New York Knicks,New York Knicks,final,Draft Kings,2026-11-25T23:35:54.501907+00:00,1.555556,0.86,0.48,86.60,won
+401909320,2026-11-26T00:30:00+00:00,Minnesota Timberwolves,Minnesota Timberwolves,final,Draft Kings,2026-11-25T23:35:54.501907+00:00,2.14,0.87,0.99,87.59,won
+401909321,2026-11-26T01:00:00+00:00,Memphis Grizzlies,Memphis Grizzlies,final,Draft Kings,2026-11-25T23:35:54.501907+00:00,1.371747,0.88,0.33,87.92,won
+401909322,2026-11-26T01:00:00+00:00,Brooklyn Nets,Brooklyn Nets,final,Draft Kings,2026-11-25T23:35:54.501907+00:00,1.990099,0.88,0.87,88.79,won
+401909323,2026-11-26T01:30:00+00:00,Houston Rockets,,awaiting_final,Draft Kings,2026-11-25T23:35:54.501907+00:00,1.253165,,,,awaiting_final
+401909324,2026-11-26T03:00:00+00:00,Golden State Warriors,,awaiting_final,Draft Kings,2026-11-25T23:35:54.501907+00:00,1.308642,,,,awaiting_final
+401909325,2026-11-26T03:00:00+00:00,San Antonio Spurs,,awaiting_final,Draft Kings,2026-11-25T23:35:54.501907+00:00,1.617284,,,,awaiting_final
