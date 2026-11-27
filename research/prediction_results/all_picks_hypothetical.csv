@@ -173,3 +173,8 @@ game_id,game_time_utc,predicted_winner,actual_winner,result_status,bookmaker,odd
 401909334,2026-11-28T02:30:00+00:00,Denver Nuggets,,scheduled,Draft Kings,2026-11-26T23:47:49.304103+00:00,1.228311,,,,awaiting_final
 401909335,2026-11-28T02:30:00+00:00,LA Clippers,,scheduled,Draft Kings,2026-11-26T23:47:49.304103+00:00,1.617284,,,,awaiting_final
 401909336,2026-11-28T02:30:00+00:00,Portland Trail Blazers,,scheduled,Draft Kings,2026-11-26T23:47:49.304103+00:00,1.290698,,,,awaiting_final
+401910046,2026-11-28T22:00:00+00:00,Orlando Magic,,scheduled,,,,,,,unpriced
+401910047,2026-11-28T23:00:00+00:00,Brooklyn Nets,,scheduled,,,,,,,unpriced
+401910048,2026-11-29T01:00:00+00:00,Chicago Bulls,,scheduled,,,,,,,unpriced
+401910049,2026-11-29T01:00:00+00:00,Oklahoma City Thunder,,scheduled,,,,,,,unpriced
+401910050,2026-11-29T01:30:00+00:00,Houston Rockets,,scheduled,,,,,,,unpriced
