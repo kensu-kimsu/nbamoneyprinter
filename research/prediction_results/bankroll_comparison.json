@@ -1,12 +1,12 @@
 {
   "starting_bankroll_aud": 100.0,
   "filtered_actual": {
-    "settled_bets": 16,
+    "settled_bets": 17,
     "wins": 4,
-    "losses": 12,
-    "profit_aud": -7.08,
-    "bankroll_aud": 92.92,
-    "open_bets": 1
+    "losses": 13,
+    "profit_aud": -8.01,
+    "bankroll_aud": 91.99,
+    "open_bets": 0
   },
   "all_ai_winners_hypothetical": {
     "total_predictions": 179,
