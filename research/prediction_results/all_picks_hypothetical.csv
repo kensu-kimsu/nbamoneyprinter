@@ -168,11 +168,11 @@ game_id,game_time_utc,predicted_winner,actual_winner,result_status,bookmaker,odd
 401909329,2026-11-28T00:30:00+00:00,Toronto Raptors,Toronto Raptors,final,Draft Kings,2026-11-26T23:47:49.304103+00:00,1.3003,0.88,0.26,88.57,won
 401909330,2026-11-28T01:00:00+00:00,Boston Celtics,Atlanta Hawks,final,Draft Kings,2026-11-26T23:47:49.304103+00:00,1.228311,0.89,-0.89,87.68,lost
 401909331,2026-11-28T01:30:00+00:00,Minnesota Timberwolves,Memphis Grizzlies,final,Draft Kings,2026-11-26T23:47:49.304103+00:00,1.617284,0.88,-0.88,86.80,lost
-401909332,2026-11-28T02:00:00+00:00,Phoenix Suns,,awaiting_final,Draft Kings,2026-11-26T23:47:49.304103+00:00,1.704225,,,,awaiting_final
-401909333,2026-11-28T02:30:00+00:00,San Antonio Spurs,,awaiting_final,Draft Kings,2026-11-26T23:47:49.304103+00:00,1.487805,,,,awaiting_final
-401909334,2026-11-28T02:30:00+00:00,Denver Nuggets,,awaiting_final,Draft Kings,2026-11-26T23:47:49.304103+00:00,1.228311,,,,awaiting_final
-401909335,2026-11-28T02:30:00+00:00,LA Clippers,,awaiting_final,Draft Kings,2026-11-26T23:47:49.304103+00:00,1.617284,,,,awaiting_final
-401909336,2026-11-28T02:30:00+00:00,Portland Trail Blazers,,awaiting_final,Draft Kings,2026-11-26T23:47:49.304103+00:00,1.290698,,,,awaiting_final
+401909332,2026-11-28T02:00:00+00:00,Phoenix Suns,Dallas Mavericks,final,Draft Kings,2026-11-26T23:47:49.304103+00:00,1.704225,0.87,-0.87,85.93,lost
+401909333,2026-11-28T02:30:00+00:00,San Antonio Spurs,San Antonio Spurs,final,Draft Kings,2026-11-26T23:47:49.304103+00:00,1.487805,0.86,0.42,86.35,won
+401909334,2026-11-28T02:30:00+00:00,Denver Nuggets,Denver Nuggets,final,Draft Kings,2026-11-26T23:47:49.304103+00:00,1.228311,0.86,0.20,86.55,won
+401909335,2026-11-28T02:30:00+00:00,LA Clippers,New Orleans Pelicans,final,Draft Kings,2026-11-26T23:47:49.304103+00:00,1.617284,0.87,-0.87,85.68,lost
+401909336,2026-11-28T02:30:00+00:00,Portland Trail Blazers,Portland Trail Blazers,final,Draft Kings,2026-11-26T23:47:49.304103+00:00,1.290698,0.86,0.25,85.93,won
 401910046,2026-11-28T22:00:00+00:00,Orlando Magic,,scheduled,,,,,,,unpriced
 401910047,2026-11-28T23:00:00+00:00,Brooklyn Nets,,scheduled,,,,,,,unpriced
 401910048,2026-11-29T01:00:00+00:00,Chicago Bulls,,scheduled,,,,,,,unpriced
